@@ -1,4 +1,4 @@
-./Cropped_Images/*
-./Image_Clusters/*
-./Original_Images/*
-
+Cropped_Images/*
+Image_Clusters/*
+Original_Images/*
+Augmented_Images/*
