@@ -1,7 +1,7 @@
-Cropped_Images/*
-Image_Clusters/*
-Original_Images/*
-Augmented_Images/*
-Image_Features/*
-./*
+Cropped_Images/
+Image_Clusters/
+Original_Images/
+Augmented_Images/
+Image_Features/
+*/*.jpg
 *.jpg
