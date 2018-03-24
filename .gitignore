@@ -1,4 +1,5 @@
 Cropped_Images/*
+Cropped_Images/
 Image_Clusters/*
 Original_Images/*
 Augmented_Images/*
@@ -6,6 +7,7 @@ Image_Features/*
 Landmark_Detection/*
 FERET_Dataset/*
 OF_Aligned/*
+OF_Aligned/
 OF_featurelist/*
 */*.jpg
 *.jpg
