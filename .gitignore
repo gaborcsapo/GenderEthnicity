@@ -3,5 +3,6 @@ Image_Clusters/
 Original_Images/
 Augmented_Images/
 Image_Features/
+FERET_Dataset/
 */*.jpg
 *.jpg
