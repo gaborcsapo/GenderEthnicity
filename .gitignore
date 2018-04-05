@@ -16,6 +16,7 @@ OF_Aligned
 OF_featurelist
 OF_featurelist/*
 Data/*
+shape_predictor_68_face_landmarks.dat
 
 */*.jpg
 *.jpg
