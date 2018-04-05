@@ -17,6 +17,8 @@ OF_featurelist
 OF_featurelist/*
 Misc
 Data/*
+Data-OLD
+Data-OLD/*
 !README.md
 shape_predictor_68_face_landmarks.dat
 
