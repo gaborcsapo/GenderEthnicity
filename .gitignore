@@ -13,4 +13,3 @@ OF_featurelist/*
 *.jpg
 *.png
 mnist_noisy+clean.pickle
-
