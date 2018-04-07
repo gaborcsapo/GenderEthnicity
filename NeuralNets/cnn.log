@@ -1,0 +1,6 @@
+2018-04-07 17:12:10,919 - =====IMPORTING|||SCRIPT STARTS|||LOGGING PURPOSE====== 
+2018-04-07 17:12:15,121 - ['test', 'train'] 
+2018-04-07 17:12:16,645 - 60000 train samples 
+2018-04-07 17:12:16,645 - 10000 test samples 
+2018-04-07 17:12:16,646 - 11949  elems are true in train 
+2018-04-07 17:12:16,647 - 1954  elems are true in test 
