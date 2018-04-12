@@ -1,6 +1,468 @@
-2018-04-07 17:12:10,919 - =====IMPORTING|||SCRIPT STARTS|||LOGGING PURPOSE====== 
-2018-04-07 17:12:15,121 - ['test', 'train'] 
-2018-04-07 17:12:16,645 - 60000 train samples 
-2018-04-07 17:12:16,645 - 10000 test samples 
-2018-04-07 17:12:16,646 - 11949  elems are true in train 
-2018-04-07 17:12:16,647 - 1954  elems are true in test 
+2018-04-12 15:25:08,529 - =====IMPORTING|||SCRIPT STARTS|||LOGGING PURPOSE====== 
+2018-04-12 15:25:09,762 - 60000 train samples 
+2018-04-12 15:25:09,762 - 10000 test samples 
+2018-04-12 15:25:09,763 - 30013  elems are true in train 
+2018-04-12 15:25:09,764 - 5006  elems are true in test 
+2018-04-12 15:25:10,850 - ===Default - Fold  0  - Training Round  0  ====== 
+2018-04-12 15:25:18,132 - epoch: 1 logs: {'val_categorical_accuracy': 0.4932556204007726, 'loss': 1.9378970670307087, 'categorical_accuracy': 0.4307621075848935, 'val_loss': 1.7998677646190697}
+2018-04-12 15:25:23,237 - epoch: 2 logs: {'val_categorical_accuracy': 0.49675270614278605, 'loss': 1.8531759624073203, 'categorical_accuracy': 0.4726363551871668, 'val_loss': 1.7661360425814105}
+2018-04-12 15:25:28,355 - epoch: 3 logs: {'val_categorical_accuracy': 0.49958368033096257, 'loss': 1.8274340878483188, 'categorical_accuracy': 0.4792110380833652, 'val_loss': 1.7662127513472583}
+2018-04-12 15:25:33,478 - epoch: 4 logs: {'val_categorical_accuracy': 0.5004163197980733, 'loss': 1.8114345677815848, 'categorical_accuracy': 0.48211871472009077, 'val_loss': 1.761326815802092}
+2018-04-12 15:25:38,552 - epoch: 5 logs: {'val_categorical_accuracy': 0.49991673611780685, 'loss': 1.7991537298534919, 'categorical_accuracy': 0.48474858785649233, 'val_loss': 1.7603901352116111}
+2018-04-12 15:25:43,632 - epoch: 6 logs: {'val_categorical_accuracy': 0.5012489592651841, 'loss': 1.7899663126968721, 'categorical_accuracy': 0.4851189925235911, 'val_loss': 1.7558634489203968}
+2018-04-12 15:25:48,709 - epoch: 7 logs: {'val_categorical_accuracy': 0.5010824313717619, 'loss': 1.7820705065054743, 'categorical_accuracy': 0.4872488193489223, 'val_loss': 1.7529635450425096}
+2018-04-12 15:25:53,781 - epoch: 8 logs: {'val_categorical_accuracy': 0.5017485429454505, 'loss': 1.7716375629309538, 'categorical_accuracy': 0.4885637558817985, 'val_loss': 1.7703971277367165}
+2018-04-12 15:25:58,878 - epoch: 9 logs: {'val_categorical_accuracy': 0.500083264011229, 'loss': 1.761215303838115, 'categorical_accuracy': 0.4885267153847316, 'val_loss': 1.7608726435557294}
+2018-04-12 15:26:03,979 - epoch: 10 logs: {'val_categorical_accuracy': 0.5007493755849176, 'loss': 1.752178999706268, 'categorical_accuracy': 0.49006389485033414, 'val_loss': 1.7580665058934817}
+2018-04-12 15:26:04,760 - F1-score: 0.9794 
+=================== 
+2018-04-12 15:26:04,761 - ===Default - Fold  1  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:26:09,991 - epoch: 1 logs: {'val_categorical_accuracy': 0.4971685543169902, 'loss': 1.7499582375656348, 'categorical_accuracy': 0.49018445813670863, 'val_loss': 1.6858519284745839}
+2018-04-12 15:26:15,091 - epoch: 2 logs: {'val_categorical_accuracy': 0.49383744172538463, 'loss': 1.7402856043422035, 'categorical_accuracy': 0.49194384769683713, 'val_loss': 1.6918577887390869}
+2018-04-12 15:26:20,196 - epoch: 3 logs: {'val_categorical_accuracy': 0.4948367755028663, 'loss': 1.7285355345850848, 'categorical_accuracy': 0.491295651520912, 'val_loss': 1.7107933062382494}
+2018-04-12 15:26:25,278 - epoch: 4 logs: {'val_categorical_accuracy': 0.4951698867620269, 'loss': 1.7176733194823548, 'categorical_accuracy': 0.4921290466137061, 'val_loss': 1.7047433881740583}
+2018-04-12 15:26:30,362 - epoch: 5 logs: {'val_categorical_accuracy': 0.4931712194056133, 'loss': 1.7034225545200439, 'categorical_accuracy': 0.49359211791920765, 'val_loss': 1.7135797583365902}
+2018-04-12 15:26:35,495 - epoch: 6 logs: {'val_categorical_accuracy': 0.49350433046622405, 'loss': 1.6900797454292964, 'categorical_accuracy': 0.4937773168736082, 'val_loss': 1.7213648282870064}
+2018-04-12 15:26:40,599 - epoch: 7 logs: {'val_categorical_accuracy': 0.49183877417042127, 'loss': 1.681809738208845, 'categorical_accuracy': 0.4931476405880453, 'val_loss': 1.7235490384695928}
+2018-04-12 15:26:45,698 - epoch: 8 logs: {'val_categorical_accuracy': 0.4923384410591621, 'loss': 1.667196124922356, 'categorical_accuracy': 0.4952218683086172, 'val_loss': 1.7287534137791907}
+2018-04-12 15:26:50,766 - epoch: 9 logs: {'val_categorical_accuracy': 0.49183877436897105, 'loss': 1.6573621127170777, 'categorical_accuracy': 0.4968145788312002, 'val_loss': 1.7463651150564286}
+2018-04-12 15:26:55,848 - epoch: 10 logs: {'val_categorical_accuracy': 0.4906728847633593, 'loss': 1.63997979697161, 'categorical_accuracy': 0.4984813690432814, 'val_loss': 1.7504305005629486}
+2018-04-12 15:26:56,607 - F1-score: 0.9693 
+=================== 
+2018-04-12 15:26:56,607 - ===Default - Fold  2  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:27:01,839 - epoch: 1 logs: {'val_categorical_accuracy': 0.488670443175674, 'loss': 1.6463578686837272, 'categorical_accuracy': 0.49762954181722147, 'val_loss': 1.5728179803096387}
+2018-04-12 15:27:06,920 - epoch: 2 logs: {'val_categorical_accuracy': 0.4893368876246523, 'loss': 1.6370707291215212, 'categorical_accuracy': 0.49957405831059765, 'val_loss': 1.6051442145268466}
+2018-04-12 15:27:12,028 - epoch: 3 logs: {'val_categorical_accuracy': 0.487004331948955, 'loss': 1.6158245874204487, 'categorical_accuracy': 0.502722323041275, 'val_loss': 1.6071432125008294}
+2018-04-12 15:27:17,106 - epoch: 4 logs: {'val_categorical_accuracy': 0.485838053833044, 'loss': 1.605155927816397, 'categorical_accuracy': 0.504185340197785, 'val_loss': 1.6315216035772984}
+2018-04-12 15:27:22,200 - epoch: 5 logs: {'val_categorical_accuracy': 0.482339220180467, 'loss': 1.5884770999471718, 'categorical_accuracy': 0.5065002406966735, 'val_loss': 1.6435187957319408}
+2018-04-12 15:27:27,276 - epoch: 6 logs: {'val_categorical_accuracy': 0.4845051647960564, 'loss': 1.5759190065674686, 'categorical_accuracy': 0.5083706804077124, 'val_loss': 1.653016583516732}
+2018-04-12 15:27:32,382 - epoch: 7 logs: {'val_categorical_accuracy': 0.48217260898132797, 'loss': 1.5637026490615542, 'categorical_accuracy': 0.5108337346335385, 'val_loss': 1.6616243942305868}
+2018-04-12 15:27:37,486 - epoch: 8 logs: {'val_categorical_accuracy': 0.4821726090508435, 'loss': 1.5489773597623326, 'categorical_accuracy': 0.5115004259240402, 'val_loss': 1.6799375808703745}
+2018-04-12 15:27:42,588 - epoch: 9 logs: {'val_categorical_accuracy': 0.48000666429622296, 'loss': 1.541199925484589, 'categorical_accuracy': 0.5148338827187363, 'val_loss': 1.6955358724282685}
+2018-04-12 15:27:47,663 - epoch: 10 logs: {'val_categorical_accuracy': 0.47817394187036494, 'loss': 1.5310597533609935, 'categorical_accuracy': 0.5159635541681811, 'val_loss': 1.721246455796994}
+2018-04-12 15:27:48,423 - F1-score: 0.9552 
+=================== 
+2018-04-12 15:27:48,423 - ===Default - Fold  3  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:27:53,622 - epoch: 1 logs: {'val_categorical_accuracy': 0.5394100980686358, 'loss': 1.5625241712701836, 'categorical_accuracy': 0.5086020111538736, 'val_loss': 1.3487353413686258}
+2018-04-12 15:27:58,700 - epoch: 2 logs: {'val_categorical_accuracy': 0.5354107645546827, 'loss': 1.550756206183339, 'categorical_accuracy': 0.5109168687922709, 'val_loss': 1.38503012103332}
+2018-04-12 15:28:03,841 - epoch: 3 logs: {'val_categorical_accuracy': 0.5349108480131839, 'loss': 1.5404473596812287, 'categorical_accuracy': 0.5138613678428446, 'val_loss': 1.393567290828141}
+2018-04-12 15:28:08,924 - epoch: 4 logs: {'val_categorical_accuracy': 0.5342442923695857, 'loss': 1.528915065529501, 'categorical_accuracy': 0.5172688382891925, 'val_loss': 1.4614952449857384}
+2018-04-12 15:28:14,026 - epoch: 5 logs: {'val_categorical_accuracy': 0.5314114310407297, 'loss': 1.5095593384472152, 'categorical_accuracy': 0.5194540639696665, 'val_loss': 1.4911609166186166}
+2018-04-12 15:28:19,137 - epoch: 6 logs: {'val_categorical_accuracy': 0.5204132641380855, 'loss': 1.507101389129448, 'categorical_accuracy': 0.5211022426297076, 'val_loss': 1.5119371804331287}
+2018-04-12 15:28:24,240 - epoch: 7 logs: {'val_categorical_accuracy': 0.524745875369547, 'loss': 1.4950721010914285, 'categorical_accuracy': 0.5240467415947361, 'val_loss': 1.4641982426625095}
+2018-04-12 15:28:29,369 - epoch: 8 logs: {'val_categorical_accuracy': 0.525412430943618, 'loss': 1.4847316801151735, 'categorical_accuracy': 0.5266208633769165, 'val_loss': 1.5249574690376833}
+2018-04-12 15:28:34,450 - epoch: 9 logs: {'val_categorical_accuracy': 0.5187468752029081, 'loss': 1.484962588372161, 'categorical_accuracy': 0.528732013518277, 'val_loss': 1.5120886281577175}
+2018-04-12 15:28:39,535 - epoch: 10 logs: {'val_categorical_accuracy': 0.5194134307769791, 'loss': 1.4715391866970808, 'categorical_accuracy': 0.5274171743865993, 'val_loss': 1.5281361965830376}
+2018-04-12 15:28:40,273 - F1-score: 0.9319 
+=================== 
+2018-04-12 15:28:40,274 - ===Default - Fold  4  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:28:45,477 - epoch: 1 logs: {'val_categorical_accuracy': 0.5966666661898296, 'loss': 1.5020480663511488, 'categorical_accuracy': 0.5249814815344633, 'val_loss': 1.2693456989924112}
+2018-04-12 15:28:50,583 - epoch: 2 logs: {'val_categorical_accuracy': 0.5588333333333333, 'loss': 1.4904119944395842, 'categorical_accuracy': 0.5288703704056916, 'val_loss': 1.2330260779062907}
+2018-04-12 15:28:55,710 - epoch: 3 logs: {'val_categorical_accuracy': 0.5678333333333333, 'loss': 1.4807361330456204, 'categorical_accuracy': 0.5286851851675245, 'val_loss': 1.258885490735372}
+2018-04-12 15:29:00,827 - epoch: 4 logs: {'val_categorical_accuracy': 0.5799999995231628, 'loss': 1.476385961815163, 'categorical_accuracy': 0.5295925925837622, 'val_loss': 1.4008172756830852}
+2018-04-12 15:29:05,899 - epoch: 5 logs: {'val_categorical_accuracy': 0.5688333328564962, 'loss': 1.4724101272159154, 'categorical_accuracy': 0.532074074074074, 'val_loss': 1.4180964873631796}
+2018-04-12 15:29:10,996 - epoch: 6 logs: {'val_categorical_accuracy': 0.5581666663487752, 'loss': 1.4547475308665523, 'categorical_accuracy': 0.5365370369840551, 'val_loss': 1.292955252011617}
+2018-04-12 15:29:16,056 - epoch: 7 logs: {'val_categorical_accuracy': 0.5598333328564962, 'loss': 1.4560281438827514, 'categorical_accuracy': 0.5348888889065495, 'val_loss': 1.3261079680124919}
+2018-04-12 15:29:21,163 - epoch: 8 logs: {'val_categorical_accuracy': 0.5524999996821086, 'loss': 1.4449165897369385, 'categorical_accuracy': 0.5390370370193764, 'val_loss': 1.3360387722651164}
+2018-04-12 15:29:26,272 - epoch: 9 logs: {'val_categorical_accuracy': 0.5490000003178914, 'loss': 1.4351432891421847, 'categorical_accuracy': 0.5412037037037037, 'val_loss': 1.361598285039266}
+2018-04-12 15:29:31,379 - epoch: 10 logs: {'val_categorical_accuracy': 0.5503333338101705, 'loss': 1.4383771849031801, 'categorical_accuracy': 0.5400000000353212, 'val_loss': 1.400710326194763}
+2018-04-12 15:29:32,223 - F1-score: 0.9066 
+=================== 
+2018-04-12 15:29:32,224 - ===Default - Fold  0  - Training Round  1  ====== 
+2018-04-12 15:29:37,414 - epoch: 1 logs: {'val_categorical_accuracy': 0.6494587847831148, 'loss': 1.4575084790177606, 'categorical_accuracy': 0.533567922938167, 'val_loss': 1.2731067585806168}
+2018-04-12 15:29:42,549 - epoch: 2 logs: {'val_categorical_accuracy': 0.6158201503515442, 'loss': 1.4531172403594677, 'categorical_accuracy': 0.5374386517237001, 'val_loss': 1.1261551549889266}
+2018-04-12 15:29:47,631 - epoch: 3 logs: {'val_categorical_accuracy': 0.6104912578215905, 'loss': 1.4459614072732212, 'categorical_accuracy': 0.5383831835972047, 'val_loss': 1.1361786945773402}
+2018-04-12 15:29:52,720 - epoch: 4 logs: {'val_categorical_accuracy': 0.6000000004962918, 'loss': 1.4405077077711232, 'categorical_accuracy': 0.5381053800759067, 'val_loss': 1.1576218916117202}
+2018-04-12 15:29:57,804 - epoch: 5 logs: {'val_categorical_accuracy': 0.5933388847991092, 'loss': 1.4394617375714633, 'categorical_accuracy': 0.5392536345372896, 'val_loss': 1.1769322737766046}
+2018-04-12 15:30:02,897 - epoch: 6 logs: {'val_categorical_accuracy': 0.5715237308005111, 'loss': 1.4228701488145337, 'categorical_accuracy': 0.5440133345448338, 'val_loss': 1.2277454432400934}
+2018-04-12 15:30:07,986 - epoch: 7 logs: {'val_categorical_accuracy': 0.6016652794900683, 'loss': 1.4194452101549115, 'categorical_accuracy': 0.5446615427740746, 'val_loss': 1.2941976236165513}
+2018-04-12 15:30:13,091 - epoch: 8 logs: {'val_categorical_accuracy': 0.5990008331556106, 'loss': 1.4156194367599946, 'categorical_accuracy': 0.5446985831502654, 'val_loss': 1.2915921138585558}
+2018-04-12 15:30:18,188 - epoch: 9 logs: {'val_categorical_accuracy': 0.5798501254319152, 'loss': 1.4112631741050483, 'categorical_accuracy': 0.5442355773925605, 'val_loss': 1.2505447258262412}
+2018-04-12 15:30:23,272 - epoch: 10 logs: {'val_categorical_accuracy': 0.5655287260665782, 'loss': 1.4037799610496837, 'categorical_accuracy': 0.5482915084145005, 'val_loss': 1.3020653996439797}
+2018-04-12 15:30:24,016 - F1-score: 0.9258 
+=================== 
+2018-04-12 15:30:24,017 - ===Default - Fold  1  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:30:29,218 - epoch: 1 logs: {'val_categorical_accuracy': 0.6332445041407433, 'loss': 1.422779229104285, 'categorical_accuracy': 0.5450403733256658, 'val_loss': 1.0261603303943612}
+2018-04-12 15:30:34,331 - epoch: 2 logs: {'val_categorical_accuracy': 0.634743504648126, 'loss': 1.4177944836452967, 'categorical_accuracy': 0.5469108823052388, 'val_loss': 1.0829949800687024}
+2018-04-12 15:30:39,446 - epoch: 3 logs: {'val_categorical_accuracy': 0.6219187213292843, 'loss': 1.413666178918925, 'categorical_accuracy': 0.543132824680171, 'val_loss': 1.1118310940098874}
+2018-04-12 15:30:44,515 - epoch: 4 logs: {'val_categorical_accuracy': 0.6232511656511474, 'loss': 1.405242767516962, 'categorical_accuracy': 0.5474849988976376, 'val_loss': 1.1833126935698366}
+2018-04-12 15:30:49,589 - epoch: 5 logs: {'val_categorical_accuracy': 0.5987674884602358, 'loss': 1.4016693936196847, 'categorical_accuracy': 0.5514112156235259, 'val_loss': 1.1295138998558965}
+2018-04-12 15:30:54,688 - epoch: 6 logs: {'val_categorical_accuracy': 0.6120919392237577, 'loss': 1.3934467554675252, 'categorical_accuracy': 0.550559300662447, 'val_loss': 1.2228056620471404}
+2018-04-12 15:30:59,784 - epoch: 7 logs: {'val_categorical_accuracy': 0.591938707091505, 'loss': 1.3946852921309212, 'categorical_accuracy': 0.5538188013485409, 'val_loss': 1.1707544592044736}
+2018-04-12 15:31:04,912 - epoch: 8 logs: {'val_categorical_accuracy': 0.6047634913236757, 'loss': 1.3938782884594387, 'categorical_accuracy': 0.5524668494072903, 'val_loss': 1.3649642920192284}
+2018-04-12 15:31:09,967 - epoch: 9 logs: {'val_categorical_accuracy': 0.5881079276111585, 'loss': 1.3772300150104961, 'categorical_accuracy': 0.5568931032502304, 'val_loss': 1.2175718001887292}
+2018-04-12 15:31:15,044 - epoch: 10 logs: {'val_categorical_accuracy': 0.5676215857684335, 'loss': 1.3752315730569593, 'categorical_accuracy': 0.55763389881615, 'val_loss': 1.2458272861052482}
+2018-04-12 15:31:15,807 - F1-score: 0.9149 
+=================== 
+2018-04-12 15:31:15,808 - ===Default - Fold  2  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:31:20,970 - epoch: 1 logs: {'val_categorical_accuracy': 0.6546151283104314, 'loss': 1.391920189715486, 'categorical_accuracy': 0.5542612689160176, 'val_loss': 1.016279166219871}
+2018-04-12 15:31:26,050 - epoch: 2 logs: {'val_categorical_accuracy': 0.6359546814350953, 'loss': 1.3887631534545473, 'categorical_accuracy': 0.5549464794617105, 'val_loss': 1.0352344523267483}
+2018-04-12 15:31:31,111 - epoch: 3 logs: {'val_categorical_accuracy': 0.6179606800713328, 'loss': 1.3820202548511205, 'categorical_accuracy': 0.554872402712488, 'val_loss': 1.052062510887967}
+2018-04-12 15:31:36,199 - epoch: 4 logs: {'val_categorical_accuracy': 0.6144618462102089, 'loss': 1.3795437849364045, 'categorical_accuracy': 0.5571873032135841, 'val_loss': 1.0754095918931232}
+2018-04-12 15:31:41,282 - epoch: 5 logs: {'val_categorical_accuracy': 0.6322892364443481, 'loss': 1.3731576568740638, 'categorical_accuracy': 0.5601503759045271, 'val_loss': 1.2703163853012613}
+2018-04-12 15:31:46,359 - epoch: 6 logs: {'val_categorical_accuracy': 0.5688103966139348, 'loss': 1.379337260999425, 'categorical_accuracy': 0.5556502093001248, 'val_loss': 1.2161787639098023}
+2018-04-12 15:31:51,454 - epoch: 7 logs: {'val_categorical_accuracy': 0.580973009433956, 'loss': 1.3676204984199294, 'categorical_accuracy': 0.5631134486970224, 'val_loss': 1.166882950478655}
+2018-04-12 15:31:56,572 - epoch: 8 logs: {'val_categorical_accuracy': 0.5961346215941198, 'loss': 1.3642581688430098, 'categorical_accuracy': 0.5606874328303537, 'val_loss': 1.2211719431983594}
+2018-04-12 15:32:01,670 - epoch: 9 logs: {'val_categorical_accuracy': 0.5718093968081259, 'loss': 1.366720974138478, 'categorical_accuracy': 0.5606874328149001, 'val_loss': 1.2103961261659018}
+2018-04-12 15:32:06,789 - epoch: 10 logs: {'val_categorical_accuracy': 0.5698100635307068, 'loss': 1.361045656016484, 'categorical_accuracy': 0.5619467387990098, 'val_loss': 1.2212496761559088}
+2018-04-12 15:32:07,539 - F1-score: 0.9058 
+=================== 
+2018-04-12 15:32:07,539 - ===Default - Fold  3  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:32:12,692 - epoch: 1 logs: {'val_categorical_accuracy': 0.6468921843776503, 'loss': 1.3859665645873358, 'categorical_accuracy': 0.5538435897038322, 'val_loss': 0.9496679171942171}
+2018-04-12 15:32:17,795 - epoch: 2 logs: {'val_categorical_accuracy': 0.6567238790256702, 'loss': 1.3738118268513706, 'categorical_accuracy': 0.5576399562568536, 'val_loss': 0.9448160914615122}
+2018-04-12 15:32:22,870 - epoch: 3 logs: {'val_categorical_accuracy': 0.6518913509746012, 'loss': 1.3766463794108486, 'categorical_accuracy': 0.5577325505873356, 'val_loss': 0.9723959155449011}
+2018-04-12 15:32:27,979 - epoch: 4 logs: {'val_categorical_accuracy': 0.660056656826498, 'loss': 1.369047308928896, 'categorical_accuracy': 0.5602881534236143, 'val_loss': 0.9834594477059304}
+2018-04-12 15:32:33,066 - epoch: 5 logs: {'val_categorical_accuracy': 0.6503916008634143, 'loss': 1.3656928615416948, 'categorical_accuracy': 0.5622326339884408, 'val_loss': 1.0308448455469188}
+2018-04-12 15:32:38,146 - epoch: 6 logs: {'val_categorical_accuracy': 0.6310614901986684, 'loss': 1.36810229492818, 'categorical_accuracy': 0.5621955962434437, 'val_loss': 1.0273620979207057}
+2018-04-12 15:32:43,239 - epoch: 7 logs: {'val_categorical_accuracy': 0.6413931008220375, 'loss': 1.3534765444291266, 'categorical_accuracy': 0.5643623029449016, 'val_loss': 1.0573857815896168}
+2018-04-12 15:32:48,328 - epoch: 8 logs: {'val_categorical_accuracy': 0.6168971841801327, 'loss': 1.3567827588688561, 'categorical_accuracy': 0.5624918979374015, 'val_loss': 1.071482097719177}
+2018-04-12 15:32:53,438 - epoch: 9 logs: {'val_categorical_accuracy': 0.6447258784838109, 'loss': 1.3513360733999058, 'categorical_accuracy': 0.5672142077212877, 'val_loss': 1.1182854159079756}
+2018-04-12 15:32:58,532 - epoch: 10 logs: {'val_categorical_accuracy': 0.6042326281337296, 'loss': 1.3534398725177228, 'categorical_accuracy': 0.5625289357155128, 'val_loss': 1.1169862557681198}
+2018-04-12 15:32:59,309 - F1-score: 0.9012 
+=================== 
+2018-04-12 15:32:59,309 - ===Default - Fold  4  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:33:04,484 - epoch: 1 logs: {'val_categorical_accuracy': 0.6843333331743876, 'loss': 1.3668401099664194, 'categorical_accuracy': 0.5619444444267838, 'val_loss': 0.8823110772768656}
+2018-04-12 15:33:09,573 - epoch: 2 logs: {'val_categorical_accuracy': 0.6606666666666666, 'loss': 1.3585936967708447, 'categorical_accuracy': 0.562703703712534, 'val_loss': 0.9041037254333496}
+2018-04-12 15:33:14,672 - epoch: 3 logs: {'val_categorical_accuracy': 0.6538333333333334, 'loss': 1.3594197226983529, 'categorical_accuracy': 0.5636111110934505, 'val_loss': 0.9180107248624166}
+2018-04-12 15:33:19,758 - epoch: 4 logs: {'val_categorical_accuracy': 0.6940000001589457, 'loss': 1.3603308572769166, 'categorical_accuracy': 0.5646111110581292, 'val_loss': 0.9900442312558492}
+2018-04-12 15:33:24,859 - epoch: 5 logs: {'val_categorical_accuracy': 0.6653333331743876, 'loss': 1.3506091499681827, 'categorical_accuracy': 0.5619629629717933, 'val_loss': 1.346808369954427}
+2018-04-12 15:33:29,948 - epoch: 6 logs: {'val_categorical_accuracy': 0.6866666668256124, 'loss': 1.3534979169633654, 'categorical_accuracy': 0.5646481481481481, 'val_loss': 1.1083313980102538}
+2018-04-12 15:33:35,019 - epoch: 7 logs: {'val_categorical_accuracy': 0.6748333333333333, 'loss': 1.3404840639608877, 'categorical_accuracy': 0.5663333332803514, 'val_loss': 1.068567556063334}
+2018-04-12 15:33:40,126 - epoch: 8 logs: {'val_categorical_accuracy': 0.5161666665077209, 'loss': 1.3481121246196606, 'categorical_accuracy': 0.5641296296472903, 'val_loss': 1.790779800415039}
+2018-04-12 15:33:45,221 - epoch: 9 logs: {'val_categorical_accuracy': 0.6486666661898295, 'loss': 1.33811811987559, 'categorical_accuracy': 0.5691666666136848, 'val_loss': 1.0166488817532857}
+2018-04-12 15:33:50,311 - epoch: 10 logs: {'val_categorical_accuracy': 0.6448333333333334, 'loss': 1.3361370032275164, 'categorical_accuracy': 0.5711111111287718, 'val_loss': 1.3120368998845418}
+2018-04-12 15:33:51,144 - F1-score: 0.8005 
+=================== 
+2018-04-12 15:33:51,145 - ===Default - Fold  0  - Training Round  2  ====== 
+2018-04-12 15:33:56,351 - epoch: 1 logs: {'val_categorical_accuracy': 0.6864279771526092, 'loss': 1.3518150263864117, 'categorical_accuracy': 0.5675895916465168, 'val_loss': 1.4241372902724865}
+2018-04-12 15:34:01,453 - epoch: 2 logs: {'val_categorical_accuracy': 0.7190674441839435, 'loss': 1.3542425508421432, 'categorical_accuracy': 0.5653116029438592, 'val_loss': 1.1230283785819213}
+2018-04-12 15:34:06,556 - epoch: 3 logs: {'val_categorical_accuracy': 0.678434638218717, 'loss': 1.35774099115244, 'categorical_accuracy': 0.5631262154289501, 'val_loss': 0.8805425305747668}
+2018-04-12 15:34:11,681 - epoch: 4 logs: {'val_categorical_accuracy': 0.7145711910813972, 'loss': 1.3391316786729932, 'categorical_accuracy': 0.5704602278375065, 'val_loss': 1.023011199679601}
+2018-04-12 15:34:16,783 - epoch: 5 logs: {'val_categorical_accuracy': 0.6884263118538233, 'loss': 1.3355077936380193, 'categorical_accuracy': 0.5680525974870136, 'val_loss': 0.9226536907224632}
+2018-04-12 15:34:21,889 - epoch: 6 logs: {'val_categorical_accuracy': 0.6699417157236682, 'loss': 1.33860984052571, 'categorical_accuracy': 0.5684415223532467, 'val_loss': 0.9219487615866426}
+2018-04-12 15:34:26,984 - epoch: 7 logs: {'val_categorical_accuracy': 0.6964196507182348, 'loss': 1.3422860298082557, 'categorical_accuracy': 0.5667747013027309, 'val_loss': 1.2277109876858205}
+2018-04-12 15:34:32,066 - epoch: 8 logs: {'val_categorical_accuracy': 0.6791007498122572, 'loss': 1.3247061418067394, 'categorical_accuracy': 0.5735345865534526, 'val_loss': 1.0092238365263864}
+2018-04-12 15:34:37,172 - epoch: 9 logs: {'val_categorical_accuracy': 0.6882597839405495, 'loss': 1.3462660356874498, 'categorical_accuracy': 0.5699601814397806, 'val_loss': 1.1948118821071845}
+2018-04-12 15:34:42,279 - epoch: 10 logs: {'val_categorical_accuracy': 0.6604496257688283, 'loss': 1.3281579831516603, 'categorical_accuracy': 0.5739235113987118, 'val_loss': 0.9825533599877337}
+2018-04-12 15:34:43,032 - F1-score: 0.884 
+=================== 
+2018-04-12 15:34:43,032 - ===Default - Fold  1  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:34:48,212 - epoch: 1 logs: {'val_categorical_accuracy': 0.7308461020820384, 'loss': 1.3362325099461414, 'categorical_accuracy': 0.5699311060608383, 'val_loss': 0.9576271676286549}
+2018-04-12 15:34:53,310 - epoch: 2 logs: {'val_categorical_accuracy': 0.6865423056064329, 'loss': 1.3423986710286226, 'categorical_accuracy': 0.5676161196949093, 'val_loss': 0.8632648304889077}
+2018-04-12 15:34:58,414 - epoch: 3 logs: {'val_categorical_accuracy': 0.7001998662392669, 'loss': 1.3281203366198429, 'categorical_accuracy': 0.5735980443039932, 'val_loss': 1.3268661189285778}
+2018-04-12 15:35:03,492 - epoch: 4 logs: {'val_categorical_accuracy': 0.7125249835826968, 'loss': 1.333021383707996, 'categorical_accuracy': 0.5705052225693428, 'val_loss': 0.9897836724731781}
+2018-04-12 15:35:08,595 - epoch: 5 logs: {'val_categorical_accuracy': 0.6973684207746619, 'loss': 1.3233349798467302, 'categorical_accuracy': 0.5748018371510465, 'val_loss': 0.9218024592015205}
+2018-04-12 15:35:13,677 - epoch: 6 logs: {'val_categorical_accuracy': 0.7050299796956448, 'loss': 1.3205844107729672, 'categorical_accuracy': 0.5752833543578663, 'val_loss': 0.9999763110254225}
+2018-04-12 15:35:18,766 - epoch: 7 logs: {'val_categorical_accuracy': 0.6908727519755201, 'loss': 1.3211708724812248, 'categorical_accuracy': 0.5755055929980585, 'val_loss': 0.9391928607030839}
+2018-04-12 15:35:23,880 - epoch: 8 logs: {'val_categorical_accuracy': 0.6455696203722944, 'loss': 1.3105215840237574, 'categorical_accuracy': 0.5765241870077215, 'val_loss': 0.9699518446283766}
+2018-04-12 15:35:28,983 - epoch: 9 logs: {'val_categorical_accuracy': 0.6655562953262787, 'loss': 1.3141909260442146, 'categorical_accuracy': 0.5787280539343362, 'val_loss': 1.334940296661687}
+2018-04-12 15:35:34,060 - epoch: 10 logs: {'val_categorical_accuracy': 0.6807128581740235, 'loss': 1.3181085655782672, 'categorical_accuracy': 0.576301948318959, 'val_loss': 1.0930911458229557}
+2018-04-12 15:35:34,825 - F1-score: 0.8349000000000001 
+=================== 
+2018-04-12 15:35:34,825 - ===Default - Fold  2  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:35:39,998 - epoch: 1 logs: {'val_categorical_accuracy': 0.7235921362724673, 'loss': 1.322616369195583, 'categorical_accuracy': 0.5762806029830881, 'val_loss': 1.0567938875889866}
+2018-04-12 15:35:45,068 - epoch: 2 logs: {'val_categorical_accuracy': 0.7152615794337857, 'loss': 1.3244365027067488, 'categorical_accuracy': 0.575354642815323, 'val_loss': 0.8807519004369568}
+2018-04-12 15:35:50,151 - epoch: 3 logs: {'val_categorical_accuracy': 0.694935021262215, 'loss': 1.3186883016835187, 'categorical_accuracy': 0.5782436386179609, 'val_loss': 0.8870337000293598}
+2018-04-12 15:35:55,243 - epoch: 4 logs: {'val_categorical_accuracy': 0.6684438515726386, 'loss': 1.3183270550077943, 'categorical_accuracy': 0.5748916626343035, 'val_loss': 0.8949068339416799}
+2018-04-12 15:36:00,305 - epoch: 5 logs: {'val_categorical_accuracy': 0.7017660774377457, 'loss': 1.3094542701136884, 'categorical_accuracy': 0.5784288307283405, 'val_loss': 0.9538408668587026}
+2018-04-12 15:36:05,385 - epoch: 6 logs: {'val_categorical_accuracy': 0.6894368544811806, 'loss': 1.3162615081328692, 'categorical_accuracy': 0.5766509870360651, 'val_loss': 1.1993863753420795}
+2018-04-12 15:36:10,481 - epoch: 7 logs: {'val_categorical_accuracy': 0.6707764082414156, 'loss': 1.3218922483209743, 'categorical_accuracy': 0.5757991036506374, 'val_loss': 0.918072148844704}
+2018-04-12 15:36:15,579 - epoch: 8 logs: {'val_categorical_accuracy': 0.6582805736586873, 'loss': 1.3106674468624595, 'categorical_accuracy': 0.5780954849782257, 'val_loss': 0.9558634071578903}
+2018-04-12 15:36:20,714 - epoch: 9 logs: {'val_categorical_accuracy': 0.6432855716350674, 'loss': 1.3001640695409205, 'categorical_accuracy': 0.5809474425486465, 'val_loss': 0.9704160365371933}
+2018-04-12 15:36:25,820 - epoch: 10 logs: {'val_categorical_accuracy': 0.6669443519025674, 'loss': 1.3033551921923605, 'categorical_accuracy': 0.5808733657111176, 'val_loss': 0.9885394178164557}
+2018-04-12 15:36:26,563 - F1-score: 0.8643999999999998 
+=================== 
+2018-04-12 15:36:26,564 - ===Default - Fold  3  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:36:31,723 - epoch: 1 logs: {'val_categorical_accuracy': 0.7050491584934526, 'loss': 1.327171287708109, 'categorical_accuracy': 0.5746402711227546, 'val_loss': 0.7904009015992013}
+2018-04-12 15:36:36,859 - epoch: 2 logs: {'val_categorical_accuracy': 0.73821029816443, 'loss': 1.321083743882759, 'categorical_accuracy': 0.5740847052557627, 'val_loss': 0.8182544941664577}
+2018-04-12 15:36:41,966 - epoch: 3 logs: {'val_categorical_accuracy': 0.7333777702524154, 'loss': 1.3175241024256321, 'categorical_accuracy': 0.5767699401675204, 'val_loss': 0.8551225312311159}
+2018-04-12 15:36:47,081 - epoch: 4 logs: {'val_categorical_accuracy': 0.7105482418404839, 'loss': 1.315384325335367, 'categorical_accuracy': 0.57538102552598, 'val_loss': 0.8584070936518299}
+2018-04-12 15:36:52,166 - epoch: 5 logs: {'val_categorical_accuracy': 0.7338776872110772, 'loss': 1.3097521608813048, 'categorical_accuracy': 0.5791033167468523, 'val_loss': 1.1535565948073139}
+2018-04-12 15:36:57,259 - epoch: 6 logs: {'val_categorical_accuracy': 0.6890518243681131, 'loss': 1.315737146790724, 'categorical_accuracy': 0.5767884590631989, 'val_loss': 1.3621989558923444}
+2018-04-12 15:37:02,351 - epoch: 7 logs: {'val_categorical_accuracy': 0.710714880873056, 'loss': 1.3096765517817597, 'categorical_accuracy': 0.5782514490843521, 'val_loss': 0.9088923216581225}
+2018-04-12 15:37:07,436 - epoch: 8 logs: {'val_categorical_accuracy': 0.6822196298034127, 'loss': 1.304068246422707, 'categorical_accuracy': 0.5805107501725864, 'val_loss': 0.8848623969697531}
+2018-04-12 15:37:12,525 - epoch: 9 logs: {'val_categorical_accuracy': 0.694217629928109, 'loss': 1.2974578079204806, 'categorical_accuracy': 0.5838997018971057, 'val_loss': 0.8856241301067113}
+2018-04-12 15:37:17,645 - epoch: 10 logs: {'val_categorical_accuracy': 0.6723879350858656, 'loss': 1.3034710505818496, 'categorical_accuracy': 0.5807885331496828, 'val_loss': 0.9111462013162468}
+2018-04-12 15:37:18,487 - F1-score: 0.8809000000000001 
+=================== 
+2018-04-12 15:37:18,488 - ===Default - Fold  4  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:37:23,668 - epoch: 1 logs: {'val_categorical_accuracy': 0.708333333492279, 'loss': 1.3121664319214998, 'categorical_accuracy': 0.5789444444621051, 'val_loss': 0.7831282248497009}
+2018-04-12 15:37:28,764 - epoch: 2 logs: {'val_categorical_accuracy': 0.7431666665077209, 'loss': 1.3105887980284514, 'categorical_accuracy': 0.5800370370723583, 'val_loss': 1.161858858426412}
+2018-04-12 15:37:33,866 - epoch: 3 logs: {'val_categorical_accuracy': 0.7470000003178915, 'loss': 1.302415883735374, 'categorical_accuracy': 0.583185185149864, 'val_loss': 0.891023375193278}
+2018-04-12 15:37:38,950 - epoch: 4 logs: {'val_categorical_accuracy': 0.734, 'loss': 1.3154179940047088, 'categorical_accuracy': 0.5778333332803515, 'val_loss': 1.0977886514663697}
+2018-04-12 15:37:44,062 - epoch: 5 logs: {'val_categorical_accuracy': 0.7319999995231629, 'loss': 1.3088337667253283, 'categorical_accuracy': 0.577777777813099, 'val_loss': 1.1390474780400595}
+2018-04-12 15:37:49,146 - epoch: 6 logs: {'val_categorical_accuracy': 0.7419999995231629, 'loss': 1.307315846160606, 'categorical_accuracy': 0.5805740741093953, 'val_loss': 1.0159858558972676}
+2018-04-12 15:37:54,234 - epoch: 7 logs: {'val_categorical_accuracy': 0.7161666663487752, 'loss': 1.3101353951206913, 'categorical_accuracy': 0.5773333333156727, 'val_loss': 1.1400131737391155}
+2018-04-12 15:37:59,331 - epoch: 8 logs: {'val_categorical_accuracy': 0.7261666663487752, 'loss': 1.3017187407105058, 'categorical_accuracy': 0.5806851852028458, 'val_loss': 1.0255309999783835}
+2018-04-12 15:38:04,408 - epoch: 9 logs: {'val_categorical_accuracy': 0.7314999996821085, 'loss': 1.291921175038373, 'categorical_accuracy': 0.5818148147971541, 'val_loss': 0.9568095194498698}
+2018-04-12 15:38:09,513 - epoch: 10 logs: {'val_categorical_accuracy': 0.6804999998410542, 'loss': 1.2869262058823197, 'categorical_accuracy': 0.586203703686043, 'val_loss': 0.876113517443339}
+2018-04-12 15:38:10,240 - F1-score: 0.8866 
+=================== 
+2018-04-12 15:38:10,241 - ===Default - Fold  0  - Training Round  3  ====== 
+2018-04-12 15:38:15,404 - epoch: 1 logs: {'val_categorical_accuracy': 0.7610324732766958, 'loss': 1.3127281672381197, 'categorical_accuracy': 0.577886841315695, 'val_loss': 1.1005916271479699}
+2018-04-12 15:38:20,515 - epoch: 2 logs: {'val_categorical_accuracy': 0.7650291427287531, 'loss': 1.3038580404695443, 'categorical_accuracy': 0.5810908416860997, 'val_loss': 1.1134737240086983}
+2018-04-12 15:38:25,622 - epoch: 3 logs: {'val_categorical_accuracy': 0.7318900919973007, 'loss': 1.2988694407805457, 'categorical_accuracy': 0.5839614778561154, 'val_loss': 0.7656597330806456}
+2018-04-12 15:38:30,715 - epoch: 4 logs: {'val_categorical_accuracy': 0.7233971694625486, 'loss': 1.2935444006644772, 'categorical_accuracy': 0.5812945642607313, 'val_loss': 0.767002493306858}
+2018-04-12 15:38:35,794 - epoch: 5 logs: {'val_categorical_accuracy': 0.7503746881274558, 'loss': 1.2944321969138526, 'categorical_accuracy': 0.5827391424546894, 'val_loss': 0.8705388593038452}
+2018-04-12 15:38:40,899 - epoch: 6 logs: {'val_categorical_accuracy': 0.7345545382920551, 'loss': 1.2979103378393395, 'categorical_accuracy': 0.5837392350834535, 'val_loss': 1.110175749165728}
+2018-04-12 15:38:45,995 - epoch: 7 logs: {'val_categorical_accuracy': 0.7307243967334198, 'loss': 1.2954834750431843, 'categorical_accuracy': 0.5798685063475955, 'val_loss': 1.0632587842599834}
+2018-04-12 15:38:51,081 - epoch: 8 logs: {'val_categorical_accuracy': 0.7277268946815986, 'loss': 1.3032163870269495, 'categorical_accuracy': 0.5794610612413841, 'val_loss': 0.8433275954312428}
+2018-04-12 15:38:56,182 - epoch: 9 logs: {'val_categorical_accuracy': 0.7218984184118235, 'loss': 1.2889603681658823, 'categorical_accuracy': 0.5827947032242994, 'val_loss': 1.1540871075051313}
+2018-04-12 15:39:01,272 - epoch: 10 logs: {'val_categorical_accuracy': 0.7300582851994345, 'loss': 1.2857373515503618, 'categorical_accuracy': 0.5878877673693107, 'val_loss': 1.007618343264336}
+2018-04-12 15:39:02,039 - F1-score: 0.8275 
+=================== 
+2018-04-12 15:39:02,039 - ===Default - Fold  1  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:39:07,241 - epoch: 1 logs: {'val_categorical_accuracy': 0.7606595599754583, 'loss': 1.3050476220706912, 'categorical_accuracy': 0.5810800799970954, 'val_loss': 0.9897370667238382}
+2018-04-12 15:39:12,323 - epoch: 2 logs: {'val_categorical_accuracy': 0.7261825448508901, 'loss': 1.2851278821365313, 'categorical_accuracy': 0.5866360470704463, 'val_loss': 0.7584936674001771}
+2018-04-12 15:39:17,392 - epoch: 3 logs: {'val_categorical_accuracy': 0.7191872088056179, 'loss': 1.2842055820555094, 'categorical_accuracy': 0.5874694422162262, 'val_loss': 0.7645506059067159}
+2018-04-12 15:39:22,463 - epoch: 4 logs: {'val_categorical_accuracy': 0.7301798795637172, 'loss': 1.2908139288164933, 'categorical_accuracy': 0.5854692940306103, 'val_loss': 0.8010188245439752}
+2018-04-12 15:39:27,576 - epoch: 5 logs: {'val_categorical_accuracy': 0.7391738845140914, 'loss': 1.297585715628684, 'categorical_accuracy': 0.583654344748617, 'val_loss': 0.7891484741605496}
+2018-04-12 15:39:32,688 - epoch: 6 logs: {'val_categorical_accuracy': 0.7051965357223247, 'loss': 1.2718712393376852, 'categorical_accuracy': 0.5890806726026786, 'val_loss': 0.8147031411895904}
+2018-04-12 15:39:37,775 - epoch: 7 logs: {'val_categorical_accuracy': 0.7005329776969772, 'loss': 1.2859459475805446, 'categorical_accuracy': 0.5881731979970058, 'val_loss': 1.3368926734466857}
+2018-04-12 15:39:42,889 - epoch: 8 logs: {'val_categorical_accuracy': 0.6830446371866972, 'loss': 1.2821455079278679, 'categorical_accuracy': 0.5884509963965944, 'val_loss': 1.3700826199828269}
+2018-04-12 15:39:47,978 - epoch: 9 logs: {'val_categorical_accuracy': 0.7383411061676401, 'loss': 1.2899179693786946, 'categorical_accuracy': 0.5876546411419261, 'val_loss': 1.0555689661285228}
+2018-04-12 15:39:53,077 - epoch: 10 logs: {'val_categorical_accuracy': 0.7231845441140944, 'loss': 1.269917412867095, 'categorical_accuracy': 0.591599377687529, 'val_loss': 0.8940932675252987}
+2018-04-12 15:39:53,827 - F1-score: 0.8443 
+=================== 
+2018-04-12 15:39:53,827 - ===Default - Fold  2  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:39:59,023 - epoch: 1 logs: {'val_categorical_accuracy': 0.7625791399687857, 'loss': 1.29795384373487, 'categorical_accuracy': 0.5854290899111035, 'val_loss': 0.7852174251010441}
+2018-04-12 15:40:04,115 - epoch: 2 logs: {'val_categorical_accuracy': 0.7660779736908783, 'loss': 1.276418820152133, 'categorical_accuracy': 0.5880402977998453, 'val_loss': 0.8060308363548083}
+2018-04-12 15:40:09,208 - epoch: 3 logs: {'val_categorical_accuracy': 0.7385871374420387, 'loss': 1.2819015211412441, 'categorical_accuracy': 0.5879662209667318, 'val_loss': 0.7802973816451213}
+2018-04-12 15:40:14,283 - epoch: 4 logs: {'val_categorical_accuracy': 0.7419193598954767, 'loss': 1.2895140848697046, 'categorical_accuracy': 0.5867995110400196, 'val_loss': 0.7989441237819866}
+2018-04-12 15:40:19,391 - epoch: 5 logs: {'val_categorical_accuracy': 0.7397534155678804, 'loss': 1.2791581812017587, 'categorical_accuracy': 0.5896885069971937, 'val_loss': 1.0147087548780902}
+2018-04-12 15:40:24,494 - epoch: 6 logs: {'val_categorical_accuracy': 0.594468510158854, 'loss': 1.2695055566914386, 'categorical_accuracy': 0.5933367902161683, 'val_loss': 1.5942614341092007}
+2018-04-12 15:40:29,578 - epoch: 7 logs: {'val_categorical_accuracy': 0.7260913027202793, 'loss': 1.2766651164788203, 'categorical_accuracy': 0.589855179801606, 'val_loss': 0.9248529527831657}
+2018-04-12 15:40:34,659 - epoch: 8 logs: {'val_categorical_accuracy': 0.7354215258401618, 'loss': 1.278707950074318, 'categorical_accuracy': 0.5915589466099915, 'val_loss': 0.9651282153221735}
+2018-04-12 15:40:39,726 - epoch: 9 logs: {'val_categorical_accuracy': 0.6152949018583262, 'loss': 1.2711495041622047, 'categorical_accuracy': 0.5917996962828399, 'val_loss': 1.5500588011876697}
+2018-04-12 15:40:44,821 - epoch: 10 logs: {'val_categorical_accuracy': 0.6679440185412769, 'loss': 1.2797571460937296, 'categorical_accuracy': 0.5903737175605479, 'val_loss': 0.9008113236397117}
+2018-04-12 15:40:45,580 - F1-score: 0.8902 
+=================== 
+2018-04-12 15:40:45,580 - ===Default - Fold  3  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:40:50,755 - epoch: 1 logs: {'val_categorical_accuracy': 0.7768705217386559, 'loss': 1.2799492170551128, 'categorical_accuracy': 0.5887331246499646, 'val_loss': 0.7417463856902724}
+2018-04-12 15:40:55,854 - epoch: 2 logs: {'val_categorical_accuracy': 0.7645392436878699, 'loss': 1.2851132625835813, 'categorical_accuracy': 0.5862701160635899, 'val_loss': 1.0647604029052675}
+2018-04-12 15:41:00,966 - epoch: 3 logs: {'val_categorical_accuracy': 0.7713714382525703, 'loss': 1.273109998190217, 'categorical_accuracy': 0.5905294542325956, 'val_loss': 0.9716115967867037}
+2018-04-12 15:41:06,075 - epoch: 4 logs: {'val_categorical_accuracy': 0.7777037162062447, 'loss': 1.2805288428167394, 'categorical_accuracy': 0.5892886905390328, 'val_loss': 0.8023655855979468}
+2018-04-12 15:41:11,180 - epoch: 5 logs: {'val_categorical_accuracy': 0.6765539081985404, 'loss': 1.269935128741751, 'categorical_accuracy': 0.5924554158686294, 'val_loss': 1.4173879914632581}
+2018-04-12 15:41:16,281 - epoch: 6 logs: {'val_categorical_accuracy': 0.7348775205026565, 'loss': 1.2728418955664014, 'categorical_accuracy': 0.5901961147163741, 'val_loss': 0.7702705987471975}
+2018-04-12 15:41:21,400 - epoch: 7 logs: {'val_categorical_accuracy': 0.734877520294075, 'loss': 1.284278280828972, 'categorical_accuracy': 0.588140521083232, 'val_loss': 0.7746611983453089}
+2018-04-12 15:41:26,490 - epoch: 8 logs: {'val_categorical_accuracy': 0.7347108814005573, 'loss': 1.2683260434026946, 'categorical_accuracy': 0.5918628123030004, 'val_loss': 1.1262201925572346}
+2018-04-12 15:41:31,597 - epoch: 9 logs: {'val_categorical_accuracy': 0.7467088819424166, 'loss': 1.2686105865083688, 'categorical_accuracy': 0.5919368877598802, 'val_loss': 1.038568511741834}
+2018-04-12 15:41:36,678 - epoch: 10 logs: {'val_categorical_accuracy': 0.6958840190718679, 'loss': 1.2712176185455248, 'categorical_accuracy': 0.5929924628520847, 'val_loss': 0.8280704436133731}
+2018-04-12 15:41:37,519 - F1-score: 0.8715 
+=================== 
+2018-04-12 15:41:37,520 - ===Default - Fold  4  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:41:42,697 - epoch: 1 logs: {'val_categorical_accuracy': 0.7798333336512248, 'loss': 1.2882469092828257, 'categorical_accuracy': 0.5854999999823394, 'val_loss': 0.7305246469179789}
+2018-04-12 15:41:47,797 - epoch: 2 logs: {'val_categorical_accuracy': 0.7783333334922791, 'loss': 1.2688331819816872, 'categorical_accuracy': 0.591092592574932, 'val_loss': 0.9819721201260885}
+2018-04-12 15:41:52,892 - epoch: 3 logs: {'val_categorical_accuracy': 0.7659999998410543, 'loss': 1.275997137705485, 'categorical_accuracy': 0.5905370369840551, 'val_loss': 0.8765901206334432}
+2018-04-12 15:41:57,975 - epoch: 4 logs: {'val_categorical_accuracy': 0.7586666668256123, 'loss': 1.2793457545880917, 'categorical_accuracy': 0.5916481481128268, 'val_loss': 1.0605757767359416}
+2018-04-12 15:42:03,079 - epoch: 5 logs: {'val_categorical_accuracy': 0.7506666668256123, 'loss': 1.271246451024656, 'categorical_accuracy': 0.5916481481481481, 'val_loss': 0.7187937897046407}
+2018-04-12 15:42:08,190 - epoch: 6 logs: {'val_categorical_accuracy': 0.7490000003178915, 'loss': 1.2686581317407113, 'categorical_accuracy': 0.5933518518871731, 'val_loss': 0.7663241454760233}
+2018-04-12 15:42:13,320 - epoch: 7 logs: {'val_categorical_accuracy': 0.7119999995231628, 'loss': 1.2648327900921856, 'categorical_accuracy': 0.5966666666313454, 'val_loss': 0.765077177365621}
+2018-04-12 15:42:18,422 - epoch: 8 logs: {'val_categorical_accuracy': 0.7201666663487752, 'loss': 1.2675368040579336, 'categorical_accuracy': 0.5899814814461602, 'val_loss': 0.7615077118873597}
+2018-04-12 15:42:23,519 - epoch: 9 logs: {'val_categorical_accuracy': 0.7280000003178915, 'loss': 1.2604571111820362, 'categorical_accuracy': 0.5961481481128269, 'val_loss': 1.1944857975641887}
+2018-04-12 15:42:28,589 - epoch: 10 logs: {'val_categorical_accuracy': 0.7354999998410543, 'loss': 1.274123287730747, 'categorical_accuracy': 0.5933148147971542, 'val_loss': 1.086670485496521}
+2018-04-12 15:42:29,348 - F1-score: 0.774 
+=================== 
+2018-04-12 15:42:29,348 - ===Default - Fold  0  - Training Round  4  ====== 
+2018-04-12 15:42:34,533 - epoch: 1 logs: {'val_categorical_accuracy': 0.784512906229367, 'loss': 1.2733161539200866, 'categorical_accuracy': 0.5902027965728989, 'val_loss': 0.6845559735480792}
+2018-04-12 15:42:39,636 - epoch: 2 logs: {'val_categorical_accuracy': 0.7786844299992951, 'loss': 1.2754486881656684, 'categorical_accuracy': 0.5914992128591734, 'val_loss': 0.9884358716150009}
+2018-04-12 15:42:44,711 - epoch: 3 logs: {'val_categorical_accuracy': 0.7890091593219875, 'loss': 1.277041221656273, 'categorical_accuracy': 0.5908695249460795, 'val_loss': 0.7254743945588676}
+2018-04-12 15:42:49,817 - epoch: 4 logs: {'val_categorical_accuracy': 0.7705245632017582, 'loss': 1.2740087307717074, 'categorical_accuracy': 0.589943513292683, 'val_loss': 0.9793788787824328}
+2018-04-12 15:42:54,898 - epoch: 5 logs: {'val_categorical_accuracy': 0.6641132394439672, 'loss': 1.2642884541909025, 'categorical_accuracy': 0.5954440225637757, 'val_loss': 1.4135323658275365}
+2018-04-12 15:42:59,982 - epoch: 6 logs: {'val_categorical_accuracy': 0.7593671943722518, 'loss': 1.2657257930759325, 'categorical_accuracy': 0.594073525337458, 'val_loss': 0.9382183679236064}
+2018-04-12 15:43:05,077 - epoch: 7 logs: {'val_categorical_accuracy': 0.7625312243373468, 'loss': 1.2708624254896614, 'categorical_accuracy': 0.5937586813152295, 'val_loss': 0.8450774133552819}
+2018-04-12 15:43:10,182 - epoch: 8 logs: {'val_categorical_accuracy': 0.7492089928735007, 'loss': 1.2644449726454978, 'categorical_accuracy': 0.592554866181379, 'val_loss': 0.7380060697177566}
+2018-04-12 15:43:15,276 - epoch: 9 logs: {'val_categorical_accuracy': 0.7613655290536142, 'loss': 1.2692113914117955, 'categorical_accuracy': 0.5920918603894534, 'val_loss': 0.8575609082385562}
+2018-04-12 15:43:20,371 - epoch: 10 logs: {'val_categorical_accuracy': 0.7587010827687857, 'loss': 1.2645748374616452, 'categorical_accuracy': 0.5962033521180816, 'val_loss': 1.01070290663955}
+2018-04-12 15:43:21,128 - F1-score: 0.78 
+=================== 
+2018-04-12 15:43:21,128 - ===Default - Fold  1  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:43:26,287 - epoch: 1 logs: {'val_categorical_accuracy': 0.7828114590273151, 'loss': 1.26776685303375, 'categorical_accuracy': 0.5918216164513547, 'val_loss': 0.8596928895989074}
+2018-04-12 15:43:31,381 - epoch: 2 logs: {'val_categorical_accuracy': 0.7709860091682754, 'loss': 1.2748624102982231, 'categorical_accuracy': 0.5903770649721909, 'val_loss': 0.9632224903989839}
+2018-04-12 15:43:36,454 - epoch: 3 logs: {'val_categorical_accuracy': 0.7716522316468866, 'loss': 1.2706459362389062, 'categorical_accuracy': 0.5910437810075699, 'val_loss': 0.8122867294981192}
+2018-04-12 15:43:41,545 - epoch: 4 logs: {'val_categorical_accuracy': 0.758827448208915, 'loss': 1.2671433466965645, 'categorical_accuracy': 0.595599674063176, 'val_loss': 0.723511607586583}
+2018-04-12 15:43:46,661 - epoch: 5 logs: {'val_categorical_accuracy': 0.7689873417721519, 'loss': 1.255715192543223, 'categorical_accuracy': 0.596507148642356, 'val_loss': 0.9691116955183412}
+2018-04-12 15:43:51,759 - epoch: 6 logs: {'val_categorical_accuracy': 0.7758161227834931, 'loss': 1.25937394101811, 'categorical_accuracy': 0.5965441884319114, 'val_loss': 0.8745658106997679}
+2018-04-12 15:43:56,842 - epoch: 7 logs: {'val_categorical_accuracy': 0.7613257832085586, 'loss': 1.2496006474847112, 'categorical_accuracy': 0.5996555300039382, 'val_loss': 0.916636601795283}
+2018-04-12 15:44:01,932 - epoch: 8 logs: {'val_categorical_accuracy': 0.6837108595461785, 'loss': 1.245438484635492, 'categorical_accuracy': 0.5983035780207405, 'val_loss': 1.3895885158903514}
+2018-04-12 15:44:07,018 - epoch: 9 logs: {'val_categorical_accuracy': 0.7471685539397457, 'loss': 1.257029442745135, 'categorical_accuracy': 0.5969516260287119, 'val_loss': 0.8023254940860832}
+2018-04-12 15:44:12,141 - epoch: 10 logs: {'val_categorical_accuracy': 0.7488341110297476, 'loss': 1.2505427573520047, 'categorical_accuracy': 0.5988962145211635, 'val_loss': 0.7923871411791171}
+2018-04-12 15:44:12,889 - F1-score: 0.845 
+=================== 
+2018-04-12 15:44:12,889 - ===Default - Fold  2  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:44:18,043 - epoch: 1 logs: {'val_categorical_accuracy': 0.7635788071040351, 'loss': 1.2686361356763347, 'categorical_accuracy': 0.5947627689539139, 'val_loss': 1.0720578755628503}
+2018-04-12 15:44:23,133 - epoch: 2 logs: {'val_categorical_accuracy': 0.7904031991918895, 'loss': 1.2545786983079612, 'categorical_accuracy': 0.5955405755746656, 'val_loss': 0.877842223175523}
+2018-04-12 15:44:28,238 - epoch: 3 logs: {'val_categorical_accuracy': 0.7800733094332973, 'loss': 1.2567790169473745, 'categorical_accuracy': 0.5946886921693689, 'val_loss': 0.8069478665062365}
+2018-04-12 15:44:33,320 - epoch: 4 logs: {'val_categorical_accuracy': 0.7670776408261277, 'loss': 1.2699152896605517, 'categorical_accuracy': 0.5938368088016025, 'val_loss': 0.830801590249285}
+2018-04-12 15:44:38,431 - epoch: 5 logs: {'val_categorical_accuracy': 0.7520826392990476, 'loss': 1.265748672332758, 'categorical_accuracy': 0.5977258416779717, 'val_loss': 1.0320781770049632}
+2018-04-12 15:44:43,549 - epoch: 6 logs: {'val_categorical_accuracy': 0.7687437524004246, 'loss': 1.258365949064128, 'categorical_accuracy': 0.5979851105375737, 'val_loss': 0.9125772836565058}
+2018-04-12 15:44:48,644 - epoch: 7 logs: {'val_categorical_accuracy': 0.6997667445178352, 'loss': 1.2627700699925921, 'categorical_accuracy': 0.5956146523746642, 'val_loss': 1.3091560123126453}
+2018-04-12 15:44:53,748 - epoch: 8 logs: {'val_categorical_accuracy': 0.734588470609138, 'loss': 1.2584431792079107, 'categorical_accuracy': 0.5974110152514857, 'val_loss': 0.7453019669039255}
+2018-04-12 15:44:58,831 - epoch: 9 logs: {'val_categorical_accuracy': 0.7322559149334408, 'loss': 1.2479946437670242, 'categorical_accuracy': 0.5982628986214598, 'val_loss': 0.7711052094170031}
+2018-04-12 15:45:03,922 - epoch: 10 logs: {'val_categorical_accuracy': 0.740753081769635, 'loss': 1.2554355179576053, 'categorical_accuracy': 0.5996148004907692, 'val_loss': 0.7981062099680191}
+2018-04-12 15:45:04,674 - F1-score: 0.8472999999999999 
+=================== 
+2018-04-12 15:45:04,674 - ===Default - Fold  3  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:45:09,825 - epoch: 1 logs: {'val_categorical_accuracy': 0.8018663560444267, 'loss': 1.264328941788664, 'categorical_accuracy': 0.5957517731324172, 'val_loss': 0.7149993348789104}
+2018-04-12 15:45:14,911 - epoch: 2 logs: {'val_categorical_accuracy': 0.8075320775797716, 'loss': 1.2643194603088592, 'categorical_accuracy': 0.5961406692341237, 'val_loss': 0.7976065827516531}
+2018-04-12 15:45:19,999 - epoch: 3 logs: {'val_categorical_accuracy': 0.7768705217386559, 'loss': 1.254003460516446, 'categorical_accuracy': 0.5984555269387495, 'val_loss': 0.7163497602576078}
+2018-04-12 15:45:25,093 - epoch: 4 logs: {'val_categorical_accuracy': 0.7130478249651415, 'loss': 1.2508697475172215, 'categorical_accuracy': 0.5995666586042971, 'val_loss': 1.2813073830730894}
+2018-04-12 15:45:30,182 - epoch: 5 logs: {'val_categorical_accuracy': 0.7705382438545088, 'loss': 1.2536098800563564, 'categorical_accuracy': 0.598788866501331, 'val_loss': 0.6927925102255023}
+2018-04-12 15:45:35,268 - epoch: 6 logs: {'val_categorical_accuracy': 0.7375437428684677, 'loss': 1.257379225533164, 'categorical_accuracy': 0.5977147724913717, 'val_loss': 0.7153607116423335}
+2018-04-12 15:45:40,370 - epoch: 7 logs: {'val_categorical_accuracy': 0.7300449925211147, 'loss': 1.2393584017528512, 'categorical_accuracy': 0.6011777995292755, 'val_loss': 0.7368515669316217}
+2018-04-12 15:45:45,455 - epoch: 8 logs: {'val_categorical_accuracy': 0.7137143808868484, 'loss': 1.2534834227386842, 'categorical_accuracy': 0.5989925739773954, 'val_loss': 0.7940760294391084}
+2018-04-12 15:45:50,538 - epoch: 9 logs: {'val_categorical_accuracy': 0.758540243521231, 'loss': 1.256505890584358, 'categorical_accuracy': 0.5977518101591021, 'val_loss': 0.7251523031113327}
+2018-04-12 15:45:55,648 - epoch: 10 logs: {'val_categorical_accuracy': 0.7602066321782998, 'loss': 1.2626406140507507, 'categorical_accuracy': 0.596399933272493, 'val_loss': 0.9718117312061213}
+2018-04-12 15:45:56,473 - F1-score: 0.7951 
+=================== 
+2018-04-12 15:45:56,474 - ===Default - Fold  4  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:46:01,662 - epoch: 1 logs: {'val_categorical_accuracy': 0.8011666671435038, 'loss': 1.2619056541654798, 'categorical_accuracy': 0.5939259259435865, 'val_loss': 0.8522147425015767}
+2018-04-12 15:46:06,776 - epoch: 2 logs: {'val_categorical_accuracy': 0.7663333333333333, 'loss': 1.258443961708634, 'categorical_accuracy': 0.5946296295766478, 'val_loss': 0.637813490708669}
+2018-04-12 15:46:11,862 - epoch: 3 logs: {'val_categorical_accuracy': 0.7679999998410543, 'loss': 1.2527899649584735, 'categorical_accuracy': 0.5981851852205065, 'val_loss': 0.6586419906616211}
+2018-04-12 15:46:16,947 - epoch: 4 logs: {'val_categorical_accuracy': 0.7615000001589457, 'loss': 1.2599800983358314, 'categorical_accuracy': 0.5962777778307596, 'val_loss': 0.664159816424052}
+2018-04-12 15:46:22,041 - epoch: 5 logs: {'val_categorical_accuracy': 0.739333333492279, 'loss': 1.2538747856352064, 'categorical_accuracy': 0.599666666701988, 'val_loss': 1.1289256575902302}
+2018-04-12 15:46:27,149 - epoch: 6 logs: {'val_categorical_accuracy': 0.7809999995231628, 'loss': 1.2545280713681821, 'categorical_accuracy': 0.5956296295943083, 'val_loss': 0.7353265733718872}
+2018-04-12 15:46:32,241 - epoch: 7 logs: {'val_categorical_accuracy': 0.789833333492279, 'loss': 1.2501970280541315, 'categorical_accuracy': 0.5985370370900189, 'val_loss': 0.8205425017674765}
+2018-04-12 15:46:37,304 - epoch: 8 logs: {'val_categorical_accuracy': 0.7269999995231629, 'loss': 1.2559782324190494, 'categorical_accuracy': 0.5960370370546977, 'val_loss': 0.7392519618670146}
+2018-04-12 15:46:42,382 - epoch: 9 logs: {'val_categorical_accuracy': 0.748, 'loss': 1.2485247317773325, 'categorical_accuracy': 0.6005185185361791, 'val_loss': 1.1245853996276856}
+2018-04-12 15:46:47,480 - epoch: 10 logs: {'val_categorical_accuracy': 0.7240000003178915, 'loss': 1.2494538463663172, 'categorical_accuracy': 0.5983703703703703, 'val_loss': 1.2250513127644858}
+2018-04-12 15:46:48,240 - F1-score: 0.6987 
+=================== 
+2018-04-12 15:46:48,241 - 
+Average model score: 0.869% (+/- 0.065%) 
+2018-04-12 15:46:48,241 - [0.9794, 0.9693, 0.9552, 0.9319, 0.9066, 0.9258, 0.9149, 0.9058, 0.9012, 0.8005, 0.884, 0.8349000000000001, 0.8643999999999998, 0.8809000000000001, 0.8866, 0.8275, 0.8443, 0.8902, 0.8715, 0.774, 0.78, 0.845, 0.8472999999999999, 0.7951, 0.6987] 
+
+ 
+2018-04-12 15:46:48,424 - ===Default - Fold  0  - Training Round  0  ====== 
+2018-04-12 15:46:54,734 - epoch: 1 logs: {'val_categorical_accuracy': 0.48226477942498497, 'loss': 3.2875173853838793, 'categorical_accuracy': 0.3620890823323723, 'val_loss': 1.816647807882787}
+2018-04-12 15:47:00,153 - epoch: 2 logs: {'val_categorical_accuracy': 0.4905911740960924, 'loss': 3.2268658954110983, 'categorical_accuracy': 0.4260394480898707, 'val_loss': 1.7995805791375241}
+2018-04-12 15:47:05,543 - epoch: 3 logs: {'val_categorical_accuracy': 0.4927560367105803, 'loss': 3.1747251722169967, 'categorical_accuracy': 0.4355218075847105, 'val_loss': 1.795980600314176}
+2018-04-12 15:47:10,936 - epoch: 4 logs: {'val_categorical_accuracy': 0.5009159034882655, 'loss': 3.1698077456489053, 'categorical_accuracy': 0.4403926289636831, 'val_loss': 1.7871021388869401}
+2018-04-12 15:47:16,314 - epoch: 5 logs: {'val_categorical_accuracy': 0.5025811824125612, 'loss': 3.1286380754972964, 'categorical_accuracy': 0.442800259303689, 'val_loss': 1.7837157067807885}
+2018-04-12 15:47:21,659 - epoch: 6 logs: {'val_categorical_accuracy': 0.5027477103059834, 'loss': 3.152995772595339, 'categorical_accuracy': 0.4438559125944336, 'val_loss': 1.782577726426073}
+2018-04-12 15:47:27,042 - epoch: 7 logs: {'val_categorical_accuracy': 0.5032472939862498, 'loss': 3.2029742742690877, 'categorical_accuracy': 0.44304102229921893, 'val_loss': 1.7816410043058943}
+2018-04-12 15:47:32,427 - epoch: 8 logs: {'val_categorical_accuracy': 0.5025811824125612, 'loss': 3.1693354726820173, 'categorical_accuracy': 0.4456338549622872, 'val_loss': 1.7820588219274986}
+2018-04-12 15:47:37,792 - epoch: 9 logs: {'val_categorical_accuracy': 0.5027477103059834, 'loss': 3.1790719450618483, 'categorical_accuracy': 0.4468376701579556, 'val_loss': 1.781738651563087}
+2018-04-12 15:47:43,181 - epoch: 10 logs: {'val_categorical_accuracy': 0.5024146545191391, 'loss': 3.1903023970415223, 'categorical_accuracy': 0.44676358922453585, 'val_loss': 1.7818686406280873}
+2018-04-12 15:47:47,163 - F1-score: 0.9815 Intermediary score:  0.9815 
+=================== 
+2018-04-12 15:47:47,163 - ===Default - Fold  1  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:47:52,639 - epoch: 1 logs: {'val_categorical_accuracy': 0.4963357761690888, 'loss': 3.1253863128964765, 'categorical_accuracy': 0.4487554633742801, 'val_loss': 1.7937461638117058}
+2018-04-12 15:47:58,030 - epoch: 2 logs: {'val_categorical_accuracy': 0.49700199868740996, 'loss': 3.155429214749109, 'categorical_accuracy': 0.4504592932920225, 'val_loss': 1.7929391941970225}
+2018-04-12 15:48:03,406 - epoch: 3 logs: {'val_categorical_accuracy': 0.4950033311324466, 'loss': 3.1660706340423275, 'categorical_accuracy': 0.4490703014795299, 'val_loss': 1.7957791113837571}
+2018-04-12 15:48:08,758 - epoch: 4 logs: {'val_categorical_accuracy': 0.4968354430578297, 'loss': 3.180092608878344, 'categorical_accuracy': 0.44982961701087504, 'val_loss': 1.794382885962149}
+2018-04-12 15:48:14,117 - epoch: 5 logs: {'val_categorical_accuracy': 0.4960026649099283, 'loss': 3.1442046028762864, 'categorical_accuracy': 0.45195940437383303, 'val_loss': 1.794762499963022}
+2018-04-12 15:48:19,501 - epoch: 6 logs: {'val_categorical_accuracy': 0.4960026649099283, 'loss': 3.156693490560571, 'categorical_accuracy': 0.4516630861766074, 'val_loss': 1.7945815204065056}
+2018-04-12 15:48:24,882 - epoch: 7 logs: {'val_categorical_accuracy': 0.4956695536507677, 'loss': 3.1591980244656104, 'categorical_accuracy': 0.45127416843705304, 'val_loss': 1.7941243158508189}
+2018-04-12 15:48:30,222 - epoch: 8 logs: {'val_categorical_accuracy': 0.4953364425901569, 'loss': 3.174569767610666, 'categorical_accuracy': 0.4512741684679614, 'val_loss': 1.7970998025115215}
+2018-04-12 15:48:35,610 - epoch: 9 logs: {'val_categorical_accuracy': 0.4953364423916071, 'loss': 3.138591278163634, 'categorical_accuracy': 0.4532928364865382, 'val_loss': 1.7968474411313173}
+2018-04-12 15:48:40,962 - epoch: 10 logs: {'val_categorical_accuracy': 0.49433710861412544, 'loss': 3.104764284279728, 'categorical_accuracy': 0.4558485813763983, 'val_loss': 1.7981053964048128}
+2018-04-12 15:48:44,940 - F1-score: 0.9811 Intermediary score:  0.9811 
+=================== 
+2018-04-12 15:48:44,941 - ===Default - Fold  2  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:48:50,394 - epoch: 1 logs: {'val_categorical_accuracy': 0.4860046652407298, 'loss': 3.1183001515582656, 'categorical_accuracy': 0.455646505438269, 'val_loss': 1.8182584512078814}
+2018-04-12 15:48:55,767 - epoch: 2 logs: {'val_categorical_accuracy': 0.485338220722236, 'loss': 3.15848574954857, 'categorical_accuracy': 0.45486869882745185, 'val_loss': 1.8207521736125316}
+2018-04-12 15:49:01,175 - epoch: 3 logs: {'val_categorical_accuracy': 0.48417194281487175, 'loss': 3.1525653797395363, 'categorical_accuracy': 0.45570206305924077, 'val_loss': 1.823450815991456}
+2018-04-12 15:49:06,577 - epoch: 4 logs: {'val_categorical_accuracy': 0.4838387205556249, 'loss': 3.1321057069345315, 'categorical_accuracy': 0.45896144296342417, 'val_loss': 1.8235077340775274}
+2018-04-12 15:49:11,964 - epoch: 5 logs: {'val_categorical_accuracy': 0.48400533168524834, 'loss': 3.09729006056512, 'categorical_accuracy': 0.45803548282877404, 'val_loss': 1.8237051932027601}
+2018-04-12 15:49:17,352 - epoch: 6 logs: {'val_categorical_accuracy': 0.48300566490750757, 'loss': 3.1471086409388747, 'categorical_accuracy': 0.45694284969985277, 'val_loss': 1.825011044929362}
+2018-04-12 15:49:22,736 - epoch: 7 logs: {'val_categorical_accuracy': 0.48350549829637796, 'loss': 3.1247807338178686, 'categorical_accuracy': 0.4582391940718196, 'val_loss': 1.8248294874335558}
+2018-04-12 15:49:28,067 - epoch: 8 logs: {'val_categorical_accuracy': 0.48300566483799195, 'loss': 3.129521746181365, 'categorical_accuracy': 0.4593318270837348, 'val_loss': 1.8263032282642109}
+2018-04-12 15:49:33,434 - epoch: 9 logs: {'val_categorical_accuracy': 0.48300566490750757, 'loss': 3.1366586446576643, 'categorical_accuracy': 0.4581465980420179, 'val_loss': 1.8255546932735272}
+2018-04-12 15:49:38,791 - epoch: 10 logs: {'val_categorical_accuracy': 0.4815061647408964, 'loss': 3.1480563989528583, 'categorical_accuracy': 0.45801696361883987, 'val_loss': 1.8269082740003846}
+2018-04-12 15:49:42,824 - F1-score: 0.9801 Intermediary score:  0.9801 
+=================== 
+2018-04-12 15:49:42,825 - ===Default - Fold  3  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:49:48,305 - epoch: 1 logs: {'val_categorical_accuracy': 0.513581069503858, 'loss': 3.1504564502596466, 'categorical_accuracy': 0.4566195670345381, 'val_loss': 1.7520566075230772}
+2018-04-12 15:49:53,681 - epoch: 2 logs: {'val_categorical_accuracy': 0.5125812361427514, 'loss': 3.1418911373772667, 'categorical_accuracy': 0.45558251075853773, 'val_loss': 1.7557057093588675}
+2018-04-12 15:49:59,048 - epoch: 3 logs: {'val_categorical_accuracy': 0.5124145972492337, 'loss': 3.1383147014375328, 'categorical_accuracy': 0.45617511433741237, 'val_loss': 1.7571174249989134}
+2018-04-12 15:50:04,447 - epoch: 4 logs: {'val_categorical_accuracy': 0.5124145972492337, 'loss': 3.1747891291412755, 'categorical_accuracy': 0.4570084631191355, 'val_loss': 1.758567247961267}
+2018-04-12 15:50:09,809 - epoch: 5 logs: {'val_categorical_accuracy': 0.5110814861010917, 'loss': 3.1112503431583303, 'categorical_accuracy': 0.45865664178911086, 'val_loss': 1.7592050891938835}
+2018-04-12 15:50:15,160 - epoch: 6 logs: {'val_categorical_accuracy': 0.5104149305270207, 'loss': 3.1378861463882983, 'categorical_accuracy': 0.4566195670334343, 'val_loss': 1.760159747438855}
+2018-04-12 15:50:20,533 - epoch: 7 logs: {'val_categorical_accuracy': 0.5105815694205385, 'loss': 3.105431666641152, 'categorical_accuracy': 0.45934183965210745, 'val_loss': 1.7601393613591232}
+2018-04-12 15:50:25,890 - epoch: 8 logs: {'val_categorical_accuracy': 0.5104149305270207, 'loss': 3.1320516314448517, 'categorical_accuracy': 0.4588603492651752, 'val_loss': 1.7596960916576376}
+2018-04-12 15:50:31,273 - epoch: 9 logs: {'val_categorical_accuracy': 0.5104149305270207, 'loss': 3.1435256499326125, 'categorical_accuracy': 0.4588418304208239, 'val_loss': 1.758930460331222}
+2018-04-12 15:50:36,629 - epoch: 10 logs: {'val_categorical_accuracy': 0.5100816527399852, 'loss': 3.1483335316619394, 'categorical_accuracy': 0.45750847238960435, 'val_loss': 1.7591207764224597}
+2018-04-12 15:50:40,558 - F1-score: 0.9766 Intermediary score:  0.9766 
+=================== 
+2018-04-12 15:50:40,559 - ===Default - Fold  4  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:50:46,018 - epoch: 1 logs: {'val_categorical_accuracy': 0.5146666666666667, 'loss': 3.107063326305813, 'categorical_accuracy': 0.46040740738091646, 'val_loss': 1.7491913220087687}
+2018-04-12 15:50:51,340 - epoch: 2 logs: {'val_categorical_accuracy': 0.5136666666666667, 'loss': 3.1329467357352927, 'categorical_accuracy': 0.45901851853617914, 'val_loss': 1.7487451858520509}
+2018-04-12 15:50:56,708 - epoch: 3 logs: {'val_categorical_accuracy': 0.5133333338101705, 'loss': 3.1376964520348443, 'categorical_accuracy': 0.4589444444179535, 'val_loss': 1.7497671095530192}
+2018-04-12 15:51:02,041 - epoch: 4 logs: {'val_categorical_accuracy': 0.5138333338101705, 'loss': 3.1185010108947755, 'categorical_accuracy': 0.46266666666666667, 'val_loss': 1.750096663792928}
+2018-04-12 15:51:07,437 - epoch: 5 logs: {'val_categorical_accuracy': 0.5118333331743876, 'loss': 3.131604452698319, 'categorical_accuracy': 0.4607592592769199, 'val_loss': 1.7541803827285767}
+2018-04-12 15:51:12,809 - epoch: 6 logs: {'val_categorical_accuracy': 0.5120000004768371, 'loss': 3.108828172542431, 'categorical_accuracy': 0.46172222218690095, 'val_loss': 1.7553090368906656}
+2018-04-12 15:51:18,174 - epoch: 7 logs: {'val_categorical_accuracy': 0.5118333338101705, 'loss': 3.1282284492916532, 'categorical_accuracy': 0.46148148147265117, 'val_loss': 1.7571707092920938}
+2018-04-12 15:51:23,535 - epoch: 8 logs: {'val_categorical_accuracy': 0.5115000004768372, 'loss': 3.1126971795117413, 'categorical_accuracy': 0.4614814814814815, 'val_loss': 1.7567799666722617}
+2018-04-12 15:51:28,886 - epoch: 9 logs: {'val_categorical_accuracy': 0.5121666671435038, 'loss': 3.1495877826125533, 'categorical_accuracy': 0.46138888886239793, 'val_loss': 1.7551762390136718}
+2018-04-12 15:51:34,258 - epoch: 10 logs: {'val_categorical_accuracy': 0.5111666671435038, 'loss': 3.12420219068174, 'categorical_accuracy': 0.462703703712534, 'val_loss': 1.7571948862075806}
+2018-04-12 15:51:38,171 - F1-score: 0.9678 Intermediary score:  0.9678 
+=================== 
+2018-04-12 15:51:38,172 - ===Default - Fold  0  - Training Round  1  ====== 
+2018-04-12 15:51:43,612 - epoch: 1 logs: {'val_categorical_accuracy': 0.5265611990554248, 'loss': 3.0961427619539155, 'categorical_accuracy': 0.4637096027233323, 'val_loss': 1.7076382321977894}
+2018-04-12 15:51:48,981 - epoch: 2 logs: {'val_categorical_accuracy': 0.5248959201212032, 'loss': 3.154762013531005, 'categorical_accuracy': 0.46078340591617356, 'val_loss': 1.7129566167613846}
+2018-04-12 15:51:54,334 - epoch: 3 logs: {'val_categorical_accuracy': 0.5248959201212032, 'loss': 3.1158920683632494, 'categorical_accuracy': 0.4626724696725659, 'val_loss': 1.7135806560119324}
+2018-04-12 15:51:59,697 - epoch: 4 logs: {'val_categorical_accuracy': 0.5237302248672482, 'loss': 3.1163558174563906, 'categorical_accuracy': 0.4629317529251845, 'val_loss': 1.718305381271464}
+2018-04-12 15:52:05,081 - epoch: 5 logs: {'val_categorical_accuracy': 0.522398001719871, 'loss': 3.11949384370792, 'categorical_accuracy': 0.46282063154989245, 'val_loss': 1.720052634051797}
+2018-04-12 15:52:10,435 - epoch: 6 logs: {'val_categorical_accuracy': 0.5227310575067153, 'loss': 3.1046580932329997, 'categorical_accuracy': 0.46374664319004216, 'val_loss': 1.719827167874669}
+2018-04-12 15:52:15,795 - epoch: 7 logs: {'val_categorical_accuracy': 0.5230641132935596, 'loss': 3.114579717913583, 'categorical_accuracy': 0.46426520978027896, 'val_loss': 1.7195103930593232}
+2018-04-12 15:52:21,152 - epoch: 8 logs: {'val_categorical_accuracy': 0.5222314738264489, 'loss': 3.119798213246244, 'categorical_accuracy': 0.46359848133092985, 'val_loss': 1.722549650929155}
+2018-04-12 15:52:26,517 - epoch: 9 logs: {'val_categorical_accuracy': 0.5230641132935596, 'loss': 3.1133423149304233, 'categorical_accuracy': 0.46520974165654333, 'val_loss': 1.7256861045497542}
+2018-04-12 15:52:31,881 - epoch: 10 logs: {'val_categorical_accuracy': 0.5218984180296787, 'loss': 3.1169399053103968, 'categorical_accuracy': 0.46552458558162946, 'val_loss': 1.7237690362803246}
+2018-04-12 15:52:35,934 - F1-score: 0.9644 Intermediary score:  0.9644 
+=================== 
+2018-04-12 15:52:35,935 - ===Default - Fold  1  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:52:41,380 - epoch: 1 logs: {'val_categorical_accuracy': 0.5236508992217049, 'loss': 3.089374399616132, 'categorical_accuracy': 0.46605304098807493, 'val_loss': 1.7084859256979468}
+2018-04-12 15:52:46,739 - epoch: 2 logs: {'val_categorical_accuracy': 0.5239840104808655, 'loss': 3.1247024470607, 'categorical_accuracy': 0.46610860064812293, 'val_loss': 1.7106235127382323}
+2018-04-12 15:52:52,134 - epoch: 3 logs: {'val_categorical_accuracy': 0.5218187872963218, 'loss': 3.1178050973042883, 'categorical_accuracy': 0.4674235128660504, 'val_loss': 1.71586549274132}
+2018-04-12 15:52:57,477 - epoch: 4 logs: {'val_categorical_accuracy': 0.52065289788926, 'loss': 3.115182288868073, 'categorical_accuracy': 0.46738647306766395, 'val_loss': 1.7149429630232524}
+2018-04-12 15:53:02,873 - epoch: 5 logs: {'val_categorical_accuracy': 0.5184876747047162, 'loss': 3.0870268101674183, 'categorical_accuracy': 0.4696829394505054, 'val_loss': 1.7204307600468656}
+2018-04-12 15:53:08,251 - epoch: 6 logs: {'val_categorical_accuracy': 0.519487008482198, 'loss': 3.0900128979587196, 'categorical_accuracy': 0.4697014594159309, 'val_loss': 1.717154253728385}
+2018-04-12 15:53:13,587 - epoch: 7 logs: {'val_categorical_accuracy': 0.5193204528526176, 'loss': 3.1033335149760632, 'categorical_accuracy': 0.4695718201348248, 'val_loss': 1.7216301050923175}
+2018-04-12 15:53:18,947 - epoch: 8 logs: {'val_categorical_accuracy': 0.5178214521863951, 'loss': 3.096047205274675, 'categorical_accuracy': 0.46975701906714795, 'val_loss': 1.7271909640678798}
+2018-04-12 15:53:24,323 - epoch: 9 logs: {'val_categorical_accuracy': 0.517155229668074, 'loss': 3.079276871615864, 'categorical_accuracy': 0.47231276389298343, 'val_loss': 1.7267537608613657}
+2018-04-12 15:53:29,673 - epoch: 10 logs: {'val_categorical_accuracy': 0.5173217852976543, 'loss': 3.076812697071545, 'categorical_accuracy': 0.47292392031909253, 'val_loss': 1.7282919837664479}
+2018-04-12 15:53:33,631 - F1-score: 0.9613 Intermediary score:  0.9613 
+=================== 
+2018-04-12 15:53:33,632 - ===Default - Fold  2  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:53:39,097 - epoch: 1 logs: {'val_categorical_accuracy': 0.5133288902904304, 'loss': 3.0652407704161213, 'categorical_accuracy': 0.4715730212351504, 'val_loss': 1.7177864134371261}
+2018-04-12 15:53:44,450 - epoch: 2 logs: {'val_categorical_accuracy': 0.5101632788971002, 'loss': 3.092242054958874, 'categorical_accuracy': 0.4737027297638457, 'val_loss': 1.732091860269078}
+2018-04-12 15:53:49,826 - epoch: 3 logs: {'val_categorical_accuracy': 0.5098300565683377, 'loss': 3.0737900402975185, 'categorical_accuracy': 0.4734990184744392, 'val_loss': 1.7257507668857135}
+2018-04-12 15:53:55,188 - epoch: 4 logs: {'val_categorical_accuracy': 0.5099966676979611, 'loss': 3.062225962220318, 'categorical_accuracy': 0.47507315083205104, 'val_loss': 1.7293493231309727}
+2018-04-12 15:54:00,552 - epoch: 5 logs: {'val_categorical_accuracy': 0.5093302232489829, 'loss': 3.0827457291439084, 'categorical_accuracy': 0.4730915959497139, 'val_loss': 1.728232641213737}
+2018-04-12 15:54:05,891 - epoch: 6 logs: {'val_categorical_accuracy': 0.510663112216455, 'loss': 3.080820119691348, 'categorical_accuracy': 0.4754990925059998, 'val_loss': 1.7301300101103843}
+2018-04-12 15:54:11,231 - epoch: 7 logs: {'val_categorical_accuracy': 0.5096634455082298, 'loss': 3.047091995125731, 'categorical_accuracy': 0.47673987921946465, 'val_loss': 1.7351925748064294}
+2018-04-12 15:54:16,582 - epoch: 8 logs: {'val_categorical_accuracy': 0.5074975008231248, 'loss': 3.0744652498288967, 'categorical_accuracy': 0.47662876404043947, 'val_loss': 1.735712043049732}
+2018-04-12 15:54:21,941 - epoch: 9 logs: {'val_categorical_accuracy': 0.5063312229157606, 'loss': 3.0728878890316973, 'categorical_accuracy': 0.47723989782476783, 'val_loss': 1.7408922047108184}
+2018-04-12 15:54:27,298 - epoch: 10 logs: {'val_categorical_accuracy': 0.5059980006565137, 'loss': 3.0842005645060055, 'categorical_accuracy': 0.4769250712812757, 'val_loss': 1.7430947319899588}
+2018-04-12 15:54:31,332 - F1-score: 0.9572 Intermediary score:  0.9572 
+=================== 
+2018-04-12 15:54:31,333 - ===Default - Fold  3  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:54:36,772 - epoch: 1 logs: {'val_categorical_accuracy': 0.5492417927861829, 'loss': 3.0800447310338885, 'categorical_accuracy': 0.4751013907769819, 'val_loss': 1.6181763398053348}
+2018-04-12 15:54:42,104 - epoch: 2 logs: {'val_categorical_accuracy': 0.5467422093834168, 'loss': 3.056926816041259, 'categorical_accuracy': 0.47563843774332815, 'val_loss': 1.6227161890068684}
+2018-04-12 15:54:47,468 - epoch: 3 logs: {'val_categorical_accuracy': 0.5442426259806505, 'loss': 3.073133334598885, 'categorical_accuracy': 0.47560140000936924, 'val_loss': 1.6286111739332965}
+2018-04-12 15:54:52,812 - epoch: 4 logs: {'val_categorical_accuracy': 0.5439093483326694, 'loss': 3.075295420323843, 'categorical_accuracy': 0.4758606641029291, 'val_loss': 1.6312973737676946}
+2018-04-12 15:54:58,141 - epoch: 5 logs: {'val_categorical_accuracy': 0.5429095148325086, 'loss': 3.0597722200369906, 'categorical_accuracy': 0.47704587118120406, 'val_loss': 1.633534605176106}
+2018-04-12 15:55:03,475 - epoch: 6 logs: {'val_categorical_accuracy': 0.5420763203649198, 'loss': 3.048771287783903, 'categorical_accuracy': 0.4784533047073848, 'val_loss': 1.6377822458297089}
+2018-04-12 15:55:08,843 - epoch: 7 logs: {'val_categorical_accuracy': 0.5414097647908488, 'loss': 3.0258732144617455, 'categorical_accuracy': 0.4814533602761111, 'val_loss': 1.6394728563205736}
+2018-04-12 15:55:14,174 - epoch: 8 logs: {'val_categorical_accuracy': 0.5382436258140116, 'loss': 3.045116916656777, 'categorical_accuracy': 0.4783607103940118, 'val_loss': 1.6450113304017724}
+2018-04-12 15:55:19,525 - epoch: 9 logs: {'val_categorical_accuracy': 0.5410764870038134, 'loss': 3.0620570191630776, 'categorical_accuracy': 0.47908294597992923, 'val_loss': 1.642970389037346}
+2018-04-12 15:55:24,876 - epoch: 10 logs: {'val_categorical_accuracy': 0.5390768202816004, 'loss': 3.0509187035716114, 'categorical_accuracy': 0.479768143865002, 'val_loss': 1.6503864297309014}
+2018-04-12 15:55:28,865 - F1-score: 0.9549 Intermediary score:  0.9549 
+=================== 
+2018-04-12 15:55:28,865 - ===Default - Fold  4  - Training Round  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]  ====== 
+2018-04-12 15:55:34,290 - epoch: 1 logs: {'val_categorical_accuracy': 0.5495000004768371, 'loss': 3.0773106417479337, 'categorical_accuracy': 0.4776296296649509, 'val_loss': 1.603723240216573}
+2018-04-12 15:55:39,634 - epoch: 2 logs: {'val_categorical_accuracy': 0.55, 'loss': 3.0674653691185845, 'categorical_accuracy': 0.4799259259435866, 'val_loss': 1.6087204303741456}
+2018-04-12 15:55:44,979 - epoch: 3 logs: {'val_categorical_accuracy': 0.5465, 'loss': 3.061752097800926, 'categorical_accuracy': 0.47962962962962963, 'val_loss': 1.6150582768122355}
+2018-04-12 15:55:50,335 - epoch: 4 logs: {'val_categorical_accuracy': 0.5488333331743876, 'loss': 3.055039644523903, 'categorical_accuracy': 0.4818333333686546, 'val_loss': 1.6153962335586547}
+2018-04-12 15:55:55,673 - epoch: 5 logs: {'val_categorical_accuracy': 0.5465, 'loss': 3.0186920933900057, 'categorical_accuracy': 0.48429629626980536, 'val_loss': 1.617058430035909}
+2018-04-12 15:56:01,043 - epoch: 6 logs: {'val_categorical_accuracy': 0.5460000004768372, 'loss': 3.03539920813949, 'categorical_accuracy': 0.4827962962962963, 'val_loss': 1.6229398886362711}
+2018-04-12 15:56:06,400 - epoch: 7 logs: {'val_categorical_accuracy': 0.5463333338101705, 'loss': 3.006793854042336, 'categorical_accuracy': 0.4862037036507218, 'val_loss': 1.6230603377024333}
+2018-04-12 15:56:11,744 - epoch: 8 logs: {'val_categorical_accuracy': 0.5456666666666666, 'loss': 3.0369446421022768, 'categorical_accuracy': 0.4839999999823394, 'val_loss': 1.62623309135437}
+2018-04-12 15:56:17,097 - epoch: 9 logs: {'val_categorical_accuracy': 0.5438333333333333, 'loss': 3.0275132382710774, 'categorical_accuracy': 0.4866296296472903, 'val_loss': 1.630237164815267}
+2018-04-12 15:56:22,442 - epoch: 10 logs: {'val_categorical_accuracy': 0.5426666661898295, 'loss': 3.0251307954434994, 'categorical_accuracy': 0.4867592592592593, 'val_loss': 1.633004773457845}
+2018-04-12 15:56:26,372 - F1-score: 0.9376 Intermediary score:  0.9376 
+=================== 
+2018-04-12 15:56:26,372 - ===Default - Fold  0  - Training Round  2  ====== 
+2018-04-12 15:56:31,824 - epoch: 1 logs: {'val_categorical_accuracy': 0.5695253955384874, 'loss': 3.04794453816432, 'categorical_accuracy': 0.48391517734779277, 'val_loss': 1.5430985128154961}
+2018-04-12 15:56:37,247 - epoch: 2 logs: {'val_categorical_accuracy': 0.5683597002746065, 'loss': 2.999535312294044, 'categorical_accuracy': 0.4867487730797998, 'val_loss': 1.5448610930121214}
