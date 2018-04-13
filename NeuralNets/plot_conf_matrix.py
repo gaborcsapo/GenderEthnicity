@@ -3,15 +3,21 @@ from sklearn.metrics import confusion_matrix
 import numpy as np
 import itertools
 
-def plot_confusion_matrix(true_class, pred_class, classes=[],
+def plot_confusion_matrix(true_class=None, pred_class=None, classes=[],
                           normalize=False,
                           title='Confusion matrix',
+                          calc=True,
+                          grid=None,
                           cmap=plt.cm.Blues):
     """
     This function prints and plots the confusion matrix.
     Normalization can be applied by setting `normalize=True`.
     """
-    cm = confusion_matrix(true_class, pred_class)
+    if (not calc):
+        cm = grid
+    else:
+        cm = confusion_matrix(true_class, pred_class)
+    
     if normalize:
         cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
 
