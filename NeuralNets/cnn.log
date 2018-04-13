@@ -1893,3 +1893,535 @@ Average model score: 0.98% (+/- 0.00%)
 8    0.994219
 9    1.132522
 dtype: float64 
+2018-04-13 16:14:21,982 - 60000 train samples 
+2018-04-13 16:14:21,983 - 10000 test samples 
+2018-04-13 16:14:21,983 - 30013  elems are true in train 
+2018-04-13 16:14:21,984 - 5006  elems are true in test 
+2018-04-13 16:14:33,463 - ===Dynamic - Fold  0  - Training Round  0  ====== 
+2018-04-13 16:14:41,349 - epoch: 1 logs: {'val_categorical_accuracy': 0.4875936720045679, 'loss': 3.3106259800723463, 'categorical_accuracy': 0.3670154644009228, 'val_loss': 1.8071754264990356}
+2018-04-13 16:14:46,668 - epoch: 2 logs: {'val_categorical_accuracy': 0.4972522898230525, 'loss': 3.209121144229653, 'categorical_accuracy': 0.42996573756111806, 'val_loss': 1.7915878912094332}
+2018-04-13 16:14:51,957 - epoch: 3 logs: {'val_categorical_accuracy': 0.4975853456198226, 'loss': 3.173401720632678, 'categorical_accuracy': 0.43726270952007484, 'val_loss': 1.7901287092753593}
+2018-04-13 16:14:57,259 - epoch: 4 logs: {'val_categorical_accuracy': 0.49958368033096257, 'loss': 3.1932397950323703, 'categorical_accuracy': 0.4391702935661207, 'val_loss': 1.788614316149417}
+2018-04-13 16:15:02,543 - epoch: 5 logs: {'val_categorical_accuracy': 0.5004163197980733, 'loss': 3.1610166750944195, 'categorical_accuracy': 0.4423928141947179, 'val_loss': 1.786350554828342}
+2018-04-13 16:15:07,834 - epoch: 6 logs: {'val_categorical_accuracy': 0.5027477103059834, 'loss': 3.1890655781849855, 'categorical_accuracy': 0.44322622466698897, 'val_loss': 1.7839103499221167}
+2018-04-13 16:15:13,149 - epoch: 7 logs: {'val_categorical_accuracy': 0.5025811824125612, 'loss': 3.186786507332653, 'categorical_accuracy': 0.44537457169807776, 'val_loss': 1.7822483486974368}
+2018-04-13 16:15:18,428 - epoch: 8 logs: {'val_categorical_accuracy': 0.503413821879672, 'loss': 3.170735893113512, 'categorical_accuracy': 0.4456523752022655, 'val_loss': 1.7794285905649025}
+2018-04-13 16:15:23,723 - epoch: 9 logs: {'val_categorical_accuracy': 0.5029142382093313, 'loss': 3.224192184478621, 'categorical_accuracy': 0.4447448837612501, 'val_loss': 1.780981744715415}
+2018-04-13 16:15:29,018 - epoch: 10 logs: {'val_categorical_accuracy': 0.5030807660928277, 'loss': 3.161058325126818, 'categorical_accuracy': 0.44917121957778844, 'val_loss': 1.7812023691690335}
+2018-04-13 16:15:34,304 - epoch: 11 logs: {'val_categorical_accuracy': 0.5027477103059834, 'loss': 3.189840379102615, 'categorical_accuracy': 0.447930363946871, 'val_loss': 1.7801641295494188}
+2018-04-13 16:15:39,597 - epoch: 12 logs: {'val_categorical_accuracy': 0.5044129892501307, 'loss': 3.1764852578689218, 'categorical_accuracy': 0.4497268265298654, 'val_loss': 1.7794045662701279}
+2018-04-13 16:15:44,902 - epoch: 13 logs: {'val_categorical_accuracy': 0.5022481266257169, 'loss': 3.1685084713555143, 'categorical_accuracy': 0.45031947405241807, 'val_loss': 1.783112348823325}
+2018-04-13 16:15:50,191 - epoch: 14 logs: {'val_categorical_accuracy': 0.5030807660928277, 'loss': 3.155514692083444, 'categorical_accuracy': 0.449634225401175, 'val_loss': 1.7822728117141597}
+2018-04-13 16:15:55,475 - epoch: 15 logs: {'val_categorical_accuracy': 0.5029142381994055, 'loss': 3.1689775198496584, 'categorical_accuracy': 0.4508936012864212, 'val_loss': 1.7808488848207396}
+2018-04-13 16:16:00,750 - epoch: 16 logs: {'val_categorical_accuracy': 0.5042464613567086, 'loss': 3.139637767390991, 'categorical_accuracy': 0.45333827205118904, 'val_loss': 1.7795401800085762}
+2018-04-13 16:16:06,058 - epoch: 17 logs: {'val_categorical_accuracy': 0.5047460450270491, 'loss': 3.1302691634291464, 'categorical_accuracy': 0.45128252615927766, 'val_loss': 1.778956443582546}
+2018-04-13 16:16:11,322 - epoch: 18 logs: {'val_categorical_accuracy': 0.5035803497830199, 'loss': 3.1455227275856865, 'categorical_accuracy': 0.45161589035690686, 'val_loss': 1.7800074141388829}
+2018-04-13 16:16:16,611 - epoch: 19 logs: {'val_categorical_accuracy': 0.5024146545290649, 'loss': 3.1371556117916803, 'categorical_accuracy': 0.4527085841408548, 'val_loss': 1.7795338767851323}
+2018-04-13 16:16:21,928 - epoch: 20 logs: {'val_categorical_accuracy': 0.5037468776665163, 'loss': 3.1451922338752243, 'categorical_accuracy': 0.4535790350439593, 'val_loss': 1.7793411943140276}
+2018-04-13 16:16:27,237 - epoch: 21 logs: {'val_categorical_accuracy': 0.5027477103059834, 'loss': 3.1636360915836024, 'categorical_accuracy': 0.4527641448000756, 'val_loss': 1.7816740261525734}
+2018-04-13 16:16:32,518 - epoch: 22 logs: {'val_categorical_accuracy': 0.5020815987322947, 'loss': 3.138718594673751, 'categorical_accuracy': 0.4538012779021729, 'val_loss': 1.7810326674498687}
+2018-04-13 16:16:37,791 - epoch: 23 logs: {'val_categorical_accuracy': 0.5025811824125612, 'loss': 3.1283078944796774, 'categorical_accuracy': 0.45496805261788476, 'val_loss': 1.7819048474174455}
+2018-04-13 16:16:43,089 - epoch: 24 logs: {'val_categorical_accuracy': 0.5012489592651841, 'loss': 3.130094869949937, 'categorical_accuracy': 0.4565793129026542, 'val_loss': 1.7829163455248476}
+2018-04-13 16:16:48,394 - epoch: 25 logs: {'val_categorical_accuracy': 0.5019150708388727, 'loss': 3.1412686822105087, 'categorical_accuracy': 0.45487545145111, 'val_loss': 1.7828441105913262}
+2018-04-13 16:16:53,661 - epoch: 26 logs: {'val_categorical_accuracy': 0.5027477103059834, 'loss': 3.1293555013889933, 'categorical_accuracy': 0.45513473468661825, 'val_loss': 1.7816435604865704}
+2018-04-13 16:16:58,929 - epoch: 27 logs: {'val_categorical_accuracy': 0.5024146545191391, 'loss': 3.140010944849165, 'categorical_accuracy': 0.4563570701023949, 'val_loss': 1.7812511182049728}
+2018-04-13 16:17:04,221 - epoch: 28 logs: {'val_categorical_accuracy': 0.5022481266257169, 'loss': 3.1491111928108104, 'categorical_accuracy': 0.45459764794029894, 'val_loss': 1.78253759380979}
+2018-04-13 16:17:09,507 - epoch: 29 logs: {'val_categorical_accuracy': 0.5027477103059834, 'loss': 3.109336999769906, 'categorical_accuracy': 0.45726456153016365, 'val_loss': 1.7816655008719426}
+2018-04-13 16:17:14,808 - epoch: 30 logs: {'val_categorical_accuracy': 0.503413821879672, 'loss': 3.134659488802321, 'categorical_accuracy': 0.4578757292060391, 'val_loss': 1.780720722824211}
+2018-04-13 16:17:20,111 - epoch: 31 logs: {'val_categorical_accuracy': 0.5012489592651841, 'loss': 3.1173008201409074, 'categorical_accuracy': 0.45711639965559686, 'val_loss': 1.7832699996843426}
+2018-04-13 16:17:25,430 - epoch: 32 logs: {'val_categorical_accuracy': 0.5002497919046511, 'loss': 3.1242708871470346, 'categorical_accuracy': 0.4571534401261704, 'val_loss': 1.784363211561103}
+2018-04-13 16:17:30,711 - epoch: 33 logs: {'val_categorical_accuracy': 0.5007493755849176, 'loss': 3.1324323717096645, 'categorical_accuracy': 0.45706083898036964, 'val_loss': 1.7829940372462276}
+2018-04-13 16:17:35,995 - epoch: 34 logs: {'val_categorical_accuracy': 0.5009159034783397, 'loss': 3.1531455485376343, 'categorical_accuracy': 0.457579405503821, 'val_loss': 1.7830466005426957}
+2018-04-13 16:17:41,293 - epoch: 35 logs: {'val_categorical_accuracy': 0.5014154871586062, 'loss': 3.1390100033551036, 'categorical_accuracy': 0.45776460784399375, 'val_loss': 1.7850495567528235}
+2018-04-13 16:17:46,599 - epoch: 36 logs: {'val_categorical_accuracy': 0.5007493755849176, 'loss': 3.128875401108582, 'categorical_accuracy': 0.4590610241749759, 'val_loss': 1.784661735642661}
+2018-04-13 16:17:51,884 - epoch: 37 logs: {'val_categorical_accuracy': 0.4997502082243847, 'loss': 3.1480524613555025, 'categorical_accuracy': 0.45800537083676396, 'val_loss': 1.7862180981211222}
+2018-04-13 16:17:57,197 - epoch: 38 logs: {'val_categorical_accuracy': 0.5015820150520284, 'loss': 3.1192042957379735, 'categorical_accuracy': 0.45930178722680437, 'val_loss': 1.7852565771534878}
+2018-04-13 16:18:02,489 - epoch: 39 logs: {'val_categorical_accuracy': 0.5009159034783397, 'loss': 3.135726435999813, 'categorical_accuracy': 0.45878322069562577, 'val_loss': 1.7856888921731318}
+2018-04-13 16:18:07,755 - epoch: 40 logs: {'val_categorical_accuracy': 0.5007493755948434, 'loss': 3.1346911237840134, 'categorical_accuracy': 0.4585980183068818, 'val_loss': 1.7855788458991706}
+2018-04-13 16:18:13,072 - epoch: 41 logs: {'val_categorical_accuracy': 0.49941715244746626, 'loss': 3.1286821301816428, 'categorical_accuracy': 0.45843133622766125, 'val_loss': 1.7867917413417742}
+2018-04-13 16:18:18,376 - epoch: 42 logs: {'val_categorical_accuracy': 0.49858451297042966, 'loss': 3.1153024822487323, 'categorical_accuracy': 0.4610426891135975, 'val_loss': 1.788693801667867}
+2018-04-13 16:18:23,670 - epoch: 43 logs: {'val_categorical_accuracy': 0.49858451297042966, 'loss': 3.143226468632625, 'categorical_accuracy': 0.4593203074562957, 'val_loss': 1.7896000843063977}
+2018-04-13 16:18:28,952 - epoch: 44 logs: {'val_categorical_accuracy': 0.4994171524375404, 'loss': 3.1329075126451897, 'categorical_accuracy': 0.46141309382926754, 'val_loss': 1.788706639088957}
+2018-04-13 16:18:34,241 - epoch: 45 logs: {'val_categorical_accuracy': 0.49691923404613403, 'loss': 3.1275132252602833, 'categorical_accuracy': 0.46102416894978776, 'val_loss': 1.791112731616761}
+2018-04-13 16:18:39,545 - epoch: 46 logs: {'val_categorical_accuracy': 0.49808492929016324, 'loss': 3.09799176136292, 'categorical_accuracy': 0.4631169552559742, 'val_loss': 1.7890048868947979}
+2018-04-13 16:18:44,846 - epoch: 47 logs: {'val_categorical_accuracy': 0.49958368033096257, 'loss': 3.1387039813038067, 'categorical_accuracy': 0.4618575793878382, 'val_loss': 1.7895365609812994}
+2018-04-13 16:18:50,123 - epoch: 48 logs: {'val_categorical_accuracy': 0.4979184013967411, 'loss': 3.137531217052623, 'categorical_accuracy': 0.460246319121283, 'val_loss': 1.794092039958722}
+2018-04-13 16:18:55,440 - epoch: 49 logs: {'val_categorical_accuracy': 0.49858451297042966, 'loss': 3.1087765766344795, 'categorical_accuracy': 0.46259838872203585, 'val_loss': 1.7931483447005807}
+2018-04-13 16:19:00,750 - epoch: 50 logs: {'val_categorical_accuracy': 0.4982514571835854, 'loss': 3.1246999560136333, 'categorical_accuracy': 0.4635984813507999, 'val_loss': 1.7937370593700679}
+2018-04-13 16:19:06,033 - epoch: 51 logs: {'val_categorical_accuracy': 0.49658617825928975, 'loss': 3.149813006191146, 'categorical_accuracy': 0.4612278914195496, 'val_loss': 1.7951196218112624}
+2018-04-13 16:19:11,331 - epoch: 52 logs: {'val_categorical_accuracy': 0.49641965035594177, 'loss': 3.1298984009730106, 'categorical_accuracy': 0.4611538105584348, 'val_loss': 1.7935984673448446}
+2018-04-13 16:19:16,640 - epoch: 53 logs: {'val_categorical_accuracy': 0.4969192340362082, 'loss': 3.13797663281456, 'categorical_accuracy': 0.46246874711614855, 'val_loss': 1.7954039195495084}
+2018-04-13 16:19:21,922 - epoch: 54 logs: {'val_categorical_accuracy': 0.4940882598480317, 'loss': 3.1139154985487734, 'categorical_accuracy': 0.4638762848130398, 'val_loss': 1.7959831573881773}
+2018-04-13 16:19:27,215 - epoch: 55 logs: {'val_categorical_accuracy': 0.49675270614278605, 'loss': 3.0842517057627767, 'categorical_accuracy': 0.46569126773039515, 'val_loss': 1.794524075724898}
+2018-04-13 16:19:32,512 - epoch: 56 logs: {'val_categorical_accuracy': 0.49708576192963033, 'loss': 3.1097164184211064, 'categorical_accuracy': 0.4652838225756125, 'val_loss': 1.7992896463154358}
+2018-04-13 16:19:37,822 - epoch: 57 logs: {'val_categorical_accuracy': 0.4952539551218384, 'loss': 3.0856168845018, 'categorical_accuracy': 0.46676544122303376, 'val_loss': 1.7956705507886697}
+2018-04-13 16:19:43,117 - epoch: 58 logs: {'val_categorical_accuracy': 0.49292256460400247, 'loss': 3.1317322723290824, 'categorical_accuracy': 0.465450504654833, 'val_loss': 1.7991871331355456}
+2018-04-13 16:19:48,431 - epoch: 59 logs: {'val_categorical_accuracy': 0.4950874272085646, 'loss': 3.1332501735584817, 'categorical_accuracy': 0.4651356606850393, 'val_loss': 1.8007003677774727}
+2018-04-13 16:19:53,725 - epoch: 60 logs: {'val_categorical_accuracy': 0.49741881772640045, 'loss': 3.10487342877392, 'categorical_accuracy': 0.4667098805439429, 'val_loss': 1.7966721557756944}
+2018-04-13 16:19:59,014 - epoch: 61 logs: {'val_categorical_accuracy': 0.4949208993250683, 'loss': 3.081959779510477, 'categorical_accuracy': 0.4681729789513859, 'val_loss': 1.7987590525172137}
+2018-04-13 16:20:04,298 - epoch: 62 logs: {'val_categorical_accuracy': 0.4950874272184904, 'loss': 3.106606428847731, 'categorical_accuracy': 0.46826558015624486, 'val_loss': 1.7998337911427964}
+2018-04-13 16:20:09,568 - epoch: 63 logs: {'val_categorical_accuracy': 0.4952539551019867, 'loss': 3.1266215402160005, 'categorical_accuracy': 0.46809889806267374, 'val_loss': 1.7997803446057437}
+2018-04-13 16:20:14,857 - epoch: 64 logs: {'val_categorical_accuracy': 0.4944213156448018, 'loss': 3.0801074815575795, 'categorical_accuracy': 0.47076581162494113, 'val_loss': 1.804760504860763}
+2018-04-13 16:20:20,140 - epoch: 65 logs: {'val_categorical_accuracy': 0.4925895088171582, 'loss': 3.0802366785257322, 'categorical_accuracy': 0.4708954532545621, 'val_loss': 1.8023032037344304}
+2018-04-13 16:20:25,473 - epoch: 66 logs: {'val_categorical_accuracy': 0.49325562039084675, 'loss': 3.091546009522763, 'categorical_accuracy': 0.4691545513401717, 'val_loss': 1.8073072453720385}
+2018-04-13 16:20:30,746 - epoch: 67 logs: {'val_categorical_accuracy': 0.49159034144669944, 'loss': 3.1018454276960155, 'categorical_accuracy': 0.470265765372929, 'val_loss': 1.8032047111525524}
+2018-04-13 16:20:36,037 - epoch: 68 logs: {'val_categorical_accuracy': 0.4937552040611874, 'loss': 3.0890613788078753, 'categorical_accuracy': 0.4692286322708317, 'val_loss': 1.8025182557046464}
+2018-04-13 16:20:41,324 - epoch: 69 logs: {'val_categorical_accuracy': 0.4899250625224038, 'loss': 3.0902021929647914, 'categorical_accuracy': 0.4706361700085669, 'val_loss': 1.8046612349477635}
+2018-04-13 16:20:46,600 - epoch: 70 logs: {'val_categorical_accuracy': 0.49475437142172024, 'loss': 3.1044686700935906, 'categorical_accuracy': 0.4705991295181233, 'val_loss': 1.8011221653615108}
+2018-04-13 16:20:51,895 - epoch: 71 logs: {'val_categorical_accuracy': 0.4924229809138102, 'loss': 3.0727403722700006, 'categorical_accuracy': 0.47198814706445147, 'val_loss': 1.8055828968353018}
+2018-04-13 16:20:55,625 - ===Dynamic - Fold  0  - Training Round  0  ====== 
+2018-04-13 16:21:03,646 - epoch: 1 logs: {'val_categorical_accuracy': 0.47893422153669035, 'loss': 3.3011723684087837, 'categorical_accuracy': 0.36047782201724576, 'val_loss': 1.8221570751252123}
+2018-04-13 16:21:08,981 - epoch: 2 logs: {'val_categorical_accuracy': 0.4944213156249501, 'loss': 3.1898704721680593, 'categorical_accuracy': 0.42822483563624064, 'val_loss': 1.7965314562969859}
+2018-04-13 16:21:14,298 - epoch: 3 logs: {'val_categorical_accuracy': 0.495753538792179, 'loss': 3.1821462390488833, 'categorical_accuracy': 0.43633669782473056, 'val_loss': 1.7952286804049935}
+2018-04-13 16:21:19,645 - epoch: 4 logs: {'val_categorical_accuracy': 0.5005828476914954, 'loss': 3.170486211485306, 'categorical_accuracy': 0.44000370401852174, 'val_loss': 1.7872387800883691}
+2018-04-13 16:21:24,993 - epoch: 5 logs: {'val_categorical_accuracy': 0.5004163197980733, 'loss': 3.181558297300617, 'categorical_accuracy': 0.4422446522793071, 'val_loss': 1.7863526310352957}
+2018-04-13 16:21:30,336 - epoch: 6 logs: {'val_categorical_accuracy': 0.5010824313717619, 'loss': 3.15946124464795, 'categorical_accuracy': 0.44415223629002837, 'val_loss': 1.784275391338072}
+2018-04-13 16:21:35,661 - epoch: 7 logs: {'val_categorical_accuracy': 0.5022481266257169, 'loss': 3.151867519805736, 'categorical_accuracy': 0.4468747105970682, 'val_loss': 1.7828628017940094}
+2018-04-13 16:21:41,007 - epoch: 8 logs: {'val_categorical_accuracy': 0.5010824313717619, 'loss': 3.172998261997044, 'categorical_accuracy': 0.44461524215149917, 'val_loss': 1.7839653057619296}
+2018-04-13 16:21:46,333 - epoch: 9 logs: {'val_categorical_accuracy': 0.5025811824125612, 'loss': 3.212118443472207, 'categorical_accuracy': 0.4449300861395071, 'val_loss': 1.7831168720863146}
+2018-04-13 16:21:51,651 - epoch: 10 logs: {'val_categorical_accuracy': 0.5020815987322947, 'loss': 3.1625864582157144, 'categorical_accuracy': 0.44807852577176266, 'val_loss': 1.7819618668584005}
+2018-04-13 16:21:56,954 - epoch: 11 logs: {'val_categorical_accuracy': 0.5037468776665163, 'loss': 3.1665206535534347, 'categorical_accuracy': 0.44817112693467376, 'val_loss': 1.7798009136535047}
+2018-04-13 16:22:02,303 - epoch: 12 logs: {'val_categorical_accuracy': 0.5012489592651841, 'loss': 3.1698348245286025, 'categorical_accuracy': 0.4480229650650745, 'val_loss': 1.7842795079197118}
+2018-04-13 16:22:07,627 - epoch: 13 logs: {'val_categorical_accuracy': 0.5025811824125612, 'loss': 3.151266807551207, 'categorical_accuracy': 0.44961570516782, 'val_loss': 1.780618256097233}
+2018-04-13 16:22:12,973 - epoch: 14 logs: {'val_categorical_accuracy': 0.5025811824125612, 'loss': 3.1294788183884683, 'categorical_accuracy': 0.44952310398393497, 'val_loss': 1.7825839648735116}
+2018-04-13 16:22:18,287 - epoch: 15 logs: {'val_categorical_accuracy': 0.5039134055599385, 'loss': 3.1480318850262847, 'categorical_accuracy': 0.45122696544872587, 'val_loss': 1.7805915220095454}
+2018-04-13 16:22:23,620 - epoch: 16 logs: {'val_categorical_accuracy': 0.5039134055599385, 'loss': 3.1318875518394007, 'categorical_accuracy': 0.4539494397872266, 'val_loss': 1.7798801978561503}
+2018-04-13 16:22:28,962 - epoch: 17 logs: {'val_categorical_accuracy': 0.5027477103059834, 'loss': 3.1210643111627316, 'categorical_accuracy': 0.45230113897668905, 'val_loss': 1.7815303802291718}
+2018-04-13 16:22:34,308 - epoch: 18 logs: {'val_categorical_accuracy': 0.4992506245441183, 'loss': 3.1478563915944693, 'categorical_accuracy': 0.4534864339323792, 'val_loss': 1.783961203830824}
+2018-04-13 16:22:39,626 - epoch: 19 logs: {'val_categorical_accuracy': 0.5024146545191391, 'loss': 3.1759698412685284, 'categorical_accuracy': 0.4512454856688341, 'val_loss': 1.7813929530603503}
+2018-04-13 16:22:44,942 - epoch: 20 logs: {'val_categorical_accuracy': 0.5039134055599385, 'loss': 3.191908766841632, 'categorical_accuracy': 0.4502268728514227, 'val_loss': 1.77959965128982}
+2018-04-13 16:22:50,283 - epoch: 21 logs: {'val_categorical_accuracy': 0.5020815987322947, 'loss': 3.1380746999419675, 'categorical_accuracy': 0.4525048615540804, 'val_loss': 1.7831940179661252}
+2018-04-13 16:22:55,610 - epoch: 22 logs: {'val_categorical_accuracy': 0.5027477103059834, 'loss': 3.123124858429834, 'categorical_accuracy': 0.45472728951196556, 'val_loss': 1.781560767481071}
+2018-04-13 16:23:00,935 - epoch: 23 logs: {'val_categorical_accuracy': 0.5042464613467827, 'loss': 3.1635568324918384, 'categorical_accuracy': 0.4523381794395353, 'val_loss': 1.7804972663707876}
+2018-04-13 16:23:06,281 - epoch: 24 logs: {'val_categorical_accuracy': 0.5024146545191391, 'loss': 3.171916995073692, 'categorical_accuracy': 0.45324567088441436, 'val_loss': 1.7824502853033048}
+2018-04-13 16:23:11,620 - epoch: 25 logs: {'val_categorical_accuracy': 0.5015820150520284, 'loss': 3.1377814935902686, 'categorical_accuracy': 0.45437540515052666, 'val_loss': 1.7818448334907513}
+2018-04-13 16:23:16,958 - epoch: 26 logs: {'val_categorical_accuracy': 0.5025811824125612, 'loss': 3.1266120098665784, 'categorical_accuracy': 0.4545420872507211, 'val_loss': 1.7815819718657089}
+2018-04-13 16:23:22,314 - epoch: 27 logs: {'val_categorical_accuracy': 0.5024146545191391, 'loss': 3.1641872877235246, 'categorical_accuracy': 0.45387535884994323, 'val_loss': 1.7816962314585068}
+2018-04-13 16:23:27,646 - epoch: 28 logs: {'val_categorical_accuracy': 0.5019150708587243, 'loss': 3.1310990134812426, 'categorical_accuracy': 0.45517177518202934, 'val_loss': 1.7834944414357956}
+2018-04-13 16:23:32,965 - epoch: 29 logs: {'val_categorical_accuracy': 0.5007493755849176, 'loss': 3.1538414730165987, 'categorical_accuracy': 0.45594962498183295, 'val_loss': 1.7839449777094947}
+2018-04-13 16:23:38,280 - epoch: 30 logs: {'val_categorical_accuracy': 0.5035803497730941, 'loss': 3.1338663553173802, 'categorical_accuracy': 0.4568200759495151, 'val_loss': 1.7792322059158083}
+2018-04-13 16:23:43,614 - epoch: 31 logs: {'val_categorical_accuracy': 0.5025811824125612, 'loss': 3.130425904880951, 'categorical_accuracy': 0.4576720067125436, 'val_loss': 1.7829339471288168}
+2018-04-13 16:23:48,936 - epoch: 32 logs: {'val_categorical_accuracy': 0.5025811824125612, 'loss': 3.1331377092473254, 'categorical_accuracy': 0.4568385961905973, 'val_loss': 1.7829224681774842}
+2018-04-13 16:23:54,277 - epoch: 33 logs: {'val_categorical_accuracy': 0.5022481266257169, 'loss': 3.0942130849387692, 'categorical_accuracy': 0.45848689698016093, 'val_loss': 1.7837123943705244}
+2018-04-13 16:23:59,594 - epoch: 34 logs: {'val_categorical_accuracy': 0.5017485429454505, 'loss': 3.1406916218870755, 'categorical_accuracy': 0.4580424113062336, 'val_loss': 1.7835706032285286}
+2018-04-13 16:24:04,902 - epoch: 35 logs: {'val_categorical_accuracy': 0.5012489592651841, 'loss': 3.13652315206004, 'categorical_accuracy': 0.4578016482831063, 'val_loss': 1.7859636350833408}
+2018-04-13 16:24:10,241 - epoch: 36 logs: {'val_categorical_accuracy': 0.5019150708388727, 'loss': 3.136593541335989, 'categorical_accuracy': 0.4577460876211258, 'val_loss': 1.7843637476555017}
+2018-04-13 16:24:15,575 - epoch: 37 logs: {'val_categorical_accuracy': 0.5019150708388727, 'loss': 3.1557498283767735, 'categorical_accuracy': 0.45657931290927756, 'val_loss': 1.7841889510246043}
+2018-04-13 16:24:20,904 - epoch: 38 logs: {'val_categorical_accuracy': 0.5009159034783397, 'loss': 3.1233646546748957, 'categorical_accuracy': 0.4601722381735126, 'val_loss': 1.7857070519267073}
+2018-04-13 16:24:26,269 - epoch: 39 logs: {'val_categorical_accuracy': 0.5014154871586062, 'loss': 3.1488735301283315, 'categorical_accuracy': 0.45787572925461034, 'val_loss': 1.7854566110163108}
+2018-04-13 16:24:31,591 - epoch: 40 logs: {'val_categorical_accuracy': 0.5005828476914954, 'loss': 3.134136053040818, 'categorical_accuracy': 0.45830169457320274, 'val_loss': 1.7872588278351973}
+2018-04-13 16:24:36,954 - epoch: 41 logs: {'val_categorical_accuracy': 0.49991673611780685, 'loss': 3.1161573133487175, 'categorical_accuracy': 0.46180201869439674, 'val_loss': 1.787520909249832}
+2018-04-13 16:24:42,277 - epoch: 42 logs: {'val_categorical_accuracy': 0.4992506245441183, 'loss': 3.0966281011420516, 'categorical_accuracy': 0.46357996108984767, 'val_loss': 1.7866703878731454}
+2018-04-13 16:24:47,620 - epoch: 43 logs: {'val_categorical_accuracy': 0.5022481266257169, 'loss': 3.127414438823647, 'categorical_accuracy': 0.46085748678280786, 'val_loss': 1.7861432964259838}
+2018-04-13 16:24:52,969 - epoch: 44 logs: {'val_categorical_accuracy': 0.4972522898230525, 'loss': 3.126242510068526, 'categorical_accuracy': 0.46006111677338296, 'val_loss': 1.7900991251824003}
+2018-04-13 16:24:58,317 - epoch: 45 logs: {'val_categorical_accuracy': 0.4982514571835854, 'loss': 3.1094521498368817, 'categorical_accuracy': 0.461727937771464, 'val_loss': 1.7910632537663926}
+2018-04-13 16:25:03,652 - epoch: 46 logs: {'val_categorical_accuracy': 0.49775187350331895, 'loss': 3.096754779770635, 'categorical_accuracy': 0.462653949428724, 'val_loss': 1.7904008669817477}
+2018-04-13 16:25:08,980 - epoch: 47 logs: {'val_categorical_accuracy': 0.49958368033096257, 'loss': 3.1153691702501036, 'categorical_accuracy': 0.46337623855440424, 'val_loss': 1.7906727399556066}
+2018-04-13 16:25:14,320 - epoch: 48 logs: {'val_categorical_accuracy': 0.49908409665069614, 'loss': 3.1337341884957803, 'categorical_accuracy': 0.46217242339682013, 'val_loss': 1.7926816856335046}
+2018-04-13 16:25:19,658 - epoch: 49 logs: {'val_categorical_accuracy': 0.4992506245441183, 'loss': 3.1376684788521025, 'categorical_accuracy': 0.4624872673390165, 'val_loss': 1.7933856258384393}
+2018-04-13 16:25:24,998 - epoch: 50 logs: {'val_categorical_accuracy': 0.49858451297042966, 'loss': 3.122383956646895, 'categorical_accuracy': 0.46226502458456875, 'val_loss': 1.7931214394517783}
+2018-04-13 16:25:30,317 - epoch: 51 logs: {'val_categorical_accuracy': 0.49442131565472763, 'loss': 3.089586763327205, 'categorical_accuracy': 0.4635799611041983, 'val_loss': 1.796135982446726}
+2018-04-13 16:25:35,656 - epoch: 52 logs: {'val_categorical_accuracy': 0.4980849293000891, 'loss': 3.107911108109518, 'categorical_accuracy': 0.4652097416880043, 'val_loss': 1.7955829958832334}
+2018-04-13 16:25:40,963 - epoch: 53 logs: {'val_categorical_accuracy': 0.4987510408638518, 'loss': 3.1451066272326536, 'categorical_accuracy': 0.46326511716089797, 'val_loss': 1.793914089631677}
+2018-04-13 16:25:46,297 - epoch: 54 logs: {'val_categorical_accuracy': 0.49392173196453537, 'loss': 3.117138938659186, 'categorical_accuracy': 0.46604315216800263, 'val_loss': 1.7967894687342902}
+2018-04-13 16:25:51,633 - epoch: 55 logs: {'val_categorical_accuracy': 0.4962531224625196, 'loss': 3.07193677283424, 'categorical_accuracy': 0.4662468746824721, 'val_loss': 1.7974200501827078}
+2018-04-13 16:25:56,977 - epoch: 56 logs: {'val_categorical_accuracy': 0.49575353878225314, 'loss': 3.1228820465286415, 'categorical_accuracy': 0.4656542272675489, 'val_loss': 1.7997620334633184}
+2018-04-13 16:26:02,329 - epoch: 57 logs: {'val_categorical_accuracy': 0.49641965035594177, 'loss': 3.133006863316316, 'categorical_accuracy': 0.4658209092915748, 'val_loss': 1.7986481957193416}
+2018-04-13 16:26:07,634 - epoch: 58 logs: {'val_categorical_accuracy': 0.4972522898230525, 'loss': 3.0928033633964658, 'categorical_accuracy': 0.4681544587390049, 'val_loss': 1.7985736985885532}
+2018-04-13 16:26:12,954 - epoch: 59 logs: {'val_categorical_accuracy': 0.4960865945690974, 'loss': 3.0969940872167654, 'categorical_accuracy': 0.46846930268892856, 'val_loss': 1.8000450091794766}
+2018-04-13 16:26:18,272 - epoch: 60 logs: {'val_categorical_accuracy': 0.4932556203809209, 'loss': 3.1144925341626895, 'categorical_accuracy': 0.46580238909906385, 'val_loss': 1.8029361291690036}
+2018-04-13 16:26:23,586 - epoch: 61 logs: {'val_categorical_accuracy': 0.49475437142172024, 'loss': 3.0953861843315424, 'categorical_accuracy': 0.46685804243837975, 'val_loss': 1.8008410952470384}
+2018-04-13 16:26:28,921 - epoch: 62 logs: {'val_categorical_accuracy': 0.4950874272085646, 'loss': 3.0783597268818905, 'categorical_accuracy': 0.4704694879359697, 'val_loss': 1.8046157905203815}
+2018-04-13 16:26:34,273 - epoch: 63 logs: {'val_categorical_accuracy': 0.4924229809336619, 'loss': 3.0815278482300252, 'categorical_accuracy': 0.469339753705182, 'val_loss': 1.8055211233556718}
+2018-04-13 16:26:39,608 - epoch: 64 logs: {'val_categorical_accuracy': 0.4937552040611874, 'loss': 3.092716342708073, 'categorical_accuracy': 0.46911751089057213, 'val_loss': 1.8062566649804603}
+2018-04-13 16:26:44,968 - epoch: 65 logs: {'val_categorical_accuracy': 0.49225645302038806, 'loss': 3.075527594908375, 'categorical_accuracy': 0.4713214186217257, 'val_loss': 1.8089335616482585}
+2018-04-13 16:26:50,305 - epoch: 66 logs: {'val_categorical_accuracy': 0.49392173196453537, 'loss': 3.070218957955224, 'categorical_accuracy': 0.4701731641642064, 'val_loss': 1.814623244338786}
+2018-04-13 16:26:55,627 - epoch: 67 logs: {'val_categorical_accuracy': 0.4925895088171582, 'loss': 3.0821511467801983, 'categorical_accuracy': 0.46996944163925, 'val_loss': 1.810420868279634}
+2018-04-13 16:27:00,950 - epoch: 68 logs: {'val_categorical_accuracy': 0.4922564530303139, 'loss': 3.0820999476498767, 'categorical_accuracy': 0.4737290489893289, 'val_loss': 1.8085455800373291}
+2018-04-13 16:27:06,269 - epoch: 69 logs: {'val_categorical_accuracy': 0.49092422986308504, 'loss': 3.063739035829194, 'categorical_accuracy': 0.47267339568147393, 'val_loss': 1.8151380768028722}
+2018-04-13 16:27:11,590 - epoch: 70 logs: {'val_categorical_accuracy': 0.4917568693500474, 'loss': 3.06210327082204, 'categorical_accuracy': 0.4740438929458759, 'val_loss': 1.81308363359437}
+2018-04-13 16:27:16,924 - epoch: 71 logs: {'val_categorical_accuracy': 0.4899250625224038, 'loss': 3.078053719808199, 'categorical_accuracy': 0.473525326408074, 'val_loss': 1.8156061424006034}
+2018-04-13 16:27:22,255 - epoch: 72 logs: {'val_categorical_accuracy': 0.48892589515194507, 'loss': 3.0740735811904156, 'categorical_accuracy': 0.47315492175532575, 'val_loss': 1.814208123169771}
+2018-04-13 16:27:27,571 - epoch: 73 logs: {'val_categorical_accuracy': 0.4892589509487152, 'loss': 3.0806941390909612, 'categorical_accuracy': 0.4750995462509711, 'val_loss': 1.815802988918695}
+2018-04-13 16:27:32,910 - epoch: 74 logs: {'val_categorical_accuracy': 0.48942547883221155, 'loss': 3.0514671275301968, 'categorical_accuracy': 0.4749884248022702, 'val_loss': 1.816502517387333}
+2018-04-13 16:27:38,209 - epoch: 75 logs: {'val_categorical_accuracy': 0.489425478861989, 'loss': 3.058366011756362, 'categorical_accuracy': 0.4779516621390607, 'val_loss': 1.8211966405601723}
+2018-04-13 16:27:43,533 - epoch: 76 logs: {'val_categorical_accuracy': 0.4860949209736944, 'loss': 3.0597227256931037, 'categorical_accuracy': 0.4762478007151138, 'val_loss': 1.8274475717028411}
+2018-04-13 16:27:48,863 - epoch: 77 logs: {'val_categorical_accuracy': 0.4885928393750266, 'loss': 3.050095146781306, 'categorical_accuracy': 0.4765441244830135, 'val_loss': 1.8221579713884937}
+2018-04-13 16:27:54,207 - epoch: 78 logs: {'val_categorical_accuracy': 0.4880932556947602, 'loss': 3.0368545079365936, 'categorical_accuracy': 0.4794147606502695, 'val_loss': 1.8247787821600578}
+2018-04-13 16:27:59,526 - epoch: 79 logs: {'val_categorical_accuracy': 0.48442964204939876, 'loss': 3.07145511943087, 'categorical_accuracy': 0.47819242524497985, 'val_loss': 1.8262787568579109}
+2018-04-13 16:28:04,852 - epoch: 80 logs: {'val_categorical_accuracy': 0.4872606162177236, 'loss': 3.0436901171214714, 'categorical_accuracy': 0.479303639167348, 'val_loss': 1.828479452692996}
+2018-04-13 16:28:10,172 - epoch: 81 logs: {'val_categorical_accuracy': 0.4844296420394729, 'loss': 3.0612237397338826, 'categorical_accuracy': 0.47989628673184853, 'val_loss': 1.832662284562828}
+2018-04-13 16:28:15,504 - epoch: 82 logs: {'val_categorical_accuracy': 0.48343047468886585, 'loss': 3.06030085384211, 'categorical_accuracy': 0.4798962867136343, 'val_loss': 1.8320482054916052}
+2018-04-13 16:28:20,832 - epoch: 83 logs: {'val_categorical_accuracy': 0.48393005838898395, 'loss': 3.0525419206307522, 'categorical_accuracy': 0.48106306140837224, 'val_loss': 1.8377322242023744}
+2018-04-13 16:28:26,174 - epoch: 84 logs: {'val_categorical_accuracy': 0.48343047467894, 'loss': 3.038570105847368, 'categorical_accuracy': 0.4811001018607315, 'val_loss': 1.8313366834964482}
+2018-04-13 16:28:31,491 - epoch: 85 logs: {'val_categorical_accuracy': 0.4847626978263172, 'loss': 3.0536506063751143, 'categorical_accuracy': 0.4816371886109144, 'val_loss': 1.8358014390827913}
+2018-04-13 16:28:36,820 - epoch: 86 logs: {'val_categorical_accuracy': 0.48309741890202157, 'loss': 3.05997082490989, 'categorical_accuracy': 0.4826558015160852, 'val_loss': 1.8371070352422507}
+2018-04-13 16:28:42,175 - epoch: 87 logs: {'val_categorical_accuracy': 0.48076602838418564, 'loss': 3.0023768475192796, 'categorical_accuracy': 0.48443374391043226, 'val_loss': 1.8433772579617147}
+2018-04-13 16:28:47,512 - epoch: 88 logs: {'val_categorical_accuracy': 0.4847626978263172, 'loss': 3.0553141940511015, 'categorical_accuracy': 0.4826928418988993, 'val_loss': 1.8389073595019998}
+2018-04-13 16:28:52,828 - epoch: 89 logs: {'val_categorical_accuracy': 0.4827643631151773, 'loss': 3.0479395666280515, 'categorical_accuracy': 0.4846004259620555, 'val_loss': 1.841972988471699}
+2018-04-13 16:28:58,134 - epoch: 90 logs: {'val_categorical_accuracy': 0.4809325562776078, 'loss': 3.0103412476322453, 'categorical_accuracy': 0.48706361698004835, 'val_loss': 1.844734088943761}
+2018-04-13 16:29:03,453 - epoch: 91 logs: {'val_categorical_accuracy': 0.48176519574471854, 'loss': 3.0042395716519783, 'categorical_accuracy': 0.48623020648293963, 'val_loss': 1.8457868378128637}
+2018-04-13 16:29:08,790 - epoch: 92 logs: {'val_categorical_accuracy': 0.47960033315008227, 'loss': 3.025467966225249, 'categorical_accuracy': 0.4866746920834582, 'val_loss': 1.845712800585757}
+2018-04-13 16:29:14,152 - epoch: 93 logs: {'val_categorical_accuracy': 0.4787676936631199, 'loss': 3.035068182309851, 'categorical_accuracy': 0.48887859987367005, 'val_loss': 1.8548119592428407}
+2018-04-13 16:29:19,456 - epoch: 94 logs: {'val_categorical_accuracy': 0.4827643631151773, 'loss': 3.0351622048567064, 'categorical_accuracy': 0.4884711547282705, 'val_loss': 1.848867110368314}
+2018-04-13 16:29:24,798 - epoch: 95 logs: {'val_categorical_accuracy': 0.4805995004907635, 'loss': 3.0050922312419917, 'categorical_accuracy': 0.4911751087820853, 'val_loss': 1.8552148841005083}
+2018-04-13 16:29:30,107 - epoch: 96 logs: {'val_categorical_accuracy': 0.4827643630853998, 'loss': 3.026486835546853, 'categorical_accuracy': 0.4895453282810712, 'val_loss': 1.849839154607946}
+2018-04-13 16:29:35,442 - epoch: 97 logs: {'val_categorical_accuracy': 0.47993338891707493, 'loss': 2.977108481005614, 'categorical_accuracy': 0.4926196870047446, 'val_loss': 1.859247171253487}
+2018-04-13 16:29:40,753 - epoch: 98 logs: {'val_categorical_accuracy': 0.4752706079111806, 'loss': 3.0113743598399996, 'categorical_accuracy': 0.49239744419013476, 'val_loss': 1.8642827392120742}
+2018-04-13 16:29:46,076 - epoch: 99 logs: {'val_categorical_accuracy': 0.47760199843894235, 'loss': 2.9858828968157956, 'categorical_accuracy': 0.4918047967437506, 'val_loss': 1.8555989162411717}
+2018-04-13 16:29:51,406 - epoch: 100 logs: {'val_categorical_accuracy': 0.4761032473683655, 'loss': 2.9583862270113603, 'categorical_accuracy': 0.49391610336332414, 'val_loss': 1.8590817801064992}
+2018-04-13 16:29:56,736 - epoch: 101 logs: {'val_categorical_accuracy': 0.47876769368297156, 'loss': 2.997550487156234, 'categorical_accuracy': 0.49437910917346395, 'val_loss': 1.8650048493346405}
+2018-04-13 16:30:02,092 - epoch: 102 logs: {'val_categorical_accuracy': 0.4764363031552098, 'loss': 2.999837511059796, 'categorical_accuracy': 0.4942309472856505, 'val_loss': 1.860437403928231}
+2018-04-13 16:30:07,403 - epoch: 103 logs: {'val_categorical_accuracy': 0.47976686102365274, 'loss': 2.9542664597129167, 'categorical_accuracy': 0.49702750257081774, 'val_loss': 1.864358637056978}
+2018-04-13 16:30:12,712 - epoch: 104 logs: {'val_categorical_accuracy': 0.4769358868354762, 'loss': 2.9904590460269227, 'categorical_accuracy': 0.4965089360263924, 'val_loss': 1.8672800604449422}
+2018-04-13 16:30:18,027 - epoch: 105 logs: {'val_categorical_accuracy': 0.47560366369802487, 'loss': 2.9728142867144394, 'categorical_accuracy': 0.4965830168941306, 'val_loss': 1.8773861378059102}
+2018-04-13 16:30:23,356 - epoch: 106 logs: {'val_categorical_accuracy': 0.47077435479870844, 'loss': 2.9639020881693456, 'categorical_accuracy': 0.49810167609105366, 'val_loss': 1.8685127717072918}
+2018-04-13 16:30:28,703 - epoch: 107 logs: {'val_categorical_accuracy': 0.4756036636781732, 'loss': 2.9493680987052096, 'categorical_accuracy': 0.4987313640394722, 'val_loss': 1.8771471015420385}
+2018-04-13 16:30:34,009 - epoch: 108 logs: {'val_categorical_accuracy': 0.4781015820795054, 'loss': 2.9456432861976682, 'categorical_accuracy': 0.5015649597361547, 'val_loss': 1.8754739061382588}
+2018-04-13 16:30:39,357 - epoch: 109 logs: {'val_categorical_accuracy': 0.4767693589420541, 'loss': 2.9365547062898303, 'categorical_accuracy': 0.5029724974645068, 'val_loss': 1.8847660004348183}
+2018-04-13 16:30:44,687 - epoch: 110 logs: {'val_categorical_accuracy': 0.47460449631764035, 'loss': 2.9626710605683155, 'categorical_accuracy': 0.5011575146051057, 'val_loss': 1.8790726537410662}
+2018-04-13 16:30:50,040 - epoch: 111 logs: {'val_categorical_accuracy': 0.46844296427094667, 'loss': 2.9536766682126827, 'categorical_accuracy': 0.5015464394332546, 'val_loss': 1.890015970816918}
+2018-04-13 16:30:55,357 - epoch: 112 logs: {'val_categorical_accuracy': 0.47027477109859034, 'loss': 2.924239188378051, 'categorical_accuracy': 0.5040837114304787, 'val_loss': 1.8819438115444707}
+2018-04-13 16:31:00,694 - epoch: 113 logs: {'val_categorical_accuracy': 0.4729392173834189, 'loss': 2.9398368925747578, 'categorical_accuracy': 0.5046393184454775, 'val_loss': 1.8991433396923056}
+2018-04-13 16:31:06,009 - epoch: 114 logs: {'val_categorical_accuracy': 0.473272273180189, 'loss': 2.939751810704749, 'categorical_accuracy': 0.5050097231677709, 'val_loss': 1.888009639346133}
+2018-04-13 16:31:11,313 - epoch: 115 logs: {'val_categorical_accuracy': 0.46794338059068025, 'loss': 2.9634220622603413, 'categorical_accuracy': 0.503972590072297, 'val_loss': 1.8864424398201491}
+2018-04-13 16:31:16,643 - epoch: 116 logs: {'val_categorical_accuracy': 0.4726061616065004, 'loss': 2.921392327558664, 'categorical_accuracy': 0.5058801740935052, 'val_loss': 1.8945358634491347}
+2018-04-13 16:31:21,956 - epoch: 117 logs: {'val_categorical_accuracy': 0.47343880107361114, 'loss': 2.8894367170241138, 'categorical_accuracy': 0.5081026021038253, 'val_loss': 1.9019514066392833}
+2018-04-13 16:31:27,279 - epoch: 118 logs: {'val_categorical_accuracy': 0.4711074105557752, 'loss': 2.939296969445461, 'categorical_accuracy': 0.5079544402160118, 'val_loss': 1.9103466830781655}
+2018-04-13 16:31:32,602 - epoch: 119 logs: {'val_categorical_accuracy': 0.46944213162155374, 'loss': 2.9373846053988837, 'categorical_accuracy': 0.5085841281423525, 'val_loss': 1.8897018586467644}
+2018-04-13 16:31:37,938 - epoch: 120 logs: {'val_categorical_accuracy': 0.46977518741832386, 'loss': 2.941092878501165, 'categorical_accuracy': 0.5065654226724434, 'val_loss': 1.896643637578553}
+2018-04-13 16:31:43,282 - epoch: 121 logs: {'val_categorical_accuracy': 0.4681099084940282, 'loss': 2.9048898723746066, 'categorical_accuracy': 0.5085841281357292, 'val_loss': 1.8871842515756447}
+2018-04-13 16:31:48,593 - epoch: 122 logs: {'val_categorical_accuracy': 0.46427976693539297, 'loss': 2.930665449319432, 'categorical_accuracy': 0.5108621168450102, 'val_loss': 1.8993760842268512}
+2018-04-13 16:31:53,905 - epoch: 123 logs: {'val_categorical_accuracy': 0.46477935063551107, 'loss': 2.891935709854311, 'categorical_accuracy': 0.5129734234789343, 'val_loss': 1.9013146711725875}
+2018-04-13 16:31:59,244 - epoch: 124 logs: {'val_categorical_accuracy': 0.4707743547689309, 'loss': 2.892144564622331, 'categorical_accuracy': 0.5137697934894631, 'val_loss': 1.927747385825444}
+2018-04-13 16:32:04,592 - epoch: 125 logs: {'val_categorical_accuracy': 0.46544546219927385, 'loss': 2.8749061392086372, 'categorical_accuracy': 0.5124918973603749, 'val_loss': 1.9047273911008429}
+2018-04-13 16:32:09,937 - epoch: 126 logs: {'val_categorical_accuracy': 0.46910907585456113, 'loss': 2.917813801776481, 'categorical_accuracy': 0.5145291230912362, 'val_loss': 1.920594481802503}
+2018-04-13 16:32:15,258 - epoch: 127 logs: {'val_categorical_accuracy': 0.4694421316314796, 'loss': 2.8975387944061564, 'categorical_accuracy': 0.5188628576896689, 'val_loss': 1.9406252991249917}
+2018-04-13 16:32:20,603 - epoch: 128 logs: {'val_categorical_accuracy': 0.45911740223930636, 'loss': 2.8937419161110833, 'categorical_accuracy': 0.5159366607737769, 'val_loss': 1.8949586973301478}
+2018-04-13 16:32:25,935 - epoch: 129 logs: {'val_categorical_accuracy': 0.4644462948288151, 'loss': 2.905548062992599, 'categorical_accuracy': 0.5153625335922086, 'val_loss': 1.9052202463745576}
+2018-04-13 16:32:31,267 - epoch: 130 logs: {'val_categorical_accuracy': 0.46061615328010574, 'loss': 2.8865186914005414, 'categorical_accuracy': 0.5177701639283508, 'val_loss': 1.910768756937921}
+2018-04-13 16:32:36,633 - epoch: 131 logs: {'val_categorical_accuracy': 0.4641132390419708, 'loss': 2.8952962735481025, 'categorical_accuracy': 0.5178998055342381, 'val_loss': 1.9395681814786099}
+2018-04-13 16:32:41,960 - epoch: 132 logs: {'val_categorical_accuracy': 0.4602830975131131, 'loss': 2.894451570298917, 'categorical_accuracy': 0.5188998981105672, 'val_loss': 1.9092186783870788}
+2018-04-13 16:32:47,310 - epoch: 133 logs: {'val_categorical_accuracy': 0.46361365535177856, 'loss': 2.8565198307026756, 'categorical_accuracy': 0.5209000832891671, 'val_loss': 1.924559791915919}
+2018-04-13 16:32:52,621 - epoch: 134 logs: {'val_categorical_accuracy': 0.4664446295399551, 'loss': 2.9111851662218, 'categorical_accuracy': 0.5193443837226768, 'val_loss': 1.9262872863470961}
+2018-04-13 16:32:57,915 - epoch: 135 logs: {'val_categorical_accuracy': 0.46694421323014734, 'loss': 2.9010790086077347, 'categorical_accuracy': 0.5184554124863151, 'val_loss': 1.9442880902461068}
+2018-04-13 16:33:03,283 - epoch: 136 logs: {'val_categorical_accuracy': 0.473105745276841, 'loss': 2.897695743976914, 'categorical_accuracy': 0.5188443374496906, 'val_loss': 1.9769275920972738}
+2018-04-13 16:33:08,604 - epoch: 137 logs: {'val_categorical_accuracy': 0.4609492090868017, 'loss': 2.8852727819277253, 'categorical_accuracy': 0.5212519678200536, 'val_loss': 1.9262782414489543}
+2018-04-13 16:33:13,912 - epoch: 138 logs: {'val_categorical_accuracy': 0.46444629480896343, 'loss': 2.841671008822631, 'categorical_accuracy': 0.5235484767008716, 'val_loss': 1.9574522342014868}
+2018-04-13 16:33:19,251 - epoch: 139 logs: {'val_categorical_accuracy': 0.46411323905189666, 'loss': 2.8552213026490607, 'categorical_accuracy': 0.522826187558081, 'val_loss': 1.9319214992777294}
+2018-04-13 16:33:24,574 - epoch: 140 logs: {'val_categorical_accuracy': 0.46411323905189666, 'loss': 2.9020590181250916, 'categorical_accuracy': 0.5230113899573119, 'val_loss': 1.9508614306247403}
+2018-04-13 16:33:29,913 - epoch: 141 logs: {'val_categorical_accuracy': 0.4599500417262688, 'loss': 2.8409771704477276, 'categorical_accuracy': 0.525474581004006, 'val_loss': 1.9508026006716077}
+2018-04-13 16:33:35,281 - epoch: 142 logs: {'val_categorical_accuracy': 0.4602830975131131, 'loss': 2.9048363985160024, 'categorical_accuracy': 0.5249930548815829, 'val_loss': 1.9682367628162647}
+2018-04-13 16:33:40,593 - epoch: 143 logs: {'val_categorical_accuracy': 0.4587843464623879, 'loss': 2.868040202597643, 'categorical_accuracy': 0.5273080840233532, 'val_loss': 1.9497800647567254}
+2018-04-13 16:33:45,908 - epoch: 144 logs: {'val_categorical_accuracy': 0.4586178185689658, 'loss': 2.8629233295160903, 'categorical_accuracy': 0.5269191591808537, 'val_loss': 1.9361042659546712}
+2018-04-13 16:33:51,241 - epoch: 145 logs: {'val_categorical_accuracy': 0.4416319734696842, 'loss': 2.856218602637669, 'categorical_accuracy': 0.5276784887417829, 'val_loss': 1.929898933963315}
+2018-04-13 16:33:56,547 - epoch: 146 logs: {'val_categorical_accuracy': 0.46344712748813394, 'loss': 2.859401854763142, 'categorical_accuracy': 0.526882118753332, 'val_loss': 1.9777233241301195}
+2018-04-13 16:34:01,871 - epoch: 147 logs: {'val_categorical_accuracy': 0.45628642808090736, 'loss': 2.8377369317205674, 'categorical_accuracy': 0.5287156218306336, 'val_loss': 1.9328600977183779}
+2018-04-13 16:34:07,216 - epoch: 148 logs: {'val_categorical_accuracy': 0.46511240641242957, 'loss': 2.8430405337475597, 'categorical_accuracy': 0.5319937031383216, 'val_loss': 1.964926329897802}
+2018-04-13 16:34:12,531 - epoch: 149 logs: {'val_categorical_accuracy': 0.46228143222425305, 'loss': 2.875206627273065, 'categorical_accuracy': 0.5286785812982421, 'val_loss': 1.9675876379211579}
+2018-04-13 16:34:17,820 - epoch: 150 logs: {'val_categorical_accuracy': 0.47077435477885676, 'loss': 2.8365325920161677, 'categorical_accuracy': 0.530993610544882, 'val_loss': 2.0213097303932055}
+2018-04-13 16:34:23,829 - 
+Average score: 0.89% (+/- 0.00%) 
+2018-04-13 16:34:23,829 - 
+Average Intermediary model score: 0.89% (+/- 0.00%) 
+2018-04-13 16:34:23,830 - [0.8888] 
+
+ 
+2018-04-13 16:41:46,677 - 
+Average Intermediary score: 0.89% (+/- 0.00%) 
+2018-04-13 16:41:46,678 - 
+Average model score: 0.89% (+/- 0.00%) 
+2018-04-13 16:41:46,678 - [0.8888] 
+
+ 
+2018-04-13 16:41:46,817 - 0    4.719823
+1    4.719830
+2    4.719829
+3    4.719835
+4    4.719843
+5    4.719825
+6    4.719835
+7    4.719824
+8    4.719812
+9    4.719825
+dtype: float32 
+2018-04-13 16:42:49,263 - 60000 train samples 
+2018-04-13 16:42:49,264 - 10000 test samples 
+2018-04-13 16:42:49,265 - 30013  elems are true in train 
+2018-04-13 16:42:49,265 - 5006  elems are true in test 
+2018-04-13 16:42:57,892 - ===Dynamic - Fold  0  - Training Round  0  ====== 
+2018-04-13 16:43:05,970 - epoch: 1 logs: {'val_categorical_accuracy': 0.48043297259734136, 'loss': 3.251996292323026, 'categorical_accuracy': 0.3681081581346436, 'val_loss': 1.81398963290984}
+2018-04-13 16:43:11,283 - epoch: 2 logs: {'val_categorical_accuracy': 0.4915903414367736, 'loss': 3.1922144030871156, 'categorical_accuracy': 0.42802111307595964, 'val_loss': 1.7994038657284497}
+2018-04-13 16:43:16,590 - epoch: 3 logs: {'val_categorical_accuracy': 0.4965861782493639, 'loss': 3.200602400507107, 'categorical_accuracy': 0.43592925273176586, 'val_loss': 1.7931627689055063}
+2018-04-13 16:43:21,866 - epoch: 4 logs: {'val_categorical_accuracy': 0.4972522898329783, 'loss': 3.188342651189152, 'categorical_accuracy': 0.4402815075254692, 'val_loss': 1.7903258452705302}
+2018-04-13 16:43:27,162 - epoch: 5 logs: {'val_categorical_accuracy': 0.5014154871586062, 'loss': 3.1552935539345928, 'categorical_accuracy': 0.44192980831889644, 'val_loss': 1.7838515800202914}
+2018-04-13 16:43:32,451 - epoch: 6 logs: {'val_categorical_accuracy': 0.5002497919046511, 'loss': 3.177652461551518, 'categorical_accuracy': 0.443300305608136, 'val_loss': 1.7853251967997872}
+2018-04-13 16:43:37,751 - epoch: 7 logs: {'val_categorical_accuracy': 0.5019150708388727, 'loss': 3.1539755183575893, 'categorical_accuracy': 0.44478192422409635, 'val_loss': 1.7838731431444916}
+2018-04-13 16:43:43,065 - epoch: 8 logs: {'val_categorical_accuracy': 0.5022481266257169, 'loss': 3.158714120270356, 'categorical_accuracy': 0.4460968608094074, 'val_loss': 1.7827427010452817}
+2018-04-13 16:43:48,383 - epoch: 9 logs: {'val_categorical_accuracy': 0.5027477103159093, 'loss': 3.1603553662069177, 'categorical_accuracy': 0.44770812109804053, 'val_loss': 1.7825016170616055}
+2018-04-13 16:43:53,670 - epoch: 10 logs: {'val_categorical_accuracy': 0.5019150708388727, 'loss': 3.1426307999852607, 'categorical_accuracy': 0.4478562829819904, 'val_loss': 1.7818972988589221}
+2018-04-13 16:43:58,999 - epoch: 11 logs: {'val_categorical_accuracy': 0.5027477103059834, 'loss': 3.1776149623956336, 'categorical_accuracy': 0.44767108064457733, 'val_loss': 1.7817575546029605}
+2018-04-13 16:44:04,318 - epoch: 12 logs: {'val_categorical_accuracy': 0.5017485429454505, 'loss': 3.1576591082067003, 'categorical_accuracy': 0.44831928885008454, 'val_loss': 1.7824059049056828}
+2018-04-13 16:44:09,619 - epoch: 13 logs: {'val_categorical_accuracy': 0.5012489592651841, 'loss': 3.175256971483242, 'categorical_accuracy': 0.4484489304532121, 'val_loss': 1.782512672656184}
+2018-04-13 16:44:14,928 - epoch: 14 logs: {'val_categorical_accuracy': 0.5035803497730941, 'loss': 3.176243953835535, 'categorical_accuracy': 0.4490786183652022, 'val_loss': 1.7810493950045774}
+2018-04-13 16:44:20,221 - epoch: 15 logs: {'val_categorical_accuracy': 0.5019150708388727, 'loss': 3.1726647030877806, 'categorical_accuracy': 0.4472080748145675, 'val_loss': 1.7834221811318378}
+2018-04-13 16:44:25,537 - epoch: 16 logs: {'val_categorical_accuracy': 0.5009159034783397, 'loss': 3.1504891562830553, 'categorical_accuracy': 0.45096768218562033, 'val_loss': 1.7842030719555386}
+2018-04-13 16:44:30,842 - epoch: 17 logs: {'val_categorical_accuracy': 0.5030807660928277, 'loss': 3.172198100182312, 'categorical_accuracy': 0.4503750347011519, 'val_loss': 1.7828058019268027}
+2018-04-13 16:44:36,154 - epoch: 18 logs: {'val_categorical_accuracy': 0.5025811824125612, 'loss': 3.137029330453803, 'categorical_accuracy': 0.45170849155017495, 'val_loss': 1.7814902971428102}
+2018-04-13 16:44:41,481 - epoch: 19 logs: {'val_categorical_accuracy': 0.5035803497730941, 'loss': 3.170061914350536, 'categorical_accuracy': 0.45085656080922437, 'val_loss': 1.7792246787573873}
+2018-04-13 16:44:46,770 - epoch: 20 logs: {'val_categorical_accuracy': 0.5012489592651841, 'loss': 3.1275748227964852, 'categorical_accuracy': 0.45256042227511917, 'val_loss': 1.7848621127408906}
+2018-04-13 16:44:52,077 - epoch: 21 logs: {'val_categorical_accuracy': 0.5024146545191391, 'loss': 3.1480089805271683, 'categorical_accuracy': 0.45317158995761797, 'val_loss': 1.7821208794647014}
+2018-04-13 16:44:57,392 - epoch: 22 logs: {'val_categorical_accuracy': 0.5044129892402048, 'loss': 3.1623523467712373, 'categorical_accuracy': 0.4532827113549879, 'val_loss': 1.7803365509277775}
+2018-04-13 16:45:02,723 - epoch: 23 logs: {'val_categorical_accuracy': 0.5022481266257169, 'loss': 3.1555162336773557, 'categorical_accuracy': 0.4542272432351159, 'val_loss': 1.782869931621218}
+2018-04-13 16:45:08,062 - epoch: 24 logs: {'val_categorical_accuracy': 0.5009159034783397, 'loss': 3.131352563486771, 'categorical_accuracy': 0.4545976479480262, 'val_loss': 1.7841277181258508}
+2018-04-13 16:45:13,354 - epoch: 25 logs: {'val_categorical_accuracy': 0.4994171524375404, 'loss': 3.127651990017457, 'categorical_accuracy': 0.45469024910321004, 'val_loss': 1.7856556813980915}
+2018-04-13 16:45:18,671 - epoch: 26 logs: {'val_categorical_accuracy': 0.5030807660928277, 'loss': 3.160424725759227, 'categorical_accuracy': 0.4537086767249112, 'val_loss': 1.7835773198828908}
+2018-04-13 16:45:23,985 - epoch: 27 logs: {'val_categorical_accuracy': 0.5035803497730941, 'loss': 3.124385671728639, 'categorical_accuracy': 0.45561626076157397, 'val_loss': 1.782741862867992}
+2018-04-13 16:45:29,296 - epoch: 28 logs: {'val_categorical_accuracy': 0.5012489592651841, 'loss': 3.167069172313869, 'categorical_accuracy': 0.4550791739799301, 'val_loss': 1.7839512446242307}
+2018-04-13 16:45:34,591 - epoch: 29 logs: {'val_categorical_accuracy': 0.5002497919046511, 'loss': 3.134676243100015, 'categorical_accuracy': 0.4562089082079581, 'val_loss': 1.7873980258327042}
+2018-04-13 16:45:39,901 - epoch: 30 logs: {'val_categorical_accuracy': 0.5020815987422206, 'loss': 3.1180697433020583, 'categorical_accuracy': 0.4572275210910511, 'val_loss': 1.7839700237301168}
+2018-04-13 16:45:45,197 - epoch: 31 logs: {'val_categorical_accuracy': 0.5017485429454505, 'loss': 3.138047665058987, 'categorical_accuracy': 0.4568571163847641, 'val_loss': 1.7833911005007437}
+2018-04-13 16:45:50,453 - epoch: 32 logs: {'val_categorical_accuracy': 0.5015820150520284, 'loss': 3.1396605799182473, 'categorical_accuracy': 0.4554866191071154, 'val_loss': 1.784708780094944}
+2018-04-13 16:45:55,737 - epoch: 33 logs: {'val_categorical_accuracy': 0.5002497919046511, 'loss': 3.141280859246807, 'categorical_accuracy': 0.45696823778489376, 'val_loss': 1.7859594399486354}
+2018-04-13 16:46:01,034 - epoch: 34 logs: {'val_categorical_accuracy': 0.4992506245441183, 'loss': 3.1352851437467018, 'categorical_accuracy': 0.45687563660487235, 'val_loss': 1.7865850792439355}
+2018-04-13 16:46:06,344 - epoch: 35 logs: {'val_categorical_accuracy': 0.5005828476914954, 'loss': 3.138250218811869, 'categorical_accuracy': 0.4579312899375648, 'val_loss': 1.7849206479363993}
+2018-04-13 16:46:11,630 - epoch: 36 logs: {'val_categorical_accuracy': 0.5005828476914954, 'loss': 3.138681043467154, 'categorical_accuracy': 0.4584498564781265, 'val_loss': 1.786235462477761}
+2018-04-13 16:46:16,922 - epoch: 37 logs: {'val_categorical_accuracy': 0.5007493755849176, 'loss': 3.126921315550396, 'categorical_accuracy': 0.4585794980801502, 'val_loss': 1.7846931330270315}
+2018-04-13 16:46:22,195 - epoch: 38 logs: {'val_categorical_accuracy': 0.4997502082243847, 'loss': 3.1310639197279517, 'categorical_accuracy': 0.4581720529711791, 'val_loss': 1.7857196268491404}
+2018-04-13 16:46:27,492 - epoch: 39 logs: {'val_categorical_accuracy': 0.49941715244746626, 'loss': 3.126438533514669, 'categorical_accuracy': 0.45863505882878625, 'val_loss': 1.786135639239112}
+2018-04-13 16:46:32,795 - epoch: 40 logs: {'val_categorical_accuracy': 0.49891756875727394, 'loss': 3.1112957068643854, 'categorical_accuracy': 0.45963515142056993, 'val_loss': 1.7896465992153336}
+2018-04-13 16:46:38,082 - epoch: 41 logs: {'val_categorical_accuracy': 0.49908409665069614, 'loss': 3.167960506263116, 'categorical_accuracy': 0.45798685058243505, 'val_loss': 1.7855645113840986}
+2018-04-13 16:46:43,364 - epoch: 42 logs: {'val_categorical_accuracy': 0.49808492929016324, 'loss': 3.1349938407607936, 'categorical_accuracy': 0.45876470045288775, 'val_loss': 1.7889756016886105}
+2018-04-13 16:46:48,634 - epoch: 43 logs: {'val_categorical_accuracy': 0.4974188177164746, 'loss': 3.135328585744533, 'categorical_accuracy': 0.4608204463199616, 'val_loss': 1.788955417044653}
+2018-04-13 16:46:53,959 - epoch: 44 logs: {'val_categorical_accuracy': 0.4974188177164746, 'loss': 3.086128975018405, 'categorical_accuracy': 0.4628021113021869, 'val_loss': 1.7915475603543551}
+2018-04-13 16:46:59,250 - epoch: 45 logs: {'val_categorical_accuracy': 0.4982514571835854, 'loss': 3.1491614195006523, 'categorical_accuracy': 0.45957959069566756, 'val_loss': 1.7888647684348216}
+2018-04-13 16:47:04,534 - epoch: 46 logs: {'val_categorical_accuracy': 0.4980849293000891, 'loss': 3.1017132949405206, 'categorical_accuracy': 0.4634503194707137, 'val_loss': 1.7913470995813285}
+2018-04-13 16:47:09,813 - epoch: 47 logs: {'val_categorical_accuracy': 0.49891756875727394, 'loss': 3.100294032645718, 'categorical_accuracy': 0.46324659687621206, 'val_loss': 1.7891666916387465}
+2018-04-13 16:47:15,127 - epoch: 48 logs: {'val_categorical_accuracy': 0.4974188177164746, 'loss': 3.1162974786842317, 'categorical_accuracy': 0.4622650245321339, 'val_loss': 1.7923520320857396}
+2018-04-13 16:47:20,412 - epoch: 49 logs: {'val_categorical_accuracy': 0.49608659457902327, 'loss': 3.109734754843208, 'categorical_accuracy': 0.46328363737051925, 'val_loss': 1.7939287993830506}
+2018-04-13 16:47:25,707 - epoch: 50 logs: {'val_categorical_accuracy': 0.49458784353822394, 'loss': 3.1225594485553394, 'categorical_accuracy': 0.46276507078800966, 'val_loss': 1.7938226201949172}
+2018-04-13 16:47:30,998 - epoch: 51 logs: {'val_categorical_accuracy': 0.49675270614278605, 'loss': 3.109451853631768, 'categorical_accuracy': 0.46306139455204576, 'val_loss': 1.7916881271444887}
+2018-04-13 16:47:36,305 - epoch: 52 logs: {'val_categorical_accuracy': 0.4972522898230525, 'loss': 3.0918770322182385, 'categorical_accuracy': 0.46532086303845877, 'val_loss': 1.7936536201926492}
+2018-04-13 16:47:41,599 - epoch: 53 logs: {'val_categorical_accuracy': 0.4959200666856011, 'loss': 3.098246478932866, 'categorical_accuracy': 0.46413556808000894, 'val_loss': 1.7964309007897166}
+2018-04-13 16:47:46,913 - epoch: 54 logs: {'val_categorical_accuracy': 0.4944213156448018, 'loss': 3.1287364320298434, 'categorical_accuracy': 0.4642652097554414, 'val_loss': 1.7964314761507223}
+2018-04-13 16:47:52,203 - epoch: 55 logs: {'val_categorical_accuracy': 0.4950874272184904, 'loss': 3.091736935902463, 'categorical_accuracy': 0.46496897862568887, 'val_loss': 1.7982419265497733}
+2018-04-13 16:47:57,516 - epoch: 56 logs: {'val_categorical_accuracy': 0.4959200666856011, 'loss': 3.12692496842152, 'categorical_accuracy': 0.4657097879676137, 'val_loss': 1.8023757525625872}
+2018-04-13 16:48:02,818 - epoch: 57 logs: {'val_categorical_accuracy': 0.49475437142172024, 'loss': 3.114283566722628, 'categorical_accuracy': 0.46546902495497344, 'val_loss': 1.8008226580862003}
+2018-04-13 16:48:08,135 - epoch: 58 logs: {'val_categorical_accuracy': 0.4927560367105803, 'loss': 3.0963673460029852, 'categorical_accuracy': 0.4667654412202741, 'val_loss': 1.8041639567017058}
+2018-04-13 16:48:13,438 - epoch: 59 logs: {'val_categorical_accuracy': 0.49492089931514244, 'loss': 3.0913486127025918, 'categorical_accuracy': 0.46598759145745083, 'val_loss': 1.802324563855434}
+2018-04-13 16:48:18,738 - epoch: 60 logs: {'val_categorical_accuracy': 0.4950874272184904, 'loss': 3.114287031631865, 'categorical_accuracy': 0.46500601910012596, 'val_loss': 1.8034226003634146}
+2018-04-13 16:48:24,046 - epoch: 61 logs: {'val_categorical_accuracy': 0.4935886761776911, 'loss': 3.1222822522883042, 'categorical_accuracy': 0.4648578572542604, 'val_loss': 1.8064559598250949}
+2018-04-13 16:48:29,335 - epoch: 62 logs: {'val_categorical_accuracy': 0.49242298092373604, 'loss': 3.1246348726648967, 'categorical_accuracy': 0.46733956848849784, 'val_loss': 1.805873931853797}
+2018-04-13 16:48:34,588 - epoch: 63 logs: {'val_categorical_accuracy': 0.4917568693500474, 'loss': 3.104865272584497, 'categorical_accuracy': 0.467617371957361, 'val_loss': 1.8058627267761294}
+2018-04-13 16:48:39,865 - epoch: 64 logs: {'val_categorical_accuracy': 0.4917568693401216, 'loss': 3.1041483492992112, 'categorical_accuracy': 0.4681359385371109, 'val_loss': 1.8103542995889617}
+2018-04-13 16:48:45,147 - epoch: 65 logs: {'val_categorical_accuracy': 0.4925895088171582, 'loss': 3.114762453238537, 'categorical_accuracy': 0.46863598479574636, 'val_loss': 1.8103626224023912}
+2018-04-13 16:48:50,452 - epoch: 66 logs: {'val_categorical_accuracy': 0.4924229809138102, 'loss': 3.1102251079305696, 'categorical_accuracy': 0.46989536072680416, 'val_loss': 1.8060390384866236}
+2018-04-13 16:48:55,778 - epoch: 67 logs: {'val_categorical_accuracy': 0.4915903414566253, 'loss': 3.1182388964157677, 'categorical_accuracy': 0.46937679412608035, 'val_loss': 1.8109126072541364}
+2018-04-13 16:49:01,056 - epoch: 68 logs: {'val_categorical_accuracy': 0.4925895088171582, 'loss': 3.086087687685154, 'categorical_accuracy': 0.47015464394133843, 'val_loss': 1.8091503557614939}
+2018-04-13 16:49:06,339 - epoch: 69 logs: {'val_categorical_accuracy': 0.4910907577862847, 'loss': 3.0969866805523014, 'categorical_accuracy': 0.4702472451003859, 'val_loss': 1.8055834277484142}
+2018-04-13 16:49:11,642 - epoch: 70 logs: {'val_categorical_accuracy': 0.49142381356320314, 'loss': 3.0445808134804015, 'categorical_accuracy': 0.4735623668814072, 'val_loss': 1.8130809865724435}
+2018-04-13 16:49:16,965 - epoch: 71 logs: {'val_categorical_accuracy': 0.4962531224625196, 'loss': 3.113584364364628, 'categorical_accuracy': 0.47063617003340447, 'val_loss': 1.8182934349522206}
+2018-04-13 16:49:22,268 - epoch: 72 logs: {'val_categorical_accuracy': 0.49025811829932225, 'loss': 3.1012300201980856, 'categorical_accuracy': 0.47063617000470326, 'val_loss': 1.8169887358501093}
+2018-04-13 16:49:27,564 - epoch: 73 logs: {'val_categorical_accuracy': 0.4892589509487152, 'loss': 3.082417070173491, 'categorical_accuracy': 0.47208074821025225, 'val_loss': 1.8123846015167873}
+2018-04-13 16:49:32,878 - epoch: 74 logs: {'val_categorical_accuracy': 0.4895920067355595, 'loss': 3.1033095625884357, 'categorical_accuracy': 0.4710065746613151, 'val_loss': 1.8140372351742506}
+2018-04-13 16:49:38,168 - epoch: 75 logs: {'val_categorical_accuracy': 0.4899250625224038, 'loss': 3.0951521301084077, 'categorical_accuracy': 0.47330308359070433, 'val_loss': 1.8113925543355505}
+2018-04-13 16:49:43,469 - epoch: 76 logs: {'val_categorical_accuracy': 0.4894254788421374, 'loss': 3.061185445899444, 'categorical_accuracy': 0.47480322253440244, 'val_loss': 1.8142927321863611}
+2018-04-13 16:49:48,786 - epoch: 77 logs: {'val_categorical_accuracy': 0.48709408835407897, 'loss': 3.0694434955678878, 'categorical_accuracy': 0.47469210109232485, 'val_loss': 1.8160989437174737}
+2018-04-13 16:49:54,095 - epoch: 78 logs: {'val_categorical_accuracy': 0.4917568693500474, 'loss': 3.0503811421532556, 'categorical_accuracy': 0.47482174272580946, 'val_loss': 1.817868706665865}
+2018-04-13 16:49:59,381 - epoch: 79 logs: {'val_categorical_accuracy': 0.48975853461905583, 'loss': 3.068459851649726, 'categorical_accuracy': 0.4747476618343376, 'val_loss': 1.8267970174476567}
+2018-04-13 16:50:04,686 - epoch: 80 logs: {'val_categorical_accuracy': 0.48709408834415313, 'loss': 3.0682705250787827, 'categorical_accuracy': 0.47609963886152096, 'val_loss': 1.8217789562417506}
+2018-04-13 16:50:09,975 - epoch: 81 logs: {'val_categorical_accuracy': 0.4884263114915303, 'loss': 3.0278327564540115, 'categorical_accuracy': 0.4800074081319782, 'val_loss': 1.8256823968331481}
+2018-04-13 16:50:15,269 - epoch: 82 logs: {'val_categorical_accuracy': 0.4852622815065836, 'loss': 3.035733158043749, 'categorical_accuracy': 0.47874803220092044, 'val_loss': 1.8259744772406838}
+2018-04-13 16:50:20,626 - epoch: 83 logs: {'val_categorical_accuracy': 0.4860949209736944, 'loss': 3.092197978848693, 'categorical_accuracy': 0.47721085290200554, 'val_loss': 1.8306279675748127}
+2018-04-13 16:50:25,911 - epoch: 84 logs: {'val_categorical_accuracy': 0.48442964204939876, 'loss': 3.073244217309988, 'categorical_accuracy': 0.4789147143011149, 'val_loss': 1.8286650721377675}
+2018-04-13 16:50:31,213 - epoch: 85 logs: {'val_categorical_accuracy': 0.4872606162375753, 'loss': 3.085458518372762, 'categorical_accuracy': 0.4787295119885394, 'val_loss': 1.826870726665589}
+2018-04-13 16:50:36,498 - epoch: 86 logs: {'val_categorical_accuracy': 0.4874271441210716, 'loss': 3.083813174343383, 'categorical_accuracy': 0.47834058707373506, 'val_loss': 1.8287798526185834}
+2018-04-13 16:50:41,800 - epoch: 87 logs: {'val_categorical_accuracy': 0.486761032547383, 'loss': 3.047405385419123, 'categorical_accuracy': 0.4806370960516956, 'val_loss': 1.835871979834932}
+2018-04-13 16:50:47,113 - epoch: 88 logs: {'val_categorical_accuracy': 0.483597002582288, 'loss': 3.0654344264771476, 'categorical_accuracy': 0.4801555699292725, 'val_loss': 1.8264191190368626}
+2018-04-13 16:50:52,412 - epoch: 89 logs: {'val_categorical_accuracy': 0.48259783524160677, 'loss': 3.0219225387262387, 'categorical_accuracy': 0.4843411426768721, 'val_loss': 1.8315255816631968}
+2018-04-13 16:50:57,712 - epoch: 90 logs: {'val_categorical_accuracy': 0.4865945046738125, 'loss': 3.033842812154964, 'categorical_accuracy': 0.483618853600867, 'val_loss': 1.8341514527450296}
+2018-04-13 16:51:03,017 - epoch: 91 logs: {'val_categorical_accuracy': 0.4832639467855179, 'loss': 2.988609321537542, 'categorical_accuracy': 0.48463746640779143, 'val_loss': 1.8329259148247534}
+2018-04-13 16:51:08,311 - epoch: 92 logs: {'val_categorical_accuracy': 0.4855953372835021, 'loss': 3.027451693780975, 'categorical_accuracy': 0.48367441430093183, 'val_loss': 1.8286417863847413}
+2018-04-13 16:51:13,645 - epoch: 93 logs: {'val_categorical_accuracy': 0.4825978352316809, 'loss': 3.045204684292567, 'categorical_accuracy': 0.48391517734889666, 'val_loss': 1.8370659525249522}
+2018-04-13 16:51:18,958 - epoch: 94 logs: {'val_categorical_accuracy': 0.4827643631151773, 'loss': 3.011489258979093, 'categorical_accuracy': 0.4859709232474314, 'val_loss': 1.8448406221070555}
+2018-04-13 16:51:24,261 - epoch: 95 logs: {'val_categorical_accuracy': 0.48309741892187325, 'loss': 3.0310189376595793, 'categorical_accuracy': 0.4850449115796844, 'val_loss': 1.8421496646191853}
+2018-04-13 16:51:29,542 - epoch: 96 logs: {'val_categorical_accuracy': 0.47976686102365274, 'loss': 2.993011086767984, 'categorical_accuracy': 0.488285952385338, 'val_loss': 1.8385994848462563}
+2018-04-13 16:51:34,862 - epoch: 97 logs: {'val_categorical_accuracy': 0.4814321399876518, 'loss': 2.999266436466719, 'categorical_accuracy': 0.49039725903085296, 'val_loss': 1.8387925896418282}
+2018-04-13 16:51:40,185 - epoch: 98 logs: {'val_categorical_accuracy': 0.4820982515315628, 'loss': 2.98223293854888, 'categorical_accuracy': 0.4897675711166551, 'val_loss': 1.8449105150395886}
+2018-04-13 16:51:45,500 - epoch: 99 logs: {'val_categorical_accuracy': 0.47826810999277924, 'loss': 2.9918521711457404, 'categorical_accuracy': 0.48836003330827077, 'val_loss': 1.8462677973493946}
+2018-04-13 16:51:50,839 - epoch: 100 logs: {'val_categorical_accuracy': 0.48276436313502896, 'loss': 3.0171281140229693, 'categorical_accuracy': 0.48895268078611587, 'val_loss': 1.847637757055964}
+2018-04-13 16:51:56,147 - epoch: 101 logs: {'val_categorical_accuracy': 0.48109908420080744, 'loss': 3.004280711792279, 'categorical_accuracy': 0.4906750624958525, 'val_loss': 1.8547821244629694}
+2018-04-13 16:52:01,475 - epoch: 102 logs: {'val_categorical_accuracy': 0.4786011657895494, 'loss': 2.9792438266961505, 'categorical_accuracy': 0.4909899064761332, 'val_loss': 1.8609423899035171}
+2018-04-13 16:52:06,775 - epoch: 103 logs: {'val_categorical_accuracy': 0.4797668610335786, 'loss': 2.9883171438453306, 'categorical_accuracy': 0.4953606815164382, 'val_loss': 1.8606829908467848}
+2018-04-13 16:52:12,067 - epoch: 104 logs: {'val_categorical_accuracy': 0.47643630316513563, 'loss': 3.0086418235265544, 'categorical_accuracy': 0.4915825539330044, 'val_loss': 1.865832030703682}
+2018-04-13 16:52:17,399 - epoch: 105 logs: {'val_categorical_accuracy': 0.48109908418095576, 'loss': 2.9887374054647085, 'categorical_accuracy': 0.4926752477114328, 'val_loss': 1.8592357369882677}
+2018-04-13 16:52:22,689 - epoch: 106 logs: {'val_categorical_accuracy': 0.4784346378762756, 'loss': 3.0025810082915405, 'categorical_accuracy': 0.49306417258428925, 'val_loss': 1.8515887265598447}
+2018-04-13 16:52:27,964 - epoch: 107 logs: {'val_categorical_accuracy': 0.4726061616462037, 'loss': 3.012857461384087, 'categorical_accuracy': 0.4934716177418316, 'val_loss': 1.8571776336873203}
+2018-04-13 16:52:33,285 - epoch: 108 logs: {'val_categorical_accuracy': 0.47810158210928294, 'loss': 2.9687073917010944, 'categorical_accuracy': 0.49489767571402565, 'val_loss': 1.8566016439394986}
+2018-04-13 16:52:38,602 - epoch: 109 logs: {'val_categorical_accuracy': 0.47610324737829135, 'loss': 3.0124646582728416, 'categorical_accuracy': 0.4964163348386438, 'val_loss': 1.8620687581220337}
+2018-04-13 16:52:43,914 - epoch: 110 logs: {'val_categorical_accuracy': 0.4716069942856708, 'loss': 2.954357684975543, 'categorical_accuracy': 0.4972312251128845, 'val_loss': 1.8457269195315245}
+2018-04-13 16:52:49,252 - epoch: 111 logs: {'val_categorical_accuracy': 0.47427144057049936, 'loss': 2.9898735991892234, 'categorical_accuracy': 0.4963052134490011, 'val_loss': 1.8595685112387017}
+2018-04-13 16:52:54,554 - epoch: 112 logs: {'val_categorical_accuracy': 0.47460449634741786, 'loss': 2.9699604136202664, 'categorical_accuracy': 0.49617557180889316, 'val_loss': 1.8720109932428592}
+2018-04-13 16:52:59,872 - epoch: 113 logs: {'val_categorical_accuracy': 0.4734388010934628, 'loss': 2.9999375754323796, 'categorical_accuracy': 0.49532364108118926, 'val_loss': 1.8611412275045935}
+2018-04-13 16:53:05,174 - epoch: 114 logs: {'val_categorical_accuracy': 0.4761032473683655, 'loss': 2.981666038376124, 'categorical_accuracy': 0.5006389480684077, 'val_loss': 1.894638838478171}
+2018-04-13 16:53:10,489 - epoch: 115 logs: {'val_categorical_accuracy': 0.47610324737829135, 'loss': 2.9727688768835288, 'categorical_accuracy': 0.4991388091732809, 'val_loss': 1.867742865409184}
+2018-04-13 16:53:15,835 - epoch: 116 logs: {'val_categorical_accuracy': 0.4697751874481014, 'loss': 2.964063880023873, 'categorical_accuracy': 0.4988980461385628, 'val_loss': 1.857257651607758}
+2018-04-13 16:53:21,126 - epoch: 117 logs: {'val_categorical_accuracy': 0.4734388010636853, 'loss': 2.9584479456489223, 'categorical_accuracy': 0.5006204278311891, 'val_loss': 1.8831607475169592}
+2018-04-13 16:53:26,434 - epoch: 118 logs: {'val_categorical_accuracy': 0.4739383847935809, 'loss': 2.9440922389219, 'categorical_accuracy': 0.5032132604837705, 'val_loss': 1.8948660569822262}
+2018-04-13 16:53:31,754 - epoch: 119 logs: {'val_categorical_accuracy': 0.47643630314528396, 'loss': 2.937934188558411, 'categorical_accuracy': 0.5048800814581178, 'val_loss': 1.8899596402885317}
+2018-04-13 16:53:37,056 - epoch: 120 logs: {'val_categorical_accuracy': 0.46994171532167184, 'loss': 2.966724120715071, 'categorical_accuracy': 0.5028613760803836, 'val_loss': 1.8748164251980237}
+2018-04-13 16:53:42,360 - epoch: 121 logs: {'val_categorical_accuracy': 0.4699417153315977, 'loss': 2.9214866793346643, 'categorical_accuracy': 0.5049912029001953, 'val_loss': 1.8734912444709442}
+2018-04-13 16:53:47,664 - epoch: 122 logs: {'val_categorical_accuracy': 0.4757701916112987, 'loss': 2.9486986998838787, 'categorical_accuracy': 0.5025280118220403, 'val_loss': 1.892784654647484}
+2018-04-13 16:53:52,953 - epoch: 123 logs: {'val_categorical_accuracy': 0.467277269056695, 'loss': 2.941859558889497, 'categorical_accuracy': 0.5042133530600996, 'val_loss': 1.8810441889036307}
+2018-04-13 16:53:58,276 - epoch: 124 logs: {'val_categorical_accuracy': 0.4716069942558933, 'loss': 2.9426213429916657, 'categorical_accuracy': 0.5043615149793741, 'val_loss': 1.908087713692607}
+2018-04-13 16:54:03,569 - epoch: 125 logs: {'val_categorical_accuracy': 0.4659450459093178, 'loss': 2.9187421487673464, 'categorical_accuracy': 0.5061394573814483, 'val_loss': 1.872965396115623}
+2018-04-13 16:54:08,879 - epoch: 126 logs: {'val_categorical_accuracy': 0.4706078269052863, 'loss': 2.961774426502744, 'categorical_accuracy': 0.506232058537736, 'val_loss': 1.875795249478406}
+2018-04-13 16:54:14,178 - epoch: 127 logs: {'val_categorical_accuracy': 0.4676103248336135, 'loss': 2.9504087644657035, 'categorical_accuracy': 0.5061764978166973, 'val_loss': 1.8801041228685849}
+2018-04-13 16:54:19,486 - epoch: 128 logs: {'val_categorical_accuracy': 0.47144046636247117, 'loss': 2.95261372552005, 'categorical_accuracy': 0.5082507639496908, 'val_loss': 1.9185686897576402}
+2018-04-13 16:54:24,794 - epoch: 129 logs: {'val_categorical_accuracy': 0.4694421316414054, 'loss': 2.9237377463209264, 'categorical_accuracy': 0.507658116530904, 'val_loss': 1.8974159495618124}
+2018-04-13 16:54:30,089 - epoch: 130 logs: {'val_categorical_accuracy': 0.46761032482368764, 'loss': 2.904129032731465, 'categorical_accuracy': 0.5121585332427778, 'val_loss': 1.895064703094076}
+2018-04-13 16:54:35,400 - epoch: 131 logs: {'val_categorical_accuracy': 0.47127393847897486, 'loss': 2.930973128065245, 'categorical_accuracy': 0.5083248448831106, 'val_loss': 1.935012507537918}
+2018-04-13 16:54:40,690 - epoch: 132 logs: {'val_categorical_accuracy': 0.47177352219894464, 'loss': 2.92033041711096, 'categorical_accuracy': 0.5105472729486253, 'val_loss': 1.9347189320017157}
+2018-04-13 16:54:45,995 - epoch: 133 logs: {'val_categorical_accuracy': 0.4671107411731987, 'loss': 2.9471337207236417, 'categorical_accuracy': 0.5118066487461121, 'val_loss': 1.892911962744199}
+2018-04-13 16:54:51,285 - epoch: 134 logs: {'val_categorical_accuracy': 0.4651124064422071, 'loss': 2.9245226729566363, 'categorical_accuracy': 0.5088063709530988, 'val_loss': 1.9090815019647247}
+2018-04-13 16:54:56,583 - epoch: 135 logs: {'val_categorical_accuracy': 0.46294754382771913, 'loss': 2.912966725803965, 'categorical_accuracy': 0.5116770071479522, 'val_loss': 1.9008497011453087}
+2018-04-13 16:55:01,877 - epoch: 136 logs: {'val_categorical_accuracy': 0.46061615331980904, 'loss': 2.9065476130397134, 'categorical_accuracy': 0.5120659320130814, 'val_loss': 1.8950924198395207}
+2018-04-13 16:55:07,178 - epoch: 137 logs: {'val_categorical_accuracy': 0.46128226491334934, 'loss': 2.916693278076097, 'categorical_accuracy': 0.5135475506919636, 'val_loss': 1.9086170693222033}
+2018-04-13 16:55:12,519 - epoch: 138 logs: {'val_categorical_accuracy': 0.46594504591924363, 'loss': 2.9225019072700356, 'categorical_accuracy': 0.5133067876898102, 'val_loss': 1.914929372245922}
+2018-04-13 16:55:17,823 - epoch: 139 logs: {'val_categorical_accuracy': 0.46461282275201476, 'loss': 2.9203883252681235, 'categorical_accuracy': 0.5147884063096342, 'val_loss': 1.9120689703364058}
+2018-04-13 16:55:23,157 - epoch: 140 logs: {'val_categorical_accuracy': 0.4619483764870379, 'loss': 2.9166965617174485, 'categorical_accuracy': 0.5143994813749598, 'val_loss': 1.8888190446150095}
+2018-04-13 16:55:28,473 - epoch: 141 logs: {'val_categorical_accuracy': 0.4657785180059698, 'loss': 2.9326775418066164, 'categorical_accuracy': 0.5139364755477096, 'val_loss': 1.9339377183699786}
+2018-04-13 16:55:33,753 - epoch: 142 logs: {'val_categorical_accuracy': 0.4637801832948299, 'loss': 2.9096713362694757, 'categorical_accuracy': 0.5171219557333306, 'val_loss': 1.9190447988359258}
+2018-04-13 16:55:39,043 - epoch: 143 logs: {'val_categorical_accuracy': 0.46028309755281643, 'loss': 2.915391323506606, 'categorical_accuracy': 0.5167885915119678, 'val_loss': 1.914593815982193}
+2018-04-13 16:55:44,332 - epoch: 144 logs: {'val_categorical_accuracy': 0.4639467112081037, 'loss': 2.873065302069292, 'categorical_accuracy': 0.5188258171876345, 'val_loss': 1.899097930064904}
+2018-04-13 16:55:49,627 - epoch: 145 logs: {'val_categorical_accuracy': 0.46094920912650506, 'loss': 2.926032033449235, 'categorical_accuracy': 0.5181590888288046, 'val_loss': 1.8929370358027984}
+2018-04-13 16:55:54,943 - epoch: 146 logs: {'val_categorical_accuracy': 0.4567860117810255, 'loss': 2.9127596807033886, 'categorical_accuracy': 0.5181405685639887, 'val_loss': 1.9068799340059914}
+2018-04-13 16:56:00,234 - epoch: 147 logs: {'val_categorical_accuracy': 0.46777685270718394, 'loss': 2.897616586602168, 'categorical_accuracy': 0.5157144179917318, 'val_loss': 1.945283335114796}
+2018-04-13 16:56:05,547 - epoch: 148 logs: {'val_categorical_accuracy': 0.4571190675678698, 'loss': 2.8759300072354974, 'categorical_accuracy': 0.521029724950249, 'val_loss': 1.9176649769775873}
+2018-04-13 16:56:10,852 - epoch: 149 logs: {'val_categorical_accuracy': 0.4617818485737641, 'loss': 2.904734656991578, 'categorical_accuracy': 0.518640614896033, 'val_loss': 1.9231346883940559}
+2018-04-13 16:56:16,147 - epoch: 150 logs: {'val_categorical_accuracy': 0.4591174023087872, 'loss': 2.890581195325098, 'categorical_accuracy': 0.5211593666008439, 'val_loss': 1.917799728339558}
+2018-04-13 16:56:21,438 - epoch: 151 logs: {'val_categorical_accuracy': 0.45861781861859496, 'loss': 2.8639336690912423, 'categorical_accuracy': 0.5220853782658312, 'val_loss': 1.9262783475759921}
+2018-04-13 16:56:26,744 - epoch: 152 logs: {'val_categorical_accuracy': 0.4559533723238406, 'loss': 2.896331536808503, 'categorical_accuracy': 0.5204741180125226, 'val_loss': 1.9093827361965259}
+2018-04-13 16:56:32,056 - epoch: 153 logs: {'val_categorical_accuracy': 0.45878434650209127, 'loss': 2.911532672412617, 'categorical_accuracy': 0.5206222798241676, 'val_loss': 1.9415127749447025}
+2018-04-13 16:56:37,344 - epoch: 154 logs: {'val_categorical_accuracy': 0.45961698597912787, 'loss': 2.8648862831812676, 'categorical_accuracy': 0.5224002222538392, 'val_loss': 1.9663852969176763}
+2018-04-13 16:56:42,635 - epoch: 155 logs: {'val_categorical_accuracy': 0.4609492091364309, 'loss': 2.87947282980124, 'categorical_accuracy': 0.5216964533510269, 'val_loss': 1.9369027895296147}
+2018-04-13 16:56:47,958 - epoch: 156 logs: {'val_categorical_accuracy': 0.4601165696395426, 'loss': 2.8924403931235965, 'categorical_accuracy': 0.5240485230080782, 'val_loss': 1.930649928586072}
+2018-04-13 16:56:53,254 - epoch: 157 logs: {'val_categorical_accuracy': 0.46161532068034195, 'loss': 2.8646070491827156, 'categorical_accuracy': 0.5242707658569088, 'val_loss': 1.9325947816723292}
+2018-04-13 16:56:58,581 - epoch: 158 logs: {'val_categorical_accuracy': 0.46444629488837014, 'loss': 2.8483520002229996, 'categorical_accuracy': 0.522826187558081, 'val_loss': 1.9572164139680124}
+2018-04-13 16:57:03,884 - epoch: 159 logs: {'val_categorical_accuracy': 0.46128226489349766, 'loss': 2.8911339840896484, 'categorical_accuracy': 0.5229743494249205, 'val_loss': 1.944775032659653}
+2018-04-13 16:57:09,220 - epoch: 160 logs: {'val_categorical_accuracy': 0.4624479601176752, 'loss': 2.850526761960096, 'categorical_accuracy': 0.5258635058939728, 'val_loss': 1.966088631667265}
+2018-04-13 16:57:14,527 - epoch: 161 logs: {'val_categorical_accuracy': 0.45212323074535365, 'loss': 2.854450194934351, 'categorical_accuracy': 0.5277525696647157, 'val_loss': 1.9324007784694954}
+2018-04-13 16:57:19,819 - epoch: 162 logs: {'val_categorical_accuracy': 0.4632805995847859, 'loss': 2.8623022857093403, 'categorical_accuracy': 0.5264191129051079, 'val_loss': 1.9156674455742753}
+2018-04-13 16:57:25,133 - epoch: 163 logs: {'val_categorical_accuracy': 0.45495420493353017, 'loss': 2.8381687452334123, 'categorical_accuracy': 0.52928974907126, 'val_loss': 1.9126120167509106}
+2018-04-13 16:57:30,433 - epoch: 164 logs: {'val_categorical_accuracy': 0.4601165696296168, 'loss': 2.8616522395000357, 'categorical_accuracy': 0.5281044540984596, 'val_loss': 1.9403553634360866}
+2018-04-13 16:57:35,733 - epoch: 165 logs: {'val_categorical_accuracy': 0.45645295598425534, 'loss': 2.8826976960340533, 'categorical_accuracy': 0.5271228817725957, 'val_loss': 1.943094048988412}
+2018-04-13 16:57:41,030 - epoch: 166 logs: {'val_categorical_accuracy': 0.45961698597912787, 'loss': 2.885202471544725, 'categorical_accuracy': 0.5284007777979179, 'val_loss': 1.9972578161860584}
+2018-04-13 16:57:46,357 - epoch: 167 logs: {'val_categorical_accuracy': 0.45278934233889395, 'loss': 2.8528394788600235, 'categorical_accuracy': 0.5299379572359232, 'val_loss': 1.9436190032641358}
+2018-04-13 16:57:51,665 - epoch: 168 logs: {'val_categorical_accuracy': 0.46061615331980904, 'loss': 2.8621958709997273, 'categorical_accuracy': 0.5291786276617473, 'val_loss': 1.9664259794649732}
+2018-04-13 16:57:56,979 - epoch: 169 logs: {'val_categorical_accuracy': 0.4604496254263869, 'loss': 2.866960422643214, 'categorical_accuracy': 0.5292897490265525, 'val_loss': 1.9670996068419266}
+2018-04-13 16:58:02,288 - epoch: 170 logs: {'val_categorical_accuracy': 0.4621149043506826, 'loss': 2.8669343572996846, 'categorical_accuracy': 0.5316603389169587, 'val_loss': 1.961210452626885}
+2018-04-13 16:58:07,597 - epoch: 171 logs: {'val_categorical_accuracy': 0.45645295596440366, 'loss': 2.8716935317266183, 'categorical_accuracy': 0.5309750902276313, 'val_loss': 1.991545709106547}
+2018-04-13 16:58:12,881 - epoch: 172 logs: {'val_categorical_accuracy': 0.44646128237892646, 'loss': 2.8504717585046775, 'categorical_accuracy': 0.5323270673309832, 'val_loss': 1.9246211657813943}
+2018-04-13 16:58:18,189 - epoch: 173 logs: {'val_categorical_accuracy': 0.45828476282182484, 'loss': 2.8583573190136433, 'categorical_accuracy': 0.5298268357872223, 'val_loss': 1.9917936863450583}
+2018-04-13 16:58:23,537 - epoch: 174 logs: {'val_categorical_accuracy': 0.45378850968950096, 'loss': 2.837201350273297, 'categorical_accuracy': 0.5306602462881946, 'val_loss': 1.9594138588536094}
+2018-04-13 16:58:28,858 - epoch: 175 logs: {'val_categorical_accuracy': 0.46144879277699397, 'loss': 2.8264992269192244, 'categorical_accuracy': 0.5317158996236468, 'val_loss': 1.987426660221681}
+2018-04-13 16:58:34,181 - epoch: 176 logs: {'val_categorical_accuracy': 0.45911740225915804, 'loss': 2.8226999728411855, 'categorical_accuracy': 0.5350125011266056, 'val_loss': 2.017670694060568}
+2018-04-13 16:58:39,487 - epoch: 177 logs: {'val_categorical_accuracy': 0.45562031651714463, 'loss': 2.8481190189695744, 'categorical_accuracy': 0.5344939346202646, 'val_loss': 1.9728267448927144}
+2018-04-13 16:58:44,788 - epoch: 178 logs: {'val_categorical_accuracy': 0.45412156546641946, 'loss': 2.8551636201097454, 'categorical_accuracy': 0.5357347902274483, 'val_loss': 1.9420052062661126}
+2018-04-13 16:58:50,085 - epoch: 179 logs: {'val_categorical_accuracy': 0.4497918402672211, 'loss': 2.816577909641635, 'categorical_accuracy': 0.5362903972004992, 'val_loss': 1.95775535938444}
+2018-04-13 16:58:55,389 - epoch: 180 logs: {'val_categorical_accuracy': 0.45395503759284894, 'loss': 2.8532352493210893, 'categorical_accuracy': 0.5345865357318447, 'val_loss': 1.988787900478417}
+2018-04-13 16:59:00,667 - epoch: 181 logs: {'val_categorical_accuracy': 0.4512905912881688, 'loss': 2.8532080448538144, 'categorical_accuracy': 0.5345309751355457, 'val_loss': 1.9774163008331755}
+2018-04-13 16:59:05,958 - epoch: 182 logs: {'val_categorical_accuracy': 0.4552872607203745, 'loss': 2.8515121270091526, 'categorical_accuracy': 0.5355125474823836, 'val_loss': 1.9903043280433954}
+2018-04-13 16:59:11,276 - epoch: 183 logs: {'val_categorical_accuracy': 0.4572855954215886, 'loss': 2.8422671038769542, 'categorical_accuracy': 0.5368830446744807, 'val_loss': 1.9969655699178044}
+2018-04-13 16:59:16,603 - epoch: 184 logs: {'val_categorical_accuracy': 0.44762697764280734, 'loss': 2.8015845822100176, 'categorical_accuracy': 0.5394943976470724, 'val_loss': 1.9651227485329583}
+2018-04-13 16:59:21,904 - epoch: 185 logs: {'val_categorical_accuracy': 0.44246461297649825, 'loss': 2.8308906924802955, 'categorical_accuracy': 0.5390499119770087, 'val_loss': 1.9577019497714967}
+2018-04-13 16:59:27,205 - epoch: 186 logs: {'val_categorical_accuracy': 0.45179017497836105, 'loss': 2.8045373602679113, 'categorical_accuracy': 0.5420501898081063, 'val_loss': 1.9920465881084026}
+2018-04-13 16:59:32,462 - epoch: 187 logs: {'val_categorical_accuracy': 0.45995004173619464, 'loss': 2.836596730281075, 'categorical_accuracy': 0.5391054727399953, 'val_loss': 2.0424083351592635}
+2018-04-13 16:59:37,771 - epoch: 188 logs: {'val_categorical_accuracy': 0.44462947555128285, 'loss': 2.833553666319601, 'categorical_accuracy': 0.5388276691767494, 'val_loss': 1.9544342409859687}
+2018-04-13 16:59:43,047 - epoch: 189 logs: {'val_categorical_accuracy': 0.4442964197644385, 'loss': 2.8547115732469055, 'categorical_accuracy': 0.5389573108797792, 'val_loss': 1.9588911017609278}
+2018-04-13 16:59:48,368 - epoch: 190 logs: {'val_categorical_accuracy': 0.4479600334296516, 'loss': 2.7847384025304556, 'categorical_accuracy': 0.5411241781337359, 'val_loss': 1.97527409223196}
+2018-04-13 16:59:53,687 - epoch: 191 logs: {'val_categorical_accuracy': 0.4596169859394245, 'loss': 2.789389493353047, 'categorical_accuracy': 0.54175386604683, 'val_loss': 2.00238415105059}
+2018-04-13 16:59:58,986 - epoch: 192 logs: {'val_categorical_accuracy': 0.44029975033223284, 'loss': 2.8080554409196656, 'categorical_accuracy': 0.5399203629722882, 'val_loss': 1.948592676508933}
+2018-04-13 17:00:04,298 - epoch: 193 logs: {'val_categorical_accuracy': 0.4534554539125825, 'loss': 2.8101220198699375, 'categorical_accuracy': 0.5381239003788069, 'val_loss': 2.011435689259131}
+2018-04-13 17:00:09,615 - epoch: 194 logs: {'val_categorical_accuracy': 0.4452955871249714, 'loss': 2.8218823427800306, 'categorical_accuracy': 0.5414945828770032, 'val_loss': 1.959512074364909}
+2018-04-13 17:00:14,927 - epoch: 195 logs: {'val_categorical_accuracy': 0.42914238152257805, 'loss': 2.8155631445637344, 'categorical_accuracy': 0.5427909991870115, 'val_loss': 1.9460144000883206}
+2018-04-13 17:00:20,224 - epoch: 196 logs: {'val_categorical_accuracy': 0.436969192453864, 'loss': 2.8017629920360014, 'categorical_accuracy': 0.5448467450684359, 'val_loss': 1.9565326718069136}
+2018-04-13 17:00:25,522 - epoch: 197 logs: {'val_categorical_accuracy': 0.4546211491466859, 'loss': 2.8132168640857693, 'categorical_accuracy': 0.5421057505567424, 'val_loss': 1.9879201639304054}
+2018-04-13 17:00:30,819 - epoch: 198 logs: {'val_categorical_accuracy': 0.458118234908551, 'loss': 2.786548979819533, 'categorical_accuracy': 0.5447171034807629, 'val_loss': 1.9963508297065018}
+2018-04-13 17:00:36,149 - epoch: 199 logs: {'val_categorical_accuracy': 0.4516236470551614, 'loss': 2.798003921933567, 'categorical_accuracy': 0.5438281321969338, 'val_loss': 1.9889534307856247}
+2018-04-13 17:00:41,444 - epoch: 200 logs: {'val_categorical_accuracy': 0.441798501382958, 'loss': 2.786809533511569, 'categorical_accuracy': 0.5470876932872734, 'val_loss': 1.9563030739211718}
+2018-04-13 17:00:46,738 - epoch: 201 logs: {'val_categorical_accuracy': 0.42381348891321763, 'loss': 2.7712337831908194, 'categorical_accuracy': 0.5462357625634331, 'val_loss': 1.9535894303794308}
+2018-04-13 17:00:52,052 - epoch: 202 logs: {'val_categorical_accuracy': 0.4456286429316674, 'loss': 2.807420507035042, 'categorical_accuracy': 0.5445689415587287, 'val_loss': 1.9790432696139981}
+2018-04-13 17:00:57,367 - epoch: 203 logs: {'val_categorical_accuracy': 0.46194837646718623, 'loss': 2.789770189432405, 'categorical_accuracy': 0.5459579590184014, 'val_loss': 2.0569486521562865}
+2018-04-13 17:01:02,692 - epoch: 204 logs: {'val_categorical_accuracy': 0.4504579518409097, 'loss': 2.75745133045305, 'categorical_accuracy': 0.5493471617852773, 'val_loss': 1.9949952466204006}
+2018-04-13 17:01:07,994 - epoch: 205 logs: {'val_categorical_accuracy': 0.43996669453546267, 'loss': 2.775391922307043, 'categorical_accuracy': 0.5467913695745683, 'val_loss': 1.9476810153973887}
+2018-04-13 17:01:13,284 - epoch: 206 logs: {'val_categorical_accuracy': 0.45495420493353017, 'loss': 2.792943507175179, 'categorical_accuracy': 0.5476618205107896, 'val_loss': 2.018005968748183}
+2018-04-13 17:01:18,598 - epoch: 207 logs: {'val_categorical_accuracy': 0.45462114918638924, 'loss': 2.769843919710579, 'categorical_accuracy': 0.5472173349704331, 'val_loss': 2.023261669057295}
+2018-04-13 17:01:23,902 - epoch: 208 logs: {'val_categorical_accuracy': 0.45029142391771004, 'loss': 2.771076399313652, 'categorical_accuracy': 0.5490878784697368, 'val_loss': 1.9941902440156072}
+2018-04-13 17:01:29,226 - epoch: 209 logs: {'val_categorical_accuracy': 0.45212323074535365, 'loss': 2.8102183831224883, 'categorical_accuracy': 0.5456431150866919, 'val_loss': 1.9920693658769975}
+2018-04-13 17:01:34,517 - epoch: 210 logs: {'val_categorical_accuracy': 0.44562864290188986, 'loss': 2.7955688509281855, 'categorical_accuracy': 0.5481248263419033, 'val_loss': 2.000783753613449}
+2018-04-13 17:01:39,804 - epoch: 211 logs: {'val_categorical_accuracy': 0.4482930892065701, 'loss': 2.7504053256083156, 'categorical_accuracy': 0.5513843873847755, 'val_loss': 1.9912850119886947}
+2018-04-13 17:01:45,109 - epoch: 212 logs: {'val_categorical_accuracy': 0.45828476282182484, 'loss': 2.7671393257985017, 'categorical_accuracy': 0.5498842484830253, 'val_loss': 2.086914687708554}
+2018-04-13 17:01:50,415 - epoch: 213 logs: {'val_categorical_accuracy': 0.43347210670192476, 'loss': 2.8134995623974572, 'categorical_accuracy': 0.549254560583178, 'val_loss': 1.9844086308761202}
+2018-04-13 17:01:55,714 - epoch: 214 logs: {'val_categorical_accuracy': 0.44646128239877814, 'loss': 2.7645218817478354, 'categorical_accuracy': 0.5512362255874812, 'val_loss': 2.0074969721674223}
+2018-04-13 17:02:01,019 - epoch: 215 logs: {'val_categorical_accuracy': 0.4482930892065701, 'loss': 2.7838314707869345, 'categorical_accuracy': 0.5499398092669859, 'val_loss': 2.029026692316594}
+2018-04-13 17:02:06,297 - epoch: 216 logs: {'val_categorical_accuracy': 0.44812656132307377, 'loss': 2.7677842155387307, 'categorical_accuracy': 0.5523103991496651, 'val_loss': 2.0374682853660615}
+2018-04-13 17:02:11,624 - epoch: 217 logs: {'val_categorical_accuracy': 0.44995836813086576, 'loss': 2.7826144181751458, 'categorical_accuracy': 0.5543661449758949, 'val_loss': 2.0599325196332083}
+2018-04-13 17:02:16,943 - epoch: 218 logs: {'val_categorical_accuracy': 0.44746044975931104, 'loss': 2.7841063112426174, 'categorical_accuracy': 0.5498101675772029, 'val_loss': 2.0277389651432722}
+2018-04-13 17:02:22,249 - epoch: 219 logs: {'val_categorical_accuracy': 0.4502914239276359, 'loss': 2.798940612854963, 'categorical_accuracy': 0.5499027687439776, 'val_loss': 2.036118054290695}
+2018-04-13 17:02:27,530 - epoch: 220 logs: {'val_categorical_accuracy': 0.44263114087984623, 'loss': 2.7712022618570087, 'categorical_accuracy': 0.5540142605973456, 'val_loss': 2.0079963316032035}
+2018-04-13 17:02:32,855 - epoch: 221 logs: {'val_categorical_accuracy': 0.43180682781733243, 'loss': 2.758750978497755, 'categorical_accuracy': 0.5544217057101803, 'val_loss': 1.9823000645855882}
+2018-04-13 17:02:38,158 - epoch: 222 logs: {'val_categorical_accuracy': 0.4394671108750479, 'loss': 2.77412690186856, 'categorical_accuracy': 0.5532919714821523, 'val_loss': 1.9884944583851532}
+2018-04-13 17:02:43,463 - epoch: 223 logs: {'val_categorical_accuracy': 0.45079100764760566, 'loss': 2.769114016916964, 'categorical_accuracy': 0.5536253356692945, 'val_loss': 2.0163864675707663}
+2018-04-13 17:02:48,785 - epoch: 224 logs: {'val_categorical_accuracy': 0.4512905913278721, 'loss': 2.7402871018593506, 'categorical_accuracy': 0.5544772663760245, 'val_loss': 2.1203325736135565}
+2018-04-13 17:02:54,095 - epoch: 225 logs: {'val_categorical_accuracy': 0.4389675271947815, 'loss': 2.749748180813122, 'categorical_accuracy': 0.5550328733899194, 'val_loss': 1.9856735949710842}
+2018-04-13 17:02:59,388 - epoch: 226 logs: {'val_categorical_accuracy': 0.4363030809198788, 'loss': 2.7881769998635018, 'categorical_accuracy': 0.552514121709946, 'val_loss': 1.9845421598912476}
+2018-04-13 17:03:04,689 - epoch: 227 logs: {'val_categorical_accuracy': 0.44546211504817107, 'loss': 2.7615796338916874, 'categorical_accuracy': 0.5539401795943806, 'val_loss': 2.004658933086856}
+2018-04-13 17:03:10,012 - epoch: 228 logs: {'val_categorical_accuracy': 0.437135720357212, 'loss': 2.7758585702336402, 'categorical_accuracy': 0.5548661912897249, 'val_loss': 2.00639355792094}
+2018-04-13 17:03:15,345 - epoch: 229 logs: {'val_categorical_accuracy': 0.42631140733440154, 'loss': 2.77891338888236, 'categorical_accuracy': 0.5554217982903732, 'val_loss': 1.9812832189539291}
+2018-04-13 17:03:20,677 - epoch: 230 logs: {'val_categorical_accuracy': 0.4422980850235211, 'loss': 2.7591792068654537, 'categorical_accuracy': 0.5559033243995495, 'val_loss': 2.0082674186890768}
+2018-04-13 17:03:26,014 - epoch: 231 logs: {'val_categorical_accuracy': 0.4419650292565285, 'loss': 2.7621068472817645, 'categorical_accuracy': 0.554921752027874, 'val_loss': 2.004602034979319}
+2018-04-13 17:03:31,317 - epoch: 232 logs: {'val_categorical_accuracy': 0.4153205663586139, 'loss': 2.776826375099738, 'categorical_accuracy': 0.5555514399238577, 'val_loss': 1.9785670622699365}
+2018-04-13 17:03:36,635 - epoch: 233 logs: {'val_categorical_accuracy': 0.441965029286306, 'loss': 2.758350299099925, 'categorical_accuracy': 0.5569589776455864, 'val_loss': 2.03417094196507}
+2018-04-13 17:03:41,950 - epoch: 234 logs: {'val_categorical_accuracy': 0.42281432154275894, 'loss': 2.7375918052871864, 'categorical_accuracy': 0.5559588850852637, 'val_loss': 1.980100886847554}
+2018-04-13 17:03:47,274 - epoch: 235 logs: {'val_categorical_accuracy': 0.43480432985922773, 'loss': 2.6899464960175097, 'categorical_accuracy': 0.5624780072129559, 'val_loss': 2.0000965595642395}
+2018-04-13 17:03:52,585 - epoch: 236 logs: {'val_categorical_accuracy': 0.43713572034728615, 'loss': 2.7504432420839215, 'categorical_accuracy': 0.5589962033002793, 'val_loss': 2.013781709297809}
+2018-04-13 17:03:57,904 - epoch: 237 logs: {'val_categorical_accuracy': 0.39916736072644304, 'loss': 2.7455552569141277, 'categorical_accuracy': 0.5567737753882056, 'val_loss': 1.9819703636518824}
+2018-04-13 17:04:03,221 - epoch: 238 logs: {'val_categorical_accuracy': 0.4406328061389288, 'loss': 2.777711859839152, 'categorical_accuracy': 0.5594406889151485, 'val_loss': 2.041618274074113}
+2018-04-13 17:04:08,520 - epoch: 239 logs: {'val_categorical_accuracy': 0.4208159868415448, 'loss': 2.733394504050456, 'categorical_accuracy': 0.5599962959566407, 'val_loss': 1.972349033784509}
+2018-04-13 17:04:13,816 - epoch: 240 logs: {'val_categorical_accuracy': 0.4363030809000271, 'loss': 2.7729877389441024, 'categorical_accuracy': 0.5571812204734431, 'val_loss': 1.9976985537539313}
+2018-04-13 17:04:19,118 - epoch: 241 logs: {'val_categorical_accuracy': 0.4437968360940979, 'loss': 2.730913624651775, 'categorical_accuracy': 0.5593110473368585, 'val_loss': 2.0257258452146276}
+2018-04-13 17:04:24,441 - epoch: 242 logs: {'val_categorical_accuracy': 0.44146544561596535, 'loss': 2.771481189662433, 'categorical_accuracy': 0.5585517177969033, 'val_loss': 2.029333746145409}
+2018-04-13 17:04:29,721 - epoch: 243 logs: {'val_categorical_accuracy': 0.45728559546129194, 'loss': 2.7635273640437727, 'categorical_accuracy': 0.5565515325537257, 'val_loss': 2.108328520785164}
+2018-04-13 17:04:35,037 - epoch: 244 logs: {'val_categorical_accuracy': 0.42431307260340995, 'loss': 2.7324040911111336, 'categorical_accuracy': 0.5616075561967026, 'val_loss': 1.9878366974172346}
+2018-04-13 17:04:40,315 - epoch: 245 logs: {'val_categorical_accuracy': 0.42114904263831493, 'loss': 2.733462750579441, 'categorical_accuracy': 0.5616816371643429, 'val_loss': 1.987668430160027}
+2018-04-13 17:04:45,647 - epoch: 246 logs: {'val_categorical_accuracy': 0.4506244797045543, 'loss': 2.7711503833518534, 'categorical_accuracy': 0.5602926196428524, 'val_loss': 2.087810439571155}
+2018-04-13 17:04:50,972 - epoch: 247 logs: {'val_categorical_accuracy': 0.43946711090482543, 'loss': 2.75108214319939, 'categorical_accuracy': 0.56090378739876, 'val_loss': 2.044440643356603}
+2018-04-13 17:04:56,257 - epoch: 248 logs: {'val_categorical_accuracy': 0.43547044145276803, 'loss': 2.7670685945500795, 'categorical_accuracy': 0.5621446430467877, 'val_loss': 1.9886692936077006}
+2018-04-13 17:05:01,568 - epoch: 249 logs: {'val_categorical_accuracy': 0.435636969356116, 'loss': 2.7135486154647235, 'categorical_accuracy': 0.5638670247631478, 'val_loss': 2.037442705216356}
+2018-04-13 17:05:06,878 - epoch: 250 logs: {'val_categorical_accuracy': 0.43746877616390795, 'loss': 2.718999355375154, 'categorical_accuracy': 0.5640337068567188, 'val_loss': 2.01782072604844}
+2018-04-13 17:05:12,994 - 
+Average score: 0.83% (+/- 0.00%) 
+2018-04-13 17:05:12,995 - 
+Average Intermediary model score: 0.83% (+/- 0.00%) 
+2018-04-13 17:05:12,995 - [0.8256] 
+
+ 
+2018-04-13 17:07:50,631 - 
+Average Intermediary score: 0.83% (+/- 0.00%) 
+2018-04-13 17:07:50,632 - 
+Average model score: 0.83% (+/- 0.00%) 
+2018-04-13 17:07:50,632 - [0.8256] 
+
+ 
+2018-04-13 17:07:50,780 - 0    5.057419
+1    5.057413
+2    5.057404
+3    5.057419
+4    5.057417
+5    5.057427
+6    5.057407
+7    5.057418
+8    5.057385
+9    5.057408
+dtype: float32 
