@@ -38,3 +38,4 @@ def plot_confusion_matrix(true_class=None, pred_class=None, classes=[],
     plt.tight_layout()
     plt.ylabel('True label')
     plt.xlabel('Predicted label')
+    plt.show()
